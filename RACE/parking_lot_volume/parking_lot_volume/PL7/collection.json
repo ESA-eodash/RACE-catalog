@@ -1,0 +1,93 @@
+{
+  "type": "Collection",
+  "id": "PL7",
+  "stac_version": "1.0.0",
+  "description": "Warsaw",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "item",
+      "href": "./parking_lot_volume/2020/cb216c0e-720d-4cfe-b052-3a0420da3040.json",
+      "type": "application/json",
+      "datetime": "2020-04-13"
+    },
+    {
+      "rel": "item",
+      "href": "./parking_lot_volume/2020/4f9a5548-247d-4c28-b560-9a72fc3a72e2.json",
+      "type": "application/json",
+      "datetime": "2020-02-07"
+    },
+    {
+      "rel": "license",
+      "href": "http://www.opensource.org/licenses/MIT",
+      "type": "text/html"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Parking lot volume"
+    }
+  ],
+  "subtitle": "Parking lot volume description",
+  "themes": [
+    "economy"
+  ],
+  "locations": true,
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "ICEYE"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E11a",
+  "title": [
+    "Warsaw"
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          21.039070567,
+          52.235855988,
+          21.052287012,
+          52.248886356
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-02-07T13:08:50Z",
+          "2020-04-13T13:10:17Z"
+        ]
+      ]
+    }
+  },
+  "license": "MIT",
+  "providers": [
+    {
+      "name": "placeholder"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E11a_parking_lot_volume/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

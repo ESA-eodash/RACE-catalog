@@ -1,0 +1,93 @@
+{
+  "type": "Collection",
+  "id": "ES17",
+  "stac_version": "1.0.0",
+  "description": "Teruel",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "item",
+      "href": "./airport_throughput/2020/6bc4ed4f-fc54-4905-a45e-22ae852d0999.json",
+      "type": "application/json",
+      "datetime": "2020-08-25"
+    },
+    {
+      "rel": "item",
+      "href": "./airport_throughput/2020/c492406b-fe50-4891-9b89-b961478c7628.json",
+      "type": "application/json",
+      "datetime": "2020-03-20"
+    },
+    {
+      "rel": "license",
+      "href": "http://www.opensource.org/licenses/MIT",
+      "type": "text/html"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Airport throughput"
+    }
+  ],
+  "subtitle": "Throughput at principal hub airports",
+  "themes": [
+    "economy"
+  ],
+  "locations": true,
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "ICEYE"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E13b_airport_throughput",
+  "title": [
+    "Teruel"
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -1.245691996,
+          40.394458816,
+          -1.207508892,
+          40.429438355
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-03-20T03:50:33Z",
+          "2020-08-25T03:15:06Z"
+        ]
+      ]
+    }
+  },
+  "license": "MIT",
+  "providers": [
+    {
+      "name": "placeholder"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_airport_throughput/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

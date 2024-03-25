@@ -1,0 +1,372 @@
+{
+  "type": "Collection",
+  "id": "vessel_density_all",
+  "stac_version": "1.0.0",
+  "description": "Vessel density description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2020/ebdc6b03-3cb5-4313-8215-a3af705b6a15.json",
+      "type": "application/json",
+      "datetime": "2020-12-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2020/f604676f-6e87-47b8-bf11-231551b9590e.json",
+      "type": "application/json",
+      "datetime": "2020-11-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2020/239b10c0-0bb8-43bd-9257-181f7643a8c0.json",
+      "type": "application/json",
+      "datetime": "2020-10-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2020/007a792f-f939-49b7-a89c-140a66c930fe.json",
+      "type": "application/json",
+      "datetime": "2020-09-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2020/df5fedd1-f690-4dac-a883-8a1e3f33b5f4.json",
+      "type": "application/json",
+      "datetime": "2020-08-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2020/2220def2-f45f-4096-bb55-ab71fcfea2d0.json",
+      "type": "application/json",
+      "datetime": "2020-07-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2020/9c9e1f66-4a34-4155-a585-350fe4ba783d.json",
+      "type": "application/json",
+      "datetime": "2020-06-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2020/75f938aa-929a-4eea-86dc-786e985e4f2b.json",
+      "type": "application/json",
+      "datetime": "2020-05-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2020/4b2418c0-97e5-4a53-ab6a-7ff76bcffcf5.json",
+      "type": "application/json",
+      "datetime": "2020-04-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2020/88f2918a-4b95-439f-85f5-638cfc5f02c6.json",
+      "type": "application/json",
+      "datetime": "2020-03-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2020/c86d89e7-93bd-496f-9651-42bda86ccc84.json",
+      "type": "application/json",
+      "datetime": "2020-02-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2020/cfd73d04-0393-4b20-8ed6-16b50b27a109.json",
+      "type": "application/json",
+      "datetime": "2020-01-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2019/cb6becf0-af5c-4065-b6da-3f54e5b7eaef.json",
+      "type": "application/json",
+      "datetime": "2019-12-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2019/911d3c62-05bb-4165-8119-ab47321f998a.json",
+      "type": "application/json",
+      "datetime": "2019-11-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2019/1a431ad4-2e46-4037-aa00-a24599cf7f57.json",
+      "type": "application/json",
+      "datetime": "2019-10-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2019/2547f515-2ff6-4c22-9006-7d94996f2e2c.json",
+      "type": "application/json",
+      "datetime": "2019-09-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2019/101e7c55-1201-4596-8608-5742c826de45.json",
+      "type": "application/json",
+      "datetime": "2019-08-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2019/cef72b96-b923-4f99-9383-e31a21fa5d65.json",
+      "type": "application/json",
+      "datetime": "2019-07-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2019/8113c107-3598-49d1-99ed-bbc08fe9772e.json",
+      "type": "application/json",
+      "datetime": "2019-06-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2019/69be247b-70e3-442b-9889-7dfe0af53cd2.json",
+      "type": "application/json",
+      "datetime": "2019-05-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2019/b4ffd62d-b3b2-4956-a843-084bf1eb3cae.json",
+      "type": "application/json",
+      "datetime": "2019-04-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2019/033aafa5-daff-4f4c-9783-5466235b8e99.json",
+      "type": "application/json",
+      "datetime": "2019-03-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2019/d6ec1bbf-4524-4405-ae38-bb4d8fa8a9bc.json",
+      "type": "application/json",
+      "datetime": "2019-02-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2019/b766bee1-e9cf-493d-932f-2a4118585a94.json",
+      "type": "application/json",
+      "datetime": "2019-01-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2018/6712c71d-0d8e-4355-bba8-af1b40d18306.json",
+      "type": "application/json",
+      "datetime": "2018-12-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2018/9e4e5403-8a11-4910-989a-757f6353f8ef.json",
+      "type": "application/json",
+      "datetime": "2018-11-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2018/b02d248c-717d-4676-a23e-f7611e98ad25.json",
+      "type": "application/json",
+      "datetime": "2018-10-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2018/ddb41b98-b582-4a98-9c6a-8b48a0d169a0.json",
+      "type": "application/json",
+      "datetime": "2018-09-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2018/4ac19032-6977-4ebb-beb3-77cb22e475bc.json",
+      "type": "application/json",
+      "datetime": "2018-08-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2018/96a5e864-3cac-41ce-af54-8d7f4ccf1b89.json",
+      "type": "application/json",
+      "datetime": "2018-07-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2018/1eba90ad-b00d-4927-a12a-a6a936f678a6.json",
+      "type": "application/json",
+      "datetime": "2018-06-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2018/3b2ab70d-ffbd-46d6-8308-112c02073247.json",
+      "type": "application/json",
+      "datetime": "2018-05-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2018/86e4a88a-7342-4763-8010-a4ff12606bca.json",
+      "type": "application/json",
+      "datetime": "2018-04-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2018/22d2baf0-853b-4907-a4ba-32e61bca0d7d.json",
+      "type": "application/json",
+      "datetime": "2018-03-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2018/5b2b9595-7465-47f2-87fb-8d728c5ac6fb.json",
+      "type": "application/json",
+      "datetime": "2018-02-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2018/c23b9133-efd0-401d-b394-f0250853c33a.json",
+      "type": "application/json",
+      "datetime": "2018-01-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2017/50d2bd3c-53c1-4cf1-a7b1-260fc0e9fd5b.json",
+      "type": "application/json",
+      "datetime": "2017-12-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2017/6e8e5dca-93e5-419b-b537-082dbb0d6e2e.json",
+      "type": "application/json",
+      "datetime": "2017-11-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2017/30306006-48d8-4d72-9574-082ebce4af53.json",
+      "type": "application/json",
+      "datetime": "2017-10-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2017/0c8a9bd2-16f9-4ae5-9bae-8fc796fc99d1.json",
+      "type": "application/json",
+      "datetime": "2017-09-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2017/0ba1f140-7ae1-4301-9775-12bc2a424009.json",
+      "type": "application/json",
+      "datetime": "2017-08-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2017/a38915ab-952a-480e-89dc-e268d874e119.json",
+      "type": "application/json",
+      "datetime": "2017-07-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2017/8f1c1c7f-7baf-4b45-83d4-20dcec4ccabb.json",
+      "type": "application/json",
+      "datetime": "2017-06-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2017/dec6fd6f-d9d5-4c0a-b3fb-41890f3e1350.json",
+      "type": "application/json",
+      "datetime": "2017-05-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2017/cb326370-37e2-4e87-b800-3c8bb0df99a7.json",
+      "type": "application/json",
+      "datetime": "2017-04-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2017/a6ac5ee4-ec7e-41da-966f-16dc7d583547.json",
+      "type": "application/json",
+      "datetime": "2017-03-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2017/b81d7ea1-6e97-4092-9d5a-66f0469a9e6b.json",
+      "type": "application/json",
+      "datetime": "2017-02-01"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-beee9b47-b1ab-4044-baa5-0958d3465f12/2017/7b71b7a8-6e58-4e3f-bcdd-5c2a73ea7716.json",
+      "type": "application/json",
+      "datetime": "2017-01-01"
+    },
+    {
+      "rel": "example",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13o_vessel_density_all/script.js",
+      "type": "application/javascript",
+      "title": "evalscript",
+      "example:language": "JavaScript",
+      "dataId": "byoc-beee9b47-b1ab-4044-baa5-0958d3465f12"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Vessel density"
+    }
+  ],
+  "subtitle": "Vessel density description",
+  "themes": [
+    "water"
+  ],
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "Sentinel-2"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E13o",
+  "endpointtype": "Sentinel Hub_byoc",
+  "title": "Vessel density",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -66.94948221476142,
+          19.222315518813957,
+          72.48195026034136,
+          74.65301986285094
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2017-01-01T00:00:00Z",
+          "2020-12-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13o_vessel_density_all/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13o_vessel_density_all/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

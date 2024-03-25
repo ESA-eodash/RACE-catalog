@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Slovak Republic",
+  "properties": {
+    "start_datetime": "2020-05-01T00:00:00Z",
+    "end_datetime": "2020-11-01T00:00:00Z",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        19.47905218,
+        48.705475281
+      ]
+    },
+    "properties": {}
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Harvesting evolution"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Harvesting evolution"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    19.46905218,
+    48.695475281,
+    19.48905218,
+    48.715475280999996
+  ],
+  "stac_extensions": [],
+  "collection": "E10a10"
+}

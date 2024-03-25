@@ -1,0 +1,60 @@
+{
+  "type": "Collection",
+  "id": "cruises_impact",
+  "stac_version": "1.0.0",
+  "description": "### Global cruise industry has sharply declined due to Covid 19\n\nThe indicator shows detections of anchored ships on high resolution [X-band Iceye SAR imagery](https://www.iceye.com/) acquired on August 29th, over Weymouth Bay, UK.\n\n\nGlobal cruise industry was strongly affected by Covid-19 breakdown. After the fast spreading of the virus onboard the Diamond Princess, most of the cruising companies decided to cancel their cruises. Many cruise liners were anchored in safe bays, waiting for the industry to pick up.\n\n\n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13c_cruises_impact/UK9-E13c-Fig1.png)\n\n*Fig.1. Iceye Imagery of passenger cruise ships detected in Weymouth Bay, UK*\n\n**On the SAR image:**\n\n* Weymouth bay, August 29th 2020\n\n* 6 cruising ships anchored in the bay. According to Marine Traffic, the ships are the following::\u000bQueen Elizabeth,  Marella Discovery, Brittania, Marella Explorer 2, Queen Victoria, Queen Mary 2\n\n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13c_cruises_impact/UK9-E13c-Fig2.png)\n\n*Fig.2. Sentinel-2 Imagery of Weymouth Bay, UK, in 21 January and 12 August 2020*\n\n\n**Related story:** [Five ships remain in Weymouth Bay following suspension of cruise travel due to Covid](https://www.somersetlive.co.uk/news/somerset-news/five-ships-remain-weymouth-bay-4853055)\n\n[Weymouth Harbour official website](https://www.weymouth-harbour.co.uk/Coronavirus/)\n\n**Read more about Iceye imagery:**\n\n[Iceye SAR Product Guide](https://www.iceye.com/hubfs/Downloadables/ICEYE-SAR-Product-Guide.pdf)\n\n#### More Links and resources\n\nhttps://www.insider.com/cruise-ships-empty-moored-off-coasts-coronavirus-crisis-photos-2020-5#from-left-to-right-they-are-the-queen-mary-2-aurora-arcadia-britannia-azura-and-the-queen-victoria-4\n\nhttps://www.ship-technology.com/features/cruise-liners-covid-19/\n\nhttps://home.kpmg/xx/en/blogs/home/posts/2020/07/covid-19-impacts-on-global-cruise-industry.html\n\nhttps://theconversation.com/can-the-cruise-industry-really-recover-from-coronavirus-144704\n\nhttps://www.marinetraffic.com/en/ais/home/centerx:-2.419/centery:50.613/zoom:12\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./UK9/collection.json",
+      "type": "application/json",
+      "title": [
+        "Weymouth"
+      ],
+      "id": "UK9",
+      "latlng": "50.604,-2.37",
+      "name": "Weymouth"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Cruises impact"
+    }
+  ],
+  "endpointtype": "Sentinel Hub_byoc",
+  "title": "Cruises impact",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -2.393369116,
+          50.585271238,
+          -2.337794841,
+          50.624532108
+        ],
+        [
+          -2.393369116,
+          50.585271238,
+          -2.337794841,
+          50.624532108
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-08-29T03:28:38Z",
+          "2020-08-29T03:28:38Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

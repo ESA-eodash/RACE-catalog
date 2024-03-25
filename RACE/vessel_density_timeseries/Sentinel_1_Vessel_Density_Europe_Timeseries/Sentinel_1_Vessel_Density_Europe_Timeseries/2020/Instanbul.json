@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Instanbul",
+  "properties": {
+    "start_datetime": "2020-01-04T04:13:42Z",
+    "end_datetime": "2022-12-25T04:14:54Z",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        28.542998,
+        40.722472
+      ]
+    },
+    "properties": {}
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Vessel density time series"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Vessel density time series"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    28.532998,
+    40.712472000000005,
+    28.552998000000002,
+    40.732472
+  ],
+  "stac_extensions": [],
+  "collection": "Sentinel_1_Vessel_Density_Europe_Timeseries"
+}

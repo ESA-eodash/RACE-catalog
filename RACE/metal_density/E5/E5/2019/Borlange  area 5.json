@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Borlange  area 5",
+  "properties": {
+    "start_datetime": "2019-05-24T04:38:09Z",
+    "end_datetime": "2020-06-17T05:22:24Z",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        15.460203429995094,
+        60.494389203324104
+      ]
+    },
+    "properties": {}
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Metal density"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Metal density"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    15.450203429995094,
+    60.484389203324106,
+    15.470203429995093,
+    60.5043892033241
+  ],
+  "stac_extensions": [],
+  "collection": "E5"
+}

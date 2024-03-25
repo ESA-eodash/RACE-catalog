@@ -1,0 +1,129 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "ed2fd995-349d-425c-bca3-5d9448fffb13",
+  "properties": {
+    "datetime": "2020-08-29T03:28:38Z",
+    "proj:epsg": 84,
+    "proj:bbox": [
+      -2.393369116,
+      50.585271238,
+      -2.337794841,
+      50.624532108
+    ],
+    "proj:geometry": {
+      "type": "Polygon",
+      "crs": {
+        "type": "name",
+        "properties": {
+          "name": "urn:ogc:def:crs:OGC::CRS84"
+        }
+      },
+      "coordinates": [
+        [
+          [
+            -2.393369116,
+            50.585271238
+          ],
+          [
+            -2.337794841,
+            50.585271238
+          ],
+          [
+            -2.337794841,
+            50.624532108
+          ],
+          [
+            -2.393369116,
+            50.624532108
+          ],
+          [
+            -2.393369116,
+            50.585271238
+          ]
+        ]
+      ]
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC::CRS84"
+      }
+    },
+    "coordinates": [
+      [
+        [
+          -2.393369116,
+          50.585271238
+        ],
+        [
+          -2.337794841,
+          50.585271238
+        ],
+        [
+          -2.337794841,
+          50.624532108
+        ],
+        [
+          -2.393369116,
+          50.624532108
+        ],
+        [
+          -2.393369116,
+          50.585271238
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "cruises_impact",
+      "wms:layers": [
+        "AWS_ICEYE-E12B"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2020-08-29T03:28:38Z"
+      }
+    },
+    {
+      "rel": "collection",
+      "href": "../../../collection.json",
+      "type": "application/json",
+      "title": "Cruises impact"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": [
+        "Weymouth"
+      ]
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    -2.393369116,
+    50.585271238,
+    -2.337794841,
+    50.624532108
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+  ],
+  "collection": "cruises_impact"
+}

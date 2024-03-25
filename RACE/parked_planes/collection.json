@@ -1,0 +1,181 @@
+{
+  "type": "Collection",
+  "id": "parked_planes",
+  "stac_version": "1.0.0",
+  "description": "## Time series of parked airplanes \n \nTo learn more about the context of the International Air Travel situation as impacted by the pandemic please read the [content under the archived indicator](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_planes/E13b_2_old.md).\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./E13b/collection.json",
+      "type": "application/json",
+      "title": "Parked plane detections",
+      "endpointtype": "GeoDB",
+      "subtitle": "Parked planes detected on Sentinel-2 data",
+      "code": "E13b",
+      "id": "parked_planes",
+      "themes": [
+        "economy"
+      ],
+      "cities": [
+        "Vienna",
+        "Brussels",
+        "Zurich",
+        "Muenchen",
+        "Dusseldorf",
+        "Berlin",
+        "Frankfurt",
+        "Copenhagen",
+        "Madrid",
+        "Barcelona",
+        "Malaga",
+        "Palma de Mallorca",
+        "Helsinki",
+        "Orly",
+        "Paris",
+        "Chateauroux",
+        "Athens",
+        "Dublin",
+        "Milan",
+        "Rome",
+        "Amsterdam",
+        "Oslo",
+        "Warsaw",
+        "Lisbon",
+        "Stockholm",
+        "Istanbul",
+        "Heathrow",
+        "Gatwick",
+        "London Stansted",
+        "Luton",
+        "Manchester"
+      ],
+      "countries": [
+        "AT",
+        "BE",
+        "CH",
+        "DE",
+        "DK",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "IE",
+        "IT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "SE",
+        "TR",
+        "GB",
+        "UK"
+      ],
+      "yAxis": "Time series of airport throughput",
+      "tags": [
+        "placeholder"
+      ],
+      "satellite": [
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "E13b"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    }
+  ],
+  "subtitle": "Parked planes detected on Sentinel-2 data",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "Sentinel-2"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E13b",
+  "title": "Parked plane detections",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -9.144743863288612,
+          36.66166398,
+          28.830829,
+          60.327
+        ],
+        [
+          -9.144743863288612,
+          36.66166398,
+          28.830829,
+          60.327
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-01-01T10:09:06Z",
+          "2022-12-31T10:54:09Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "summaries": {
+    "subcode": [
+      "E13b"
+    ],
+    "themes": [
+      "economy"
+    ],
+    "satellite": [
+      "Sentinel-2"
+    ],
+    "sensor": [
+      "placeholder"
+    ],
+    "countries": [
+      "BE",
+      "PT",
+      "GR",
+      "DK",
+      "IT",
+      "IE",
+      "ES",
+      "FR",
+      "FI",
+      "GB",
+      "SE",
+      "TR",
+      "CH",
+      "DE",
+      "PL",
+      "UK",
+      "NL",
+      "NO",
+      "AT"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Barcelona",
+  "properties": {
+    "start_datetime": "2018-07-01T00:00:00Z",
+    "end_datetime": "2022-12-01T00:00:00Z",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.085735972162202,
+        41.296657915514594
+      ]
+    },
+    "properties": {}
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Flying planes detections"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Flying planes detections"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    2.075735972162202,
+    41.286657915514596,
+    2.0957359721622018,
+    41.30665791551459
+  ],
+  "stac_extensions": [],
+  "collection": "E13d"
+}

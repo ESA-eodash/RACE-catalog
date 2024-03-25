@@ -1,0 +1,89 @@
+{
+  "type": "Collection",
+  "id": "E4",
+  "stac_version": "1.0.0",
+  "description": "## Status of Production activity for intermediate goods\n\nThis indicator assesses the intermediate goods production sites (steel mills/other metal production, cement production, chemicals/plastics production).\n\n### Parking Lot occupancy as proxy for Activity Level\n\nThis indicator is based on the assessment of relevant areas at production sites, such as employee car park (full/empty), exhaust plumes (steam etc), thermal signature (furnace heat, cooling water etc). The status of the area is assessed based n very high resolution optical imagery and is compared to a baseline (for example the situation in the same month one year before).\n\n##### Example of car detection for estimating occupancy and activity status related to the site\n\n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E4_intermediate_goods_production/E4.png)\n*Fig.1. Hamburg industrial area: Pleiades on 2020-03-24*\n\n\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "item",
+      "href": "./E4/2020/Hamburg.json",
+      "type": "application/json",
+      "id": "DE1",
+      "latlng": "53.532123,9.944467",
+      "country": "DE",
+      "city": "Hamburg"
+    },
+    {
+      "rel": "item",
+      "href": "./E4/2019/Genoa.json",
+      "type": "application/json",
+      "id": "IT3",
+      "latlng": "44.408142,8.885851",
+      "country": "IT",
+      "city": "Genoa"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Intermediate goods production"
+    }
+  ],
+  "subtitle": "Assessment of intermediate goods production sites (steel mills/other metal production, cement production, chemicals/plastics production).",
+  "yAxis": "Number of parked cars ",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E4",
+  "endpointtype": "GeoDB",
+  "title": "Intermediate goods production",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          8.875851,
+          44.398142,
+          9.954467,
+          53.542123
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-04-30T10:33:52Z",
+          "2020-04-09T10:26:12Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "summaries": {
+    "cities": [
+      "Hamburg",
+      "Genoa"
+    ],
+    "countries": [
+      "DE",
+      "IT"
+    ]
+  }
+}

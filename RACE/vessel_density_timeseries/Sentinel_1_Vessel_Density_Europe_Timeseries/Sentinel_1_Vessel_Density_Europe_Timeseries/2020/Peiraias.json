@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Peiraias",
+  "properties": {
+    "start_datetime": "2020-01-02T16:23:22Z",
+    "end_datetime": "2022-12-29T16:23:40Z",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        23.671019,
+        37.775969
+      ]
+    },
+    "properties": {}
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Vessel density time series"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Vessel density time series"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    23.661019,
+    37.765969000000005,
+    23.681019000000003,
+    37.785969
+  ],
+  "stac_extensions": [],
+  "collection": "Sentinel_1_Vessel_Density_Europe_Timeseries"
+}

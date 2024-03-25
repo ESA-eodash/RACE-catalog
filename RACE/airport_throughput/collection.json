@@ -1,0 +1,112 @@
+{
+  "type": "Collection",
+  "id": "airport_throughput",
+  "stac_version": "1.0.0",
+  "description": "## Time series of parked airplanes \n\nThis indicator is based on a new algorithm and replaces the previous **\"Airports: Throughput indicator\"** which is still available in the indicators list as (Archived) data. \n \nTo learn more about the context of the International Air Travel situation as impacted by the pandemic please read the [content under the archived indicator](https://race.esa.int/?poi=FR8-E13b2&indicator=E13b2).\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./airport_throughput/collection.json",
+      "type": "application/json",
+      "title": "Airport throughput",
+      "endpointtype": "Sentinel Hub_byoc",
+      "subtitle": "Throughput at principal hub airports",
+      "code": "E13b_airport_throughput",
+      "id": "airport_throughput",
+      "themes": [
+        "economy"
+      ],
+      "locations": true,
+      "tags": [
+        "placeholder"
+      ],
+      "satellite": [
+        "ICEYE"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "E13b_airport_throughput"
+    },
+    {
+      "rel": "license",
+      "href": "http://www.opensource.org/licenses/MIT",
+      "type": "text/html"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    }
+  ],
+  "subtitle": "Throughput at principal hub airports",
+  "themes": [
+    "economy"
+  ],
+  "locations": true,
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "ICEYE"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E13b_airport_throughput",
+  "title": "Airport throughput",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -1.245691996,
+          40.394458816,
+          8.533407797,
+          50.049107756
+        ],
+        [
+          -1.245691996,
+          40.394458816,
+          8.533407797,
+          50.049107756
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-03-20T03:50:33Z",
+          "2020-08-25T03:15:06Z"
+        ]
+      ]
+    }
+  },
+  "license": "MIT",
+  "providers": [
+    {
+      "name": "placeholder"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_airport_throughput/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

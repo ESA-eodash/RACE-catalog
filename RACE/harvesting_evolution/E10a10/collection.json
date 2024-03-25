@@ -1,0 +1,420 @@
+{
+  "type": "Collection",
+  "id": "E10a10",
+  "stac_version": "1.0.0",
+  "description": "## Monitoring row crops haversting with satellite data\n\nThe [Copernicus Sentinel-1](https://sentinel.esa.int/web/sentinel/missions/sentinel-1) allows a glimpse at actual harvesting measures taking place on the ground, through the monitoring of row crops haversting activities. With the 6-day revisit cycle of the satellite, it is possible to detect harvest events with a few days\u2019 accuracy, thanks to Sentinel-1's backscatter and coherence time series which are evaluated for winter rapeseed and winter cereals. Sudden increases in percentage of harvested parcels may indicate farmers taking advantage of short good-weather periods for performing harvest. \n\n\n## The impacts of COVID-19 on Harvest of Row Crops\nThe study [\u201cImpact of COVID-19 on Harvest of Row Crops\u201d](https://eo4society.esa.int/projects/impact-of-covid-19-on-harvest-of-row-crop/) conducted by [VISTA Remote Sensing in Geosciences GmbH] and funded by the European Space Agency aims at quantifying when harvest took place in 2020 and to see whether there were any significant delays due to COVID-19. For this purpose, observed harvest dates in 2020 are compared to the expected harvest progress in 2020.\n\nThe expected harvest progress or reference curve shows the expected evolution of harvest events along the 2020 season simulated within the extensive big data analysis framework of [VISTA\u2019s YPSILON\u00ae](https://ypsilon.services/) yield prediction service chain. It is based on an advanced physically-based crop growth model that takes natural environmental conditions, such as meteorological information, as well as optical [Copernicus Sentinel-2](https://sentinel.esa.int/web/sentinel/missions/sentinel-2) data showing the ripening process of the crops into account. Based on the modelled phenological development of the plant and its maturity stage, an expected harvest date is estimated.\n\nA significant delay of the observed radar curve compared to the modelled expected harvest progress could indicate that the COVID-19 pandemic had disruptive effects on the agricultural service chain and harvesting measures, but no conclusive statement can be made.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "item",
+      "href": "./E10a10/2020/Austria.json",
+      "type": "application/json",
+      "id": "ATa",
+      "latlng": "47.58549439, 14.1264761",
+      "country": "AT",
+      "city": "Austria"
+    },
+    {
+      "rel": "item",
+      "href": "./E10a10/2020/Austria.json",
+      "type": "application/json",
+      "id": "ATb",
+      "latlng": "47.585494391, 14.1264761",
+      "country": "AT",
+      "city": "Austria"
+    },
+    {
+      "rel": "item",
+      "href": "./E10a10/2020/Bulgaria.json",
+      "type": "application/json",
+      "id": "BGa",
+      "latlng": "42.76890318, 25.21552909",
+      "country": "BG",
+      "city": "Bulgaria"
+    },
+    {
+      "rel": "item",
+      "href": "./E10a10/2020/Bulgaria.json",
+      "type": "application/json",
+      "id": "BGb",
+      "latlng": "42.768903181, 25.21552909",
+      "country": "BG",
+      "city": "Bulgaria"
+    },
+    {
+      "rel": "item",
+      "href": "./E10a10/2020/Czech Republic.json",
+      "type": "application/json",
+      "id": "CZa",
+      "latlng": "49.73341233, 15.31240163",
+      "country": "CZ",
+      "city": "Czech Republic"
+    },
+    {
+      "rel": "item",
+      "href": "./E10a10/2020/Czech Republic.json",
+      "type": "application/json",
+      "id": "CZb",
+      "latlng": "49.733412331, 15.31240163",
+      "country": "CZ",
+      "city": "Czech Republic"
+    },
+    {
+      "rel": "item",
+      "href": "./E10a10/2020/Germany.json",
+      "type": "application/json",
+      "id": "DEa",
+      "latlng": "51.10698181, 10.38578051",
+      "country": "DE",
+      "city": "Germany"
+    },
+    {
+      "rel": "item",
+      "href": "./E10a10/2020/Germany.json",
+      "type": "application/json",
+      "id": "DEb",
+      "latlng": "51.106981811, 10.38578051",
+      "country": "DE",
+      "city": "Germany"
+    },
+    {
+      "rel": "item",
+      "href": "./E10a10/2020/Denmark.json",
+      "type": "application/json",
+      "id": "DKa",
+      "latlng": "56.00508703, 9.19078239",
+      "country": "DK",
+      "city": "Denmark"
+    },
+    {
+      "rel": "item",
+      "href": "./E10a10/2020/Denmark.json",
+      "type": "application/json",
+      "id": "DKb",
+      "latlng": "56.005087031, 9.19078239",
+      "country": "DK",
+      "city": "Denmark"
+    },
+    {
+      "rel": "item",
+      "href": "./E10a10/2020/Estonia.json",
+      "type": "application/json",
+      "id": "EEa",
+      "latlng": "58.67192972, 25.54248537",
+      "country": "EE",
+      "city": "Estonia"
+    },
+    {
+      "rel": "item",
+      "href": "./E10a10/2020/Estonia.json",
+      "type": "application/json",
+      "id": "EEb",
+      "latlng": "58.671929721, 25.54248537",
+      "country": "EE",
+      "city": "Estonia"
+    },
+    {
+      "rel": "item",
+      "href": "./E10a10/2020/Spain.json",
+      "type": "application/json",
+      "id": "ESa",
+      "latlng": "40.24448698, -3.64755047",
+      "country": "ES",
+      "city": "Spain"
+    },
+    {
+      "rel": "item",
+      "href": "./E10a10/2020/France.json",
+      "type": "application/json",
+      "id": "FRa",
+      "latlng": "46.83976635, 2.54675178",
+      "country": "FR",
+      "city": "France"
+    },
+    {
+      "rel": "item",
+      "href": "./E10a10/2020/France.json",
+      "type": "application/json",
+      "id": "FRb",
+      "latlng": "46.839766351, 2.54675178",
+      "country": "FR",
+      "city": "France"
+    },
+    {
+      "rel": "item",
+      "href": "./E10a10/2020/Croatia.json",
+      "type": "application/json",
+      "id": "HRa",
+      "latlng": "45.69528808, 16.21904979",
+      "country": "HR",
+      "city": "Croatia"
+    },
+    {
+      "rel": "item",
+      "href": "./E10a10/2020/Croatia.json",
+      "type": "application/json",
+      "id": "HRb",
+      "latlng": "45.695288081, 16.21904979",
+      "country": "HR",
+      "city": "Croatia"
+    },
+    {
+      "rel": "item",
+      "href": "./E10a10/2020/Hungary.json",
+      "type": "application/json",
+      "id": "HUa",
+      "latlng": "47.16277506, 19.39559116",
+      "country": "HU",
+      "city": "Hungary"
+    },
+    {
+      "rel": "item",
+      "href": "./E10a10/2020/Hungary.json",
+      "type": "application/json",
+      "id": "HUb",
+      "latlng": "47.162775061, 19.39559116",
+      "country": "HU",
+      "city": "Hungary"
+    },
+    {
+      "rel": "item",
+      "href": "./E10a10/2020/Italy.json",
+      "type": "application/json",
+      "id": "ITa",
+      "latlng": "42.79662641, 12.07001339",
+      "country": "IT",
+      "city": "Italy"
+    },
+    {
+      "rel": "item",
+      "href": "./E10a10/2020/Lithuania.json",
+      "type": "application/json",
+      "id": "LTa",
+      "latlng": "55.32610984, 23.88719355",
+      "country": "LT",
+      "city": "Lithuania"
+    },
+    {
+      "rel": "item",
+      "href": "./E10a10/2020/Lithuania.json",
+      "type": "application/json",
+      "id": "LTb",
+      "latlng": "55.326109841, 23.88719355",
+      "country": "LT",
+      "city": "Lithuania"
+    },
+    {
+      "rel": "item",
+      "href": "./E10a10/2020/Latvia.json",
+      "type": "application/json",
+      "id": "LVa",
+      "latlng": "56.85085163, 24.91235983",
+      "country": "LV",
+      "city": "Latvia"
+    },
+    {
+      "rel": "item",
+      "href": "./E10a10/2020/Latvia.json",
+      "type": "application/json",
+      "id": "LVb",
+      "latlng": "56.850851631, 24.91235983",
+      "country": "LV",
+      "city": "Latvia"
+    },
+    {
+      "rel": "item",
+      "href": "./E10a10/2020/Poland.json",
+      "type": "application/json",
+      "id": "PLa",
+      "latlng": "52.12759564, 19.39012835",
+      "country": "PL",
+      "city": "Poland"
+    },
+    {
+      "rel": "item",
+      "href": "./E10a10/2020/Poland.json",
+      "type": "application/json",
+      "id": "PLb",
+      "latlng": "52.127595641, 19.39012835",
+      "country": "PL",
+      "city": "Poland"
+    },
+    {
+      "rel": "item",
+      "href": "./E10a10/2020/Romania.json",
+      "type": "application/json",
+      "id": "ROa",
+      "latlng": "45.85243127, 24.97293039",
+      "country": "RO",
+      "city": "Romania"
+    },
+    {
+      "rel": "item",
+      "href": "./E10a10/2020/Romania.json",
+      "type": "application/json",
+      "id": "ROb",
+      "latlng": "45.852431271, 24.97293039",
+      "country": "RO",
+      "city": "Romania"
+    },
+    {
+      "rel": "item",
+      "href": "./E10a10/2020/Serbia.json",
+      "type": "application/json",
+      "id": "RSa",
+      "latlng": "44.2215032, 20.78958334",
+      "country": "RS",
+      "city": "Serbia"
+    },
+    {
+      "rel": "item",
+      "href": "./E10a10/2020/Sweden.json",
+      "type": "application/json",
+      "id": "SEa",
+      "latlng": "57.98490795, 14.4552277",
+      "country": "SE",
+      "city": "Sweden"
+    },
+    {
+      "rel": "item",
+      "href": "./E10a10/2020/Sweden.json",
+      "type": "application/json",
+      "id": "SEb",
+      "latlng": "57.984907951, 14.4552277",
+      "country": "SE",
+      "city": "Sweden"
+    },
+    {
+      "rel": "item",
+      "href": "./E10a10/2020/Slovak Republic.json",
+      "type": "application/json",
+      "id": "SKa",
+      "latlng": "48.70547528, 19.47905218",
+      "country": "SK",
+      "city": "Slovak Republic"
+    },
+    {
+      "rel": "item",
+      "href": "./E10a10/2020/Slovak Republic.json",
+      "type": "application/json",
+      "id": "SKb",
+      "latlng": "48.705475281, 19.47905218",
+      "country": "SK",
+      "city": "Slovak Republic"
+    },
+    {
+      "rel": "item",
+      "href": "./E10a10/2020/United Kingdom.json",
+      "type": "application/json",
+      "id": "UKa",
+      "latlng": "52.98939775, -1.77396816",
+      "country": "GB",
+      "city": "United Kingdom"
+    },
+    {
+      "rel": "item",
+      "href": "./E10a10/2020/United Kingdom.json",
+      "type": "application/json",
+      "id": "UKb",
+      "latlng": "52.989397751, -1.77396816",
+      "country": "GB",
+      "city": "United Kingdom"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Harvesting evolution"
+    }
+  ],
+  "subtitle": "Monitoring row crops harvesting with satellite data",
+  "yAxis": "Cumulative (%)",
+  "themes": [
+    "agriculture"
+  ],
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "Sentinel-1"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E10a10",
+  "endpointtype": "GeoDB",
+  "title": "Harvesting evolution",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -3.65755047,
+          40.23448698,
+          25.552485370000003,
+          58.681929720999996
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-05-01T00:00:00Z",
+          "2020-11-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "summaries": {
+    "cities": [
+      "Austria",
+      "Bulgaria",
+      "Czech Republic",
+      "Germany",
+      "Denmark",
+      "Estonia",
+      "Spain",
+      "France",
+      "Croatia",
+      "Hungary",
+      "Italy",
+      "Lithuania",
+      "Latvia",
+      "Poland",
+      "Romania",
+      "Serbia",
+      "Sweden",
+      "Slovak Republic",
+      "United Kingdom"
+    ],
+    "countries": [
+      "AT",
+      "BG",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FR",
+      "HR",
+      "HU",
+      "IT",
+      "LT",
+      "LV",
+      "PL",
+      "RO",
+      "RS",
+      "SE",
+      "SK",
+      "GB"
+    ]
+  }
+}

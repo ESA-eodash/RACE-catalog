@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Skopje",
+  "properties": {
+    "start_datetime": "2020-01-01T00:00:00Z",
+    "end_datetime": "2022-12-31T00:00:00Z",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        21.1,
+        42.0
+      ]
+    },
+    "properties": {}
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "City level O3 (model)"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "City level O3 (model)"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    21.09,
+    41.99,
+    21.110000000000003,
+    42.01
+  ],
+  "stac_extensions": [],
+  "collection": "N1d"
+}

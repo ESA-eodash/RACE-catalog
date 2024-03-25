@@ -1,0 +1,87 @@
+{
+  "type": "Collection",
+  "id": "FR16",
+  "stac_version": "1.0.0",
+  "description": "Disneyland Paris",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "item",
+      "href": "./shopping_center_volume/2020/708c65f1-1499-4848-adab-5c69eb993150.json",
+      "type": "application/json",
+      "datetime": "2020-03-20"
+    },
+    {
+      "rel": "license",
+      "href": "http://www.opensource.org/licenses/MIT",
+      "type": "text/html"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Parked car volume"
+    }
+  ],
+  "subtitle": "Shopping center volume description",
+  "themes": [
+    "economy"
+  ],
+  "locations": true,
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "ICEYE"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E11_ICEYE",
+  "title": [
+    "Disneyland Paris"
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          2.769154472,
+          48.861336953,
+          2.7987541,
+          48.881687237
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-03-20T14:27:20Z",
+          "2020-03-20T14:27:20Z"
+        ]
+      ]
+    }
+  },
+  "license": "MIT",
+  "providers": [
+    {
+      "name": "placeholder"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E11_shopping_center_volume/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

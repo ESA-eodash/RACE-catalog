@@ -1,0 +1,190 @@
+{
+  "type": "Collection",
+  "id": "harvesting_evolution",
+  "stac_version": "1.0.0",
+  "description": "## Monitoring row crops haversting with satellite data\n\nThe [Copernicus Sentinel-1](https://sentinel.esa.int/web/sentinel/missions/sentinel-1) allows a glimpse at actual harvesting measures taking place on the ground, through the monitoring of row crops haversting activities. With the 6-day revisit cycle of the satellite, it is possible to detect harvest events with a few days\u2019 accuracy, thanks to Sentinel-1's backscatter and coherence time series which are evaluated for winter rapeseed and winter cereals. Sudden increases in percentage of harvested parcels may indicate farmers taking advantage of short good-weather periods for performing harvest. \n\n\n## The impacts of COVID-19 on Harvest of Row Crops\nThe study [\u201cImpact of COVID-19 on Harvest of Row Crops\u201d](https://eo4society.esa.int/projects/impact-of-covid-19-on-harvest-of-row-crop/) conducted by [VISTA Remote Sensing in Geosciences GmbH] and funded by the European Space Agency aims at quantifying when harvest took place in 2020 and to see whether there were any significant delays due to COVID-19. For this purpose, observed harvest dates in 2020 are compared to the expected harvest progress in 2020.\n\nThe expected harvest progress or reference curve shows the expected evolution of harvest events along the 2020 season simulated within the extensive big data analysis framework of [VISTA\u2019s YPSILON\u00ae](https://ypsilon.services/) yield prediction service chain. It is based on an advanced physically-based crop growth model that takes natural environmental conditions, such as meteorological information, as well as optical [Copernicus Sentinel-2](https://sentinel.esa.int/web/sentinel/missions/sentinel-2) data showing the ripening process of the crops into account. Based on the modelled phenological development of the plant and its maturity stage, an expected harvest date is estimated.\n\nA significant delay of the observed radar curve compared to the modelled expected harvest progress could indicate that the COVID-19 pandemic had disruptive effects on the agricultural service chain and harvesting measures, but no conclusive statement can be made.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./E10a10/collection.json",
+      "type": "application/json",
+      "title": "Harvesting evolution",
+      "endpointtype": "GeoDB",
+      "subtitle": "Monitoring row crops harvesting with satellite data",
+      "code": "E10a10",
+      "id": "harvesting_evolution",
+      "themes": [
+        "agriculture"
+      ],
+      "cities": [
+        "Austria",
+        "Bulgaria",
+        "Czech Republic",
+        "Germany",
+        "Denmark",
+        "Estonia",
+        "Spain",
+        "France",
+        "Croatia",
+        "Hungary",
+        "Italy",
+        "Lithuania",
+        "Latvia",
+        "Poland",
+        "Romania",
+        "Serbia",
+        "Sweden",
+        "Slovak Republic",
+        "United Kingdom"
+      ],
+      "countries": [
+        "AT",
+        "BG",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FR",
+        "HR",
+        "HU",
+        "IT",
+        "LT",
+        "LV",
+        "PL",
+        "RO",
+        "RS",
+        "SE",
+        "SK",
+        "GB"
+      ],
+      "yAxis": "Cumulative (%)",
+      "tags": [
+        "placeholder"
+      ],
+      "satellite": [
+        "Sentinel-1"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "E10a10"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    }
+  ],
+  "subtitle": "Monitoring row crops harvesting with satellite data",
+  "themes": [
+    "agriculture"
+  ],
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "Sentinel-1"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E10a10",
+  "title": "Harvesting evolution",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -3.65755047,
+          40.23448698,
+          25.552485370000003,
+          58.681929720999996
+        ],
+        [
+          -3.65755047,
+          40.23448698,
+          25.552485370000003,
+          58.681929720999996
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-05-01T00:00:00Z",
+          "2020-11-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "summaries": {
+    "subcode": [
+      "E10a10"
+    ],
+    "themes": [
+      "agriculture"
+    ],
+    "satellite": [
+      "Sentinel-1"
+    ],
+    "sensor": [
+      "placeholder"
+    ],
+    "cities": [
+      "Germany",
+      "Hungary",
+      "Latvia",
+      "Croatia",
+      "Italy",
+      "Sweden",
+      "Denmark",
+      "Austria",
+      "Serbia",
+      "Bulgaria",
+      "Slovak Republic",
+      "Czech Republic",
+      "Estonia",
+      "Spain",
+      "Lithuania",
+      "Poland",
+      "France",
+      "United Kingdom",
+      "Romania"
+    ],
+    "countries": [
+      "EE",
+      "LT",
+      "DK",
+      "IT",
+      "ES",
+      "HR",
+      "FR",
+      "BG",
+      "RS",
+      "GB",
+      "LV",
+      "HU",
+      "CZ",
+      "RO",
+      "SE",
+      "DE",
+      "PL",
+      "SK",
+      "AT"
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "type": "Collection",
+  "id": "DE18",
+  "stac_version": "1.0.0",
+  "description": "Frankfurt am Main",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "item",
+      "href": "./airport_throughput/2020/6c447be5-295c-46da-b0ca-462e27cdaec4.json",
+      "type": "application/json",
+      "datetime": "2020-05-12"
+    },
+    {
+      "rel": "license",
+      "href": "http://www.opensource.org/licenses/MIT",
+      "type": "text/html"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Airport throughput"
+    }
+  ],
+  "subtitle": "Throughput at principal hub airports",
+  "themes": [
+    "economy"
+  ],
+  "locations": true,
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "ICEYE"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E13b_airport_throughput",
+  "title": [
+    "Frankfurt am Main"
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          8.516097261,
+          50.037676694,
+          8.533407797,
+          50.049107756
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-05-12T13:35:33Z",
+          "2020-05-12T13:35:33Z"
+        ]
+      ]
+    }
+  },
+  "license": "MIT",
+  "providers": [
+    {
+      "name": "placeholder"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_airport_throughput/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

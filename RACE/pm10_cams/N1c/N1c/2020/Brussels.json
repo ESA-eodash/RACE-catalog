@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Brussels",
+  "properties": {
+    "start_datetime": "2020-01-01T00:00:00Z",
+    "end_datetime": "2022-12-31T00:00:00Z",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.91,
+        50.83
+      ]
+    },
+    "properties": {}
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "City level PM10 (model)"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "City level PM10 (model)"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    4.9,
+    50.82,
+    4.92,
+    50.839999999999996
+  ],
+  "stac_extensions": [],
+  "collection": "N1c"
+}

@@ -1,0 +1,3017 @@
+{
+  "type": "Catalog",
+  "id": "RACE",
+  "stac_version": "1.0.0",
+  "description": "Rapid Action for Citizens with Earth Observation",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./temperature/collection.json",
+      "type": "application/json",
+      "title": "Global temperature",
+      "subtitle": "Global temperature description",
+      "code": "CDS1_temperature",
+      "id": "temperature",
+      "themes": [
+        "air"
+      ],
+      "subcode": "CDS1_temperature",
+      "tags": [
+        "Copernicus Services",
+        "C3S",
+        "CDS",
+        "Open data"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
+      ],
+      "otherSources": [
+        "ERA5"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./relative_humidity/collection.json",
+      "type": "application/json",
+      "title": "Relative humidity",
+      "subtitle": "Global relative humidity",
+      "code": "CDS2_relative_humidity",
+      "id": "relative_humidity",
+      "themes": [
+        "air"
+      ],
+      "subcode": "CDS2_relative_humidity",
+      "tags": [
+        "Copernicus Services",
+        "C3S",
+        "CDS",
+        "Open data"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
+      ],
+      "otherSources": [
+        "ERA5"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./wind_10m_u/collection.json",
+      "type": "application/json",
+      "title": "Wind U Field",
+      "subtitle": "Gridded ERA5 is the fifth generation ECMWF reanalysis for the global climate and weather for the past 4 to 7 decades. This parameter is the wind U field",
+      "code": "CDS3",
+      "id": "wind_10m_u",
+      "themes": [
+        "air"
+      ],
+      "subcode": "CDS3",
+      "satellite": [
+        "METEOSAT"
+      ],
+      "sensor": [
+        "SEVIRI"
+      ],
+      "tags": [
+        "copernicus services",
+        "C3S",
+        "open data",
+        "sentinel hub",
+        "raster",
+        "race challenges"
+      ],
+      "agency": [
+        "EUMETSAT",
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./wind_10m_v/collection.json",
+      "type": "application/json",
+      "title": "Wind V Field",
+      "subtitle": "Gridded ERA5 is the fifth generation ECMWF reanalysis for the global climate and weather for the past 4 to 7 decades. This parameter is the wind V field",
+      "code": "CDS4",
+      "id": "wind_10m_v",
+      "themes": [
+        "air"
+      ],
+      "subcode": "CDS4",
+      "satellite": [
+        "METEOSAT"
+      ],
+      "sensor": [
+        "SEVIRI"
+      ],
+      "tags": [
+        "copernicus services",
+        "C3S",
+        "open data",
+        "sentinel hub",
+        "raster",
+        "race challenges"
+      ],
+      "agency": [
+        "EUMETSAT",
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./harvested_parcels_evolution/collection.json",
+      "type": "application/json",
+      "title": "Harvested parcels",
+      "subtitle": "Evolution of harvested parcels in percentage",
+      "code": "E10a6",
+      "id": "harvested_parcels_evolution",
+      "themes": [
+        "agriculture"
+      ],
+      "subcode": "E10a6",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "cities": [
+        "Castilla y Leon",
+        "Extremadura",
+        "Comunidad de Madrid",
+        "Aragon",
+        "La Rioja",
+        "Cataluna",
+        "Region de Murcia",
+        "Comunidad Foral de Navarra",
+        "Comunidad Valenciana",
+        "Castilla-La Mancha",
+        "Andalucia"
+      ],
+      "countries": [
+        "ES"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./shopping_center_activity/collection.json",
+      "type": "application/json",
+      "title": "Activity at shopping centers",
+      "subtitle": "Occupancy of customer parking",
+      "code": "E11",
+      "id": "shopping_center_activity",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E11",
+      "satellite": [
+        "Sentinel-1"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "cities": [
+        "Milan",
+        "Bucharest",
+        "Rome",
+        "Athens",
+        "Brussels",
+        "Warsaw"
+      ],
+      "countries": [
+        "BE",
+        "PL",
+        "GR",
+        "RO",
+        "IT"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./shopping_center_volume/collection.json",
+      "type": "application/json",
+      "title": "Parked car volume",
+      "subtitle": "Shopping center volume description",
+      "code": "E11_ICEYE",
+      "id": "shopping_center_volume",
+      "themes": [
+        "economy"
+      ],
+      "locations": true,
+      "tags": [
+        "placeholder"
+      ],
+      "satellite": [
+        "ICEYE"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "E11_ICEYE"
+    },
+    {
+      "rel": "child",
+      "href": "./parking_lot_volume/collection.json",
+      "type": "application/json",
+      "title": "Parking lot volume",
+      "subtitle": "Parking lot volume description",
+      "code": "E11a",
+      "id": "parking_lot_volume",
+      "themes": [
+        "economy"
+      ],
+      "locations": true,
+      "tags": [
+        "placeholder"
+      ],
+      "satellite": [
+        "ICEYE"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "E11a"
+    },
+    {
+      "rel": "child",
+      "href": "./border_crossing_vehicles_timeseries/collection.json",
+      "type": "application/json",
+      "title": "Border crossing vehicles time series",
+      "subtitle": "Volume of highway occupancy from Sentinel-1 data",
+      "code": "E12b",
+      "id": "border_crossing_vehicles_timeseries",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E12b",
+      "satellite": [
+        "Sentinel-1"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "cities": [
+        "Folkestone"
+      ],
+      "countries": [
+        "GB"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./truck_detections_motorways/collection.json",
+      "type": "application/json",
+      "title": "Truck detections motorways",
+      "subtitle": "Truck detections on motorways description",
+      "code": "E12c",
+      "id": "truck_detections_motorways",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E12c",
+      "satellite": [
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./truck_detections_primary_roads/collection.json",
+      "type": "application/json",
+      "title": "Truck detections primary roads",
+      "subtitle": "Truck detections on primary roads description",
+      "code": "E12d",
+      "id": "truck_detections_primary_roads",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E12d",
+      "satellite": [
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./airport_throughput/collection.json",
+      "type": "application/json",
+      "title": "Airport throughput",
+      "subtitle": "Throughput at principal hub airports",
+      "code": "E13b_airport_throughput",
+      "id": "airport_throughput",
+      "themes": [
+        "economy"
+      ],
+      "locations": true,
+      "tags": [
+        "placeholder"
+      ],
+      "satellite": [
+        "ICEYE"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "E13b_airport_throughput"
+    },
+    {
+      "rel": "child",
+      "href": "./parked_planes/collection.json",
+      "type": "application/json",
+      "title": "Parked plane detections",
+      "subtitle": "Parked planes detected on Sentinel-2 data",
+      "code": "E13b",
+      "id": "parked_planes",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E13b",
+      "satellite": [
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "cities": [
+        "Barcelona",
+        "Chateauroux",
+        "Frankfurt",
+        "London Stansted",
+        "Orly",
+        "Brussels",
+        "Manchester",
+        "Amsterdam",
+        "Paris",
+        "Copenhagen",
+        "Madrid",
+        "Muenchen",
+        "Helsinki",
+        "Stockholm",
+        "Rome",
+        "Dusseldorf",
+        "Heathrow",
+        "Istanbul",
+        "Vienna",
+        "Palma de Mallorca",
+        "Athens",
+        "Malaga",
+        "Oslo",
+        "Warsaw",
+        "Gatwick",
+        "Berlin",
+        "Milan",
+        "Lisbon",
+        "Zurich",
+        "Luton",
+        "Dublin"
+      ],
+      "countries": [
+        "BE",
+        "PT",
+        "GR",
+        "DK",
+        "IT",
+        "IE",
+        "ES",
+        "FR",
+        "FI",
+        "GB",
+        "SE",
+        "TR",
+        "CH",
+        "DE",
+        "PL",
+        "UK",
+        "NL",
+        "NO",
+        "AT"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./cruises_impact/collection.json",
+      "type": "application/json",
+      "title": "Cruises impact",
+      "subtitle": "Cruises impact description",
+      "code": "E13c",
+      "id": "cruises_impact",
+      "themes": [
+        "economy"
+      ],
+      "locations": true,
+      "tags": [
+        "placeholder"
+      ],
+      "satellite": [
+        "ICEYE"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "E13c"
+    },
+    {
+      "rel": "child",
+      "href": "./flying_planes/collection.json",
+      "type": "application/json",
+      "title": "Flying planes detections",
+      "subtitle": "Flying planes detected on Sentinel-2 data",
+      "code": "E13d",
+      "id": "flying_planes",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E13d",
+      "satellite": [
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "cities": [
+        "Barcelona",
+        "Frankfurt",
+        "Munich",
+        "Brussels",
+        "Manchester",
+        "Amsterdam",
+        "Paris",
+        "Copenhagen",
+        "Madrid",
+        "Helsinki",
+        "Stockholm",
+        "Rome",
+        "Dusseldorf",
+        "Istanbul",
+        "Vienna",
+        "Palma de Mallorca",
+        "Athens",
+        "Malaga",
+        "Oslo",
+        "Warsaw",
+        "Berlin",
+        "London",
+        "Milan",
+        "Lisbon",
+        "Zurich",
+        "Dublin"
+      ],
+      "countries": [
+        "DE",
+        "BE",
+        "PT",
+        "IE",
+        "GB",
+        "ES",
+        "PL",
+        "FR",
+        "GR",
+        "NL",
+        "NO",
+        "FI",
+        "SE",
+        "TR",
+        "CH",
+        "AT",
+        "DK",
+        "IT"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./vessel_density_all/collection.json",
+      "type": "application/json",
+      "title": "Vessel density",
+      "subtitle": "Vessel density description",
+      "code": "E13o",
+      "id": "vessel_density_all",
+      "themes": [
+        "water"
+      ],
+      "subcode": "E13o",
+      "satellite": [
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./vessel_density_cargo/collection.json",
+      "type": "application/json",
+      "title": "Vessel density for cargo",
+      "subtitle": "Vessel density for cargo description",
+      "code": "E13p",
+      "id": "vessel_density_cargo",
+      "themes": [
+        "water"
+      ],
+      "subcode": "E13p",
+      "satellite": [
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./vessel_density_tanker/collection.json",
+      "type": "application/json",
+      "title": "Vessel density for tanker",
+      "subtitle": "Vessel density for tanker description",
+      "code": "E13q",
+      "id": "vessel_density_tanker",
+      "themes": [
+        "water"
+      ],
+      "subcode": "E13q",
+      "satellite": [
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./vessel_density_others/collection.json",
+      "type": "application/json",
+      "title": "Vessel density for non tanker or cargo",
+      "subtitle": "Vessel density for non tanker or cargo vessels",
+      "code": "E13r",
+      "id": "vessel_density_others",
+      "themes": [
+        "water"
+      ],
+      "subcode": "E13r",
+      "satellite": [
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./vessel_density_timeseries/collection.json",
+      "type": "application/json",
+      "title": "Vessel density time series",
+      "subtitle": "Vessel Density based on Copernicus Sentinel-1",
+      "code": "E1b",
+      "id": "vessel_density_timeseries",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E1b",
+      "satellite": [
+        "Sentinel-1"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "cities": [
+        "Barcelona",
+        "Klaipeda",
+        "Marseille",
+        "Gdansk",
+        "Trieste",
+        "Kaliningrad",
+        "Instanbul",
+        "Peiraias",
+        "La Spezia",
+        "Genova",
+        "Amsterdam",
+        "Aliaga",
+        "Bilbao",
+        "Riga",
+        "Bergen",
+        "Bremerhaven, Hamburg, Wilhelmshaven",
+        "Gioia Tauro",
+        "Dunkerque",
+        "Las Palmas",
+        "Le Havre",
+        "Rotterdam",
+        "Sines",
+        "Skagen",
+        "G\u00f6teborg",
+        "Taranto",
+        "Algeciras",
+        "Antwerpen",
+        "Tallin",
+        "Constanta",
+        "Hamburg",
+        "Dublin",
+        "Valencia"
+      ],
+      "countries": [
+        "DE",
+        "BE",
+        "PT",
+        "IE",
+        "RU",
+        "EE",
+        "ES",
+        "LV",
+        "FR",
+        "GR",
+        "LT",
+        "NL",
+        "NO",
+        "PL",
+        "RO",
+        "TR",
+        "DK",
+        "IT"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./ships_detected/collection.json",
+      "type": "application/json",
+      "title": "Ships detections",
+      "subtitle": "Ships detected in Sentinel-2 data",
+      "code": "E200",
+      "id": "ships_detected",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E200",
+      "satellite": [
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "cities": [
+        "Genoa",
+        "Dunkirk",
+        "Suez ",
+        "Hamburg",
+        "Gdynia",
+        "Ghent"
+      ],
+      "countries": [
+        "DE",
+        "BE",
+        "EG",
+        "PL",
+        "FR",
+        "IT"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./oil_storage_volume/collection.json",
+      "type": "application/json",
+      "title": "Oil storage volume",
+      "subtitle": "Oil Storage Volume as observed by ICEYE",
+      "code": "E3",
+      "id": "oil_storage_volume",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E3",
+      "satellite": [
+        "ICEYE"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./intermediate_goods_production/collection.json",
+      "type": "application/json",
+      "title": "Intermediate goods production",
+      "subtitle": "Assessment of intermediate goods production sites (steel mills/other metal production, cement production, chemicals/plastics production).",
+      "code": "E4",
+      "id": "intermediate_goods_production",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E4",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "cities": [
+        "Genoa",
+        "Hamburg"
+      ],
+      "countries": [
+        "DE",
+        "IT"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./metal_density/collection.json",
+      "type": "application/json",
+      "title": "Metal density",
+      "subtitle": "Metal density monitoring in open warehouses produced of steel mills from SAR (Synthetic Aperture Radar) backscatter signals based on Sentinel-1 data",
+      "code": "E5",
+      "id": "metal_density",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E5",
+      "satellite": [
+        "Sentinel-1"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "cities": [
+        "Imatra - area 3",
+        "Boxholm - area 1",
+        "Hofors - area 1",
+        "Borlange - area 5",
+        "Hallefors - area 3",
+        "Hofors - area 2",
+        "Boxholm - area 2",
+        "Borlange - area 3",
+        "Boxholm - area 4",
+        "Oxelosund - area 3",
+        "Oxelosund - area 2",
+        "Borlange - area 1",
+        "Hallefors - area 2",
+        "Borlange - area 6",
+        "Lulea",
+        "Borlange - area 2",
+        "Imatra - area 1",
+        "Borlange - area 4",
+        "Boxholm - area 3",
+        "Katowice",
+        "Oxelosund - area 1",
+        "Hunedoara",
+        "Hallefors - area 1",
+        "Imatra - area 2",
+        "Borlange - area 7",
+        "Oxelosund - area 4"
+      ],
+      "countries": [
+        "RO",
+        "SE",
+        "FI",
+        "PL"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./CH4/collection.json",
+      "type": "application/json",
+      "title": "Methane",
+      "subtitle": "Daily Methane",
+      "code": "N1_CH4",
+      "id": "CH4",
+      "themes": [
+        "air"
+      ],
+      "subcode": "N1_CH4",
+      "satellite": [
+        "Sentinel-5P"
+      ],
+      "sensor": [
+        "TROPOMI"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "NASA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./city_no2/collection.json",
+      "type": "application/json",
+      "title": "City level NO2 (S5p)",
+      "subtitle": "NO2 detected at cities based on Sentinel-5P data",
+      "code": "N1",
+      "id": "city_no2",
+      "themes": [
+        "air"
+      ],
+      "subcode": "N1",
+      "satellite": [
+        "Sentinel-5P"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "cities": [
+        "Vilnius",
+        "Nicosia",
+        "Luxembourg",
+        "Bratislava",
+        "Ljubljana",
+        "Brussels",
+        "Amsterdam",
+        "Zagreb",
+        "Paris",
+        "Copenhagen",
+        "Madrid",
+        "Valletta",
+        "Prague",
+        "Riga",
+        "Helsinki",
+        "Stockholm",
+        "Rome",
+        "Tallinn",
+        "Vienna",
+        "Athens",
+        "Warsaw",
+        "Berlin",
+        "Budapest",
+        "Lisbon",
+        "Bucharest",
+        "Dublin",
+        "Sofia"
+      ],
+      "countries": [
+        "BE",
+        "PT",
+        "EE",
+        "GR",
+        "LT",
+        "CY",
+        "DK",
+        "IT",
+        "IE",
+        "ES",
+        "HR",
+        "FR",
+        "FI",
+        "SI",
+        "BG",
+        "LV",
+        "HU",
+        "CZ",
+        "RO",
+        "SE",
+        "LU",
+        "DE",
+        "MT",
+        "PL",
+        "NL",
+        "SK",
+        "AT"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./CO_3_daily/collection.json",
+      "type": "application/json",
+      "title": "Carbon monoxide",
+      "subtitle": "Global 3-daily Carbon monoxide",
+      "code": "N1_CO",
+      "id": "CO_3_daily",
+      "themes": [
+        "air"
+      ],
+      "subcode": "N1_CO",
+      "satellite": [
+        "Sentinel-5P"
+      ],
+      "sensor": [
+        "TROPOMI"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "NASA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./NO2_daily/collection.json",
+      "type": "application/json",
+      "title": "Nitrogen dioxide",
+      "subtitle": "Daily Nitrogen Dioxide",
+      "code": "N1_NO2",
+      "id": "NO2_daily",
+      "themes": [
+        "air"
+      ],
+      "subcode": "N1_NO2",
+      "satellite": [
+        "Sentinel-5P"
+      ],
+      "sensor": [
+        "TROPOMI"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "NASA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./so2_daily/collection.json",
+      "type": "application/json",
+      "title": "Sulfur dioxide",
+      "subtitle": "Global daily SO2",
+      "code": "N1_SO2",
+      "id": "so2_daily",
+      "themes": [
+        "air"
+      ],
+      "subcode": "N1_SO2",
+      "satellite": [
+        "Sentinel-5P"
+      ],
+      "sensor": [
+        "TROPOMI"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "NASA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./NO2/collection.json",
+      "type": "application/json",
+      "title": "Nitrogen dioxide daily average",
+      "subtitle": "Nitrogen dioxide daily average description",
+      "code": "N1b_NO2",
+      "id": "NO2",
+      "themes": [
+        "air"
+      ],
+      "subcode": "N1b_NO2",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "CAMS",
+        "ECMWF"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./O3/collection.json",
+      "type": "application/json",
+      "title": "Ozone",
+      "subtitle": "Ozone description",
+      "code": "N1b_O3",
+      "id": "O3",
+      "themes": [
+        "air"
+      ],
+      "subcode": "N1b_O3",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "CAMS",
+        "ECMWF"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./PM10/collection.json",
+      "type": "application/json",
+      "title": "Particulate matter 10\u00b5m",
+      "subtitle": "Particulate matter 10\u00b5m",
+      "code": "N1b_PM10",
+      "id": "PM10",
+      "themes": [
+        "air"
+      ],
+      "subcode": "N1b_PM10",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "CAMS",
+        "ECMWF"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./PM25/collection.json",
+      "type": "application/json",
+      "title": "Particulate matter 2.5\u00b5m",
+      "subtitle": "Particulate matter 2.5\u00b5m",
+      "code": "N1b_PM25",
+      "id": "PM25",
+      "themes": [
+        "air"
+      ],
+      "subcode": "N1b_PM25",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "CAMS",
+        "ECMWF"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./regional_water_quality_timeseries/collection.json",
+      "type": "application/json",
+      "title": "Regional water quality time series",
+      "subtitle": "Regional water quality time series",
+      "code": "N3",
+      "id": "regional_water_quality_timeseries",
+      "themes": [
+        "water"
+      ],
+      "subcode": "N3",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "cities": [
+        "Barcelona",
+        "Lisbon",
+        "Venice Lagoon",
+        "Constanta",
+        "Hamburg",
+        "Marseilles"
+      ],
+      "countries": [
+        "PT",
+        "GE",
+        "ES",
+        "FR",
+        "RO",
+        "IT"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./chl_concentration/collection.json",
+      "type": "application/json",
+      "title": "Chlorophyll-a concentration maps",
+      "subtitle": "Chlorophyll-a concentration description",
+      "code": "N3a2",
+      "id": "chl_concentration",
+      "themes": [
+        "water"
+      ],
+      "yAxis": "%",
+      "locations": true,
+      "tags": [
+        "placeholder"
+      ],
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "N3a2"
+    },
+    {
+      "rel": "child",
+      "href": "./sea_surface_temperature/collection.json",
+      "type": "application/json",
+      "title": "Sea surface temperature maps",
+      "subtitle": "Sea surface temperature description",
+      "code": "N3a2_SST",
+      "id": "sea_surface_temperature",
+      "themes": [
+        "water"
+      ],
+      "yAxis": "%",
+      "locations": true,
+      "tags": [
+        "placeholder"
+      ],
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "N3a2_SST"
+    },
+    {
+      "rel": "child",
+      "href": "./total_suspended_matter/collection.json",
+      "type": "application/json",
+      "title": "Total suspended matter maps",
+      "subtitle": "Total suspended matter description",
+      "code": "N3a2_TSM",
+      "id": "total_suspended_matter",
+      "themes": [
+        "water"
+      ],
+      "yAxis": "%",
+      "locations": true,
+      "tags": [
+        "placeholder"
+      ],
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "N3a2_TSM"
+    },
+    {
+      "rel": "child",
+      "href": "./ocean_colour_plankton_atlantic/collection.json",
+      "type": "application/json",
+      "title": "Ocean colour plankton - Atlantic",
+      "subtitle": "Ocean colour plankton description",
+      "code": "N3c",
+      "id": "ocean_colour_plankton_atlantic",
+      "themes": [
+        "water"
+      ],
+      "subcode": "N3c",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "CMEMS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./ocean_colour_plankton_black_sea/collection.json",
+      "type": "application/json",
+      "title": "Ocean colour plankton - Black Sea",
+      "subtitle": "Ocean colour plankton description",
+      "code": "N3c_bs",
+      "id": "ocean_colour_plankton_black_sea",
+      "themes": [
+        "water"
+      ],
+      "subcode": "N3c_bs",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "CMEMS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./ocean_colour_plankton_mediterranean/collection.json",
+      "type": "application/json",
+      "title": "Ocean colour plankton - Mediterranean",
+      "subtitle": "Ocean colour plankton description",
+      "code": "N3c_med",
+      "id": "ocean_colour_plankton_mediterranean",
+      "themes": [
+        "water"
+      ],
+      "subcode": "N3c_med",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "CMEMS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./population_density/collection.json",
+      "type": "application/json",
+      "title": "Population density",
+      "subtitle": "Population density 2020",
+      "code": "NASAPopulation",
+      "id": "population_density",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "NASAPopulation",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "NASA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./world_settlement_footprint/collection.json",
+      "type": "application/json",
+      "title": "World settlement footprint",
+      "subtitle": "World settlement footprint description",
+      "code": "WSF",
+      "id": "world_settlement_footprint",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "WSF",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "DLR"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./C1/collection.json",
+      "type": "application/json",
+      "title": "Shipping sources",
+      "endpointtype": "GeoDB",
+      "subtitle": "Port Activities, sources of pollution and NO2 levels",
+      "code": "C1",
+      "id": "ports_shipping_aq",
+      "themes": [
+        "economy",
+        "air"
+      ],
+      "cities": [
+        "Gioia Tauro",
+        "Genoa"
+      ],
+      "countries": [
+        "IT"
+      ],
+      "yAxis": "Normalized NO2 concentration & Mean monthly boat number",
+      "tags": [
+        "placeholder"
+      ],
+      "satellite": [
+        "Sentinel-5P"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "C1"
+    },
+    {
+      "rel": "child",
+      "href": "./C2/collection.json",
+      "type": "application/json",
+      "title": "Car sources",
+      "endpointtype": "GeoDB",
+      "subtitle": "Port Activities, sources of pollution and NO2 levels",
+      "code": "C2",
+      "id": "ports_cars_aq",
+      "themes": [
+        "economy",
+        "air"
+      ],
+      "cities": [
+        "Gioia Tauro",
+        "Genoa"
+      ],
+      "countries": [
+        "IT"
+      ],
+      "yAxis": "Normalized NO2 concentration & Mean number of people",
+      "tags": [
+        "placeholder"
+      ],
+      "satellite": [
+        "Sentinel-5P"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "C2"
+    },
+    {
+      "rel": "child",
+      "href": "./C3/collection.json",
+      "type": "application/json",
+      "title": "People sources",
+      "endpointtype": "GeoDB",
+      "subtitle": "Port Activities, sources of pollution and NO2 levels",
+      "code": "C3",
+      "id": "ports_people_aq",
+      "themes": [
+        "economy",
+        "air"
+      ],
+      "cities": [
+        "Gioia Tauro",
+        "Genoa"
+      ],
+      "countries": [
+        "IT"
+      ],
+      "yAxis": "Normalized NO2 concentration & mean monthly car number",
+      "tags": [
+        "placeholder"
+      ],
+      "satellite": [
+        "Sentinel-5P"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "C3"
+    },
+    {
+      "rel": "child",
+      "href": "./ports_air_quality/collection.json",
+      "type": "application/json",
+      "title": "Air quality in ports",
+      "code": "CAQ",
+      "id": "ports_air_quality",
+      "subcode": "CAQ"
+    },
+    {
+      "rel": "child",
+      "href": "./output_inventory_level/collection.json",
+      "type": "application/json",
+      "title": "Output inventory level",
+      "subtitle": "COVID-19 Lockdown effects on output inventory level at finished goods production sites",
+      "code": "E8",
+      "id": "output_inventory_level",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E8",
+      "satellite": [
+        "Sentinel-1"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "cities": [
+        "Barcelona",
+        "Mioveni",
+        "Emden",
+        "Ingolstadt",
+        "Wolfsburg",
+        "Kvasiny",
+        "Craiova",
+        "Russelsheim",
+        "Leipzig",
+        "Zwickau",
+        "Sindelfingen",
+        "Cassino",
+        "Regensburg",
+        "Martorell",
+        "Swindon",
+        "Saarlouis",
+        "Koln",
+        "Ghent",
+        "Eisenach",
+        "Dingolfing",
+        "Neckarsulm",
+        "Bremen",
+        "Nosovice"
+      ],
+      "countries": [
+        "DE",
+        "BE",
+        "GB",
+        "ES",
+        "CZ",
+        "RO",
+        "IT"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./agricultural_production_productive_area/collection.json",
+      "type": "application/json",
+      "title": "Agricultural production - productive area",
+      "subtitle": "COVID-19 impact on agricultural production in Europe",
+      "code": "E10a1",
+      "id": "agricultural_production_productive_area",
+      "themes": [
+        "agriculture"
+      ],
+      "subcode": "E10a1",
+      "satellite": [
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "cities": [
+        "Brandenburg",
+        "Huelva (Lagunas de las Madres)"
+      ],
+      "countries": [
+        "DE",
+        "ES"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./agricultural_production_area/collection.json",
+      "type": "application/json",
+      "title": "Agricultural production - area",
+      "subtitle": "COVID-19 impact on agricultural production in Europe",
+      "code": "E10a2",
+      "id": "agricultural_production_area",
+      "themes": [
+        "agriculture"
+      ],
+      "subcode": "E10a2",
+      "satellite": [
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "cities": [
+        "Brandenburg Region"
+      ],
+      "countries": [
+        "DE"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./agricultural_production_area_change/collection.json",
+      "type": "application/json",
+      "title": "Agricultural production - area change",
+      "subtitle": "COVID-19 impact on agricultural production in Europe",
+      "code": "E10a3",
+      "id": "agricultural_production_area_change",
+      "themes": [
+        "agriculture"
+      ],
+      "subcode": "E10a3",
+      "satellite": [
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "cities": [
+        "Brandenburg"
+      ],
+      "countries": [
+        "DE"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./fruit_production/collection.json",
+      "type": "application/json",
+      "title": "Fruit production",
+      "subtitle": "Monitoring fruit production (Berries) in Huelva, Spain",
+      "code": "E10a5",
+      "id": "fruit_production",
+      "themes": [
+        "agriculture"
+      ],
+      "subcode": "E10a5",
+      "satellite": [
+        "Pleiades",
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "cities": [
+        "Huelva Laguna de las Madres"
+      ],
+      "countries": [
+        "ES"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./winter_cereals/collection.json",
+      "type": "application/json",
+      "title": "Winter cereals",
+      "subtitle": "Impact of COVID19 on winter cereals growth and harvest \u2013 Spain",
+      "code": "E10a8",
+      "id": "winter_cereals",
+      "themes": [
+        "agriculture"
+      ],
+      "subcode": "E10a8",
+      "satellite": [
+        "Sentinel-1",
+        "Sentinel-2",
+        "Landsat-8"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "cities": [
+        "Spain"
+      ],
+      "countries": [
+        "ES"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./agricultural_workers/collection.json",
+      "type": "application/json",
+      "title": "Agricultural workers",
+      "subtitle": "The impacts of COVID-19 on the availability of agricultural workers",
+      "code": "E10a9",
+      "id": "agricultural_workers",
+      "themes": [
+        "agriculture"
+      ],
+      "subcode": "E10a9",
+      "satellite": [
+        "Pleiades",
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "cities": [
+        "Apulia"
+      ],
+      "countries": [
+        "IT"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./harvesting_evolution/collection.json",
+      "type": "application/json",
+      "title": "Harvesting evolution",
+      "subtitle": "Monitoring row crops harvesting with satellite data",
+      "code": "E10a10",
+      "id": "harvesting_evolution",
+      "themes": [
+        "agriculture"
+      ],
+      "subcode": "E10a10",
+      "satellite": [
+        "Sentinel-1"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "cities": [
+        "Germany",
+        "Hungary",
+        "Latvia",
+        "Croatia",
+        "Italy",
+        "Sweden",
+        "Denmark",
+        "Austria",
+        "Serbia",
+        "Bulgaria",
+        "Slovak Republic",
+        "Czech Republic",
+        "Estonia",
+        "Spain",
+        "Lithuania",
+        "Poland",
+        "France",
+        "United Kingdom",
+        "Romania"
+      ],
+      "countries": [
+        "EE",
+        "LT",
+        "DK",
+        "IT",
+        "ES",
+        "HR",
+        "FR",
+        "BG",
+        "RS",
+        "GB",
+        "LV",
+        "HU",
+        "CZ",
+        "RO",
+        "SE",
+        "DE",
+        "PL",
+        "SK",
+        "AT"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./pm25_cams/collection.json",
+      "type": "application/json",
+      "title": "City level PM25 (model)",
+      "subtitle": "Copernicus Atmosphere Monitoring Service (CAMS) time series",
+      "code": "N1a",
+      "id": "pm25_cams",
+      "themes": [
+        "air"
+      ],
+      "subcode": "N1a",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "cities": [
+        "Barcelona",
+        "Marseille",
+        "Vilnius",
+        "Nicosia",
+        "Naples",
+        "Munich",
+        "Luxembourg",
+        "Bratislava",
+        "Ljubljana",
+        "Birmingham",
+        "Brussels",
+        "Ankara",
+        "Tirana",
+        "Amsterdam",
+        "Cologne",
+        "Sarajevo",
+        "Belgrade",
+        "Zagreb",
+        "Paris",
+        "Copenhagen",
+        "Madrid",
+        "Valletta",
+        "Prague",
+        "Riga",
+        "Helsinki",
+        "Pristina",
+        "Stockholm",
+        "Rome",
+        "Tallinn",
+        "Monaco",
+        "Reykjavik",
+        "Podgorica",
+        "Vienna",
+        "Bern",
+        "Athens",
+        "Oslo",
+        "Warsaw",
+        "Turin",
+        "Lyon",
+        "Berlin",
+        "Budapest",
+        "London",
+        "Milan",
+        "Lisbon",
+        "Bucharest",
+        "Hamburg",
+        "Skopje",
+        "Dublin",
+        "Valencia",
+        "Sofia"
+      ],
+      "countries": [
+        "BE",
+        "PT",
+        "EE",
+        "GR",
+        "LT",
+        "CY",
+        "DK",
+        "IS",
+        "IT",
+        "MC",
+        "XK",
+        "IE",
+        "MK",
+        "ES",
+        "HR",
+        "FR",
+        "ME",
+        "FI",
+        "SI",
+        "BG",
+        "AL",
+        "RS",
+        "GB",
+        "LV",
+        "BA",
+        "HU",
+        "CZ",
+        "RO",
+        "SE",
+        "TR",
+        "CH",
+        "LU",
+        "DE",
+        "MT",
+        "PL",
+        "NL",
+        "NO",
+        "SK",
+        "AT"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./no2_cams/collection.json",
+      "type": "application/json",
+      "title": "City level NO2 (model)",
+      "subtitle": "Copernicus Atmosphere Monitoring Service (CAMS) time series",
+      "code": "N1b",
+      "id": "no2_cams",
+      "themes": [
+        "air"
+      ],
+      "subcode": "N1b",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "cities": [
+        "Barcelona",
+        "Marseille",
+        "Vilnius",
+        "Nicosia",
+        "Naples",
+        "Munich",
+        "Luxembourg",
+        "Bratislava",
+        "Ljubljana",
+        "Birmingham",
+        "Brussels",
+        "Ankara",
+        "Tirana",
+        "Amsterdam",
+        "Cologne",
+        "Sarajevo",
+        "Belgrade",
+        "Zagreb",
+        "Paris",
+        "Copenhagen",
+        "Madrid",
+        "Valletta",
+        "Prague",
+        "Riga",
+        "Helsinki",
+        "Pristina",
+        "Stockholm",
+        "Rome",
+        "Tallinn",
+        "Monaco",
+        "Reykjavik",
+        "Podgorica",
+        "Vienna",
+        "Bern",
+        "Athens",
+        "Oslo",
+        "Warsaw",
+        "Turin",
+        "Lyon",
+        "Berlin",
+        "Budapest",
+        "London",
+        "Milan",
+        "Lisbon",
+        "Bucharest",
+        "Hamburg",
+        "Skopje",
+        "Dublin",
+        "Valencia",
+        "Sofia"
+      ],
+      "countries": [
+        "BE",
+        "PT",
+        "EE",
+        "GR",
+        "LT",
+        "CY",
+        "DK",
+        "IS",
+        "IT",
+        "MC",
+        "XK",
+        "IE",
+        "MK",
+        "ES",
+        "HR",
+        "FR",
+        "ME",
+        "FI",
+        "SI",
+        "BG",
+        "AL",
+        "RS",
+        "GB",
+        "LV",
+        "BA",
+        "HU",
+        "CZ",
+        "RO",
+        "SE",
+        "TR",
+        "CH",
+        "LU",
+        "DE",
+        "MT",
+        "PL",
+        "NL",
+        "NO",
+        "SK",
+        "AT"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./pm10_cams/collection.json",
+      "type": "application/json",
+      "title": "City level PM10 (model)",
+      "subtitle": "Copernicus Atmosphere Monitoring Service (CAMS) time series",
+      "code": "N1c",
+      "id": "pm10_cams",
+      "themes": [
+        "air"
+      ],
+      "subcode": "N1c",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "cities": [
+        "Barcelona",
+        "Marseille",
+        "Vilnius",
+        "Nicosia",
+        "Naples",
+        "Munich",
+        "Luxembourg",
+        "Bratislava",
+        "Ljubljana",
+        "Birmingham",
+        "Brussels",
+        "Ankara",
+        "Tirana",
+        "Amsterdam",
+        "Cologne",
+        "Sarajevo",
+        "Belgrade",
+        "Zagreb",
+        "Paris",
+        "Copenhagen",
+        "Madrid",
+        "Valletta",
+        "Prague",
+        "Riga",
+        "Helsinki",
+        "Pristina",
+        "Stockholm",
+        "Rome",
+        "Tallinn",
+        "Monaco",
+        "Reykjavik",
+        "Podgorica",
+        "Vienna",
+        "Bern",
+        "Athens",
+        "Oslo",
+        "Warsaw",
+        "Turin",
+        "Lyon",
+        "Berlin",
+        "Budapest",
+        "London",
+        "Milan",
+        "Lisbon",
+        "Bucharest",
+        "Hamburg",
+        "Skopje",
+        "Dublin",
+        "Valencia",
+        "Sofia"
+      ],
+      "countries": [
+        "BE",
+        "PT",
+        "EE",
+        "GR",
+        "LT",
+        "CY",
+        "DK",
+        "IS",
+        "IT",
+        "MC",
+        "XK",
+        "IE",
+        "MK",
+        "ES",
+        "HR",
+        "FR",
+        "ME",
+        "FI",
+        "SI",
+        "BG",
+        "AL",
+        "RS",
+        "GB",
+        "LV",
+        "BA",
+        "HU",
+        "CZ",
+        "RO",
+        "SE",
+        "TR",
+        "CH",
+        "LU",
+        "DE",
+        "MT",
+        "PL",
+        "NL",
+        "NO",
+        "SK",
+        "AT"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./o3_cams/collection.json",
+      "type": "application/json",
+      "title": "City level O3 (model)",
+      "subtitle": "Copernicus Atmosphere Monitoring Service (CAMS) time series",
+      "code": "N1d",
+      "id": "o3_cams",
+      "themes": [
+        "air"
+      ],
+      "subcode": "N1d",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "cities": [
+        "Barcelona",
+        "Marseille",
+        "Vilnius",
+        "Nicosia",
+        "Naples",
+        "Munich",
+        "Luxembourg",
+        "Bratislava",
+        "Ljubljana",
+        "Birmingham",
+        "Brussels",
+        "Ankara",
+        "Tirana",
+        "Amsterdam",
+        "Cologne",
+        "Sarajevo",
+        "Belgrade",
+        "Zagreb",
+        "Paris",
+        "Copenhagen",
+        "Madrid",
+        "Valletta",
+        "Prague",
+        "Riga",
+        "Helsinki",
+        "Pristina",
+        "Stockholm",
+        "Rome",
+        "Tallinn",
+        "Monaco",
+        "Reykjavik",
+        "Podgorica",
+        "Vienna",
+        "Bern",
+        "Athens",
+        "Oslo",
+        "Warsaw",
+        "Turin",
+        "Lyon",
+        "Berlin",
+        "Budapest",
+        "London",
+        "Milan",
+        "Lisbon",
+        "Bucharest",
+        "Hamburg",
+        "Skopje",
+        "Dublin",
+        "Valencia",
+        "Sofia"
+      ],
+      "countries": [
+        "BE",
+        "PT",
+        "EE",
+        "GR",
+        "LT",
+        "CY",
+        "DK",
+        "IS",
+        "IT",
+        "MC",
+        "XK",
+        "IE",
+        "MK",
+        "ES",
+        "HR",
+        "FR",
+        "ME",
+        "FI",
+        "SI",
+        "BG",
+        "AL",
+        "RS",
+        "GB",
+        "LV",
+        "BA",
+        "HU",
+        "CZ",
+        "RO",
+        "SE",
+        "TR",
+        "CH",
+        "LU",
+        "DE",
+        "MT",
+        "PL",
+        "NL",
+        "NO",
+        "SK",
+        "AT"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./cargo_boats_port/collection.json",
+      "type": "application/json",
+      "title": "Cargo boats in ports",
+      "subtitle": "Changes in the number of boats in ports",
+      "code": "E13e",
+      "id": "cargo_boats_port",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E13e",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "cities": [
+        "Genoa",
+        "Gioia Tauro"
+      ],
+      "countries": [
+        "IT"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./fishing_boats_port/collection.json",
+      "type": "application/json",
+      "title": "Fishing boats in ports",
+      "subtitle": "Changes in the number of boats in ports",
+      "code": "E13f",
+      "id": "fishing_boats_port",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E13f",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "cities": [
+        "Genoa",
+        "Gioia Tauro"
+      ],
+      "countries": [
+        "IT"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./tanker_boats_port/collection.json",
+      "type": "application/json",
+      "title": "Tankers boats in ports",
+      "subtitle": "Changes in the number of boats in ports",
+      "code": "E13g",
+      "id": "tanker_boats_port",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E13g",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "cities": [
+        "Genoa",
+        "Gioia Tauro"
+      ],
+      "countries": [
+        "IT"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./maritime_traffic_tug/collection.json",
+      "type": "application/json",
+      "title": "Maritime traffic - tug",
+      "subtitle": "Changes in the number of boats in ports",
+      "code": "E13h",
+      "id": "maritime_traffic_tug",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E13h",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "AIS"
+      ],
+      "cities": [
+        "Gioia Tauro"
+      ],
+      "countries": [
+        "IT"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./maritime_traffic_search_rescue/collection.json",
+      "type": "application/json",
+      "title": "Maritime traffic - search and rescue",
+      "subtitle": "Changes in the number of boats in ports",
+      "code": "E13i",
+      "id": "maritime_traffic_search_rescue",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E13i",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "AIS"
+      ],
+      "cities": [
+        "Gioia Tauro"
+      ],
+      "countries": [
+        "IT"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./maritime_traffic_pleasure_craft/collection.json",
+      "type": "application/json",
+      "title": "Maritime traffic - pleasure craft",
+      "subtitle": "Changes in the number of boats in ports",
+      "code": "E13l",
+      "id": "maritime_traffic_pleasure_craft",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E13l",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "AIS"
+      ],
+      "cities": [
+        "Genoa"
+      ],
+      "countries": [
+        "IT"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./maritime_traffic_passenger/collection.json",
+      "type": "application/json",
+      "title": "Maritime traffic - passenger craft",
+      "subtitle": "Changes in the number of boats in ports",
+      "code": "E13m",
+      "id": "maritime_traffic_passenger",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E13m",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "AIS"
+      ],
+      "cities": [
+        "Genoa"
+      ],
+      "countries": [
+        "IT"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./maritime_traffic_combined/collection.json",
+      "type": "application/json",
+      "title": "Maritime traffic - combined",
+      "subtitle": "Changes in the number of boats in ports",
+      "code": "E13n",
+      "id": "maritime_traffic_combined",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E13n",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "AIS"
+      ],
+      "cities": [
+        "Gijon"
+      ],
+      "countries": [
+        "ES"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./GHS-BUILT-S-R2023A/collection.json",
+      "type": "application/json",
+      "title": "GHS-BUILT-S-R2023A",
+      "subtitle": "GHS built-up surface dataset GHS-BUILT-S_GLOBE_R2023A",
+      "code": "GHSBUILT",
+      "id": "GHS-BUILT-S-R2023A",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "GHSBUILT",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./OX_Crude_Oil_Storage_Index/collection.json",
+      "type": "application/json",
+      "title": "Crude Oil Storage Index",
+      "subtitle": "Level of oil in tanks based on SAR and optical data",
+      "code": "OX",
+      "id": "OX_Crude_Oil_Storage_Index",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "OX",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "cities": [
+        "Aspropyrgos",
+        "Trieste",
+        "Wilhelmshaven",
+        "Sarroch",
+        "Dalmeny",
+        "Schwechat",
+        "Elefsina",
+        "Godorf Wesseling",
+        "Grangemouth",
+        "Sullom Voe",
+        "Cork",
+        "Finnart",
+        "Thessaloniki",
+        "Le Havre",
+        "Rotterdam",
+        "Fos-Lavera",
+        "Teesport",
+        "Algeciras",
+        "Cartagena",
+        "Tarragona",
+        "Pachi",
+        "Omisalj",
+        "Corinth",
+        "Antwerp"
+      ],
+      "countries": [
+        "DE",
+        "BE",
+        "IE",
+        "GB",
+        "ES",
+        "HR",
+        "GR",
+        "NL",
+        "FR",
+        "AT",
+        "IT"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./OX_EU_Crude_Oil_Storage_Index/collection.json",
+      "type": "application/json",
+      "title": "Crude Oil Storage Index Europe",
+      "subtitle": "Level of oil in tanks based on SAR and optical data Europe",
+      "code": "OX_EU",
+      "id": "OX_EU_Crude_Oil_Storage_Index",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "OX_EU",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "cities": [
+        "/"
+      ],
+      "countries": [
+        "/"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./OW_Covid_19_vaccinations/collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Vaccinations",
+      "code": "OW",
+      "id": "OW_Covid_19_vaccinations",
+      "themes": [
+        "health"
+      ],
+      "subcode": "OW",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "cities": [
+        "/"
+      ],
+      "countries": [
+        "Nigeria",
+        "Czechia",
+        "Ghana",
+        "Malta",
+        "Algeria",
+        "Belarus",
+        "Saudi Arabia",
+        "Israel",
+        "Myanmar",
+        "Taiwan",
+        "Lesotho",
+        "Hungary",
+        "Syria",
+        "Canada",
+        "Denmark",
+        "Djibouti",
+        "Ethiopia",
+        "Serbia",
+        "Tunisia",
+        "Mozambique",
+        "Togo",
+        "Iran",
+        "Portugal",
+        "Jamaica",
+        "Niger",
+        "Cameroon",
+        "Rwanda",
+        "Ukraine",
+        "Dominican Republic",
+        "Burkina Faso",
+        "Belgium",
+        "Nicaragua",
+        "Netherlands",
+        "Liberia",
+        "Paraguay",
+        "France",
+        "Sri Lanka",
+        "Moldova",
+        "Solomon Islands",
+        "Nepal",
+        "Slovenia",
+        "Cuba",
+        "Haiti",
+        "Panama",
+        "Afghanistan",
+        "Gambia",
+        "Guinea",
+        "Croatia",
+        "Latvia",
+        "Kyrgyzstan",
+        "Sweden",
+        "Namibia",
+        "Austria",
+        "Equatorial Guinea",
+        "Brazil",
+        "Singapore",
+        "New Zealand",
+        "North Macedonia",
+        "Kazakhstan",
+        "Chile",
+        "Falkland Islands",
+        "Madagascar",
+        "Bangladesh",
+        "Benin",
+        "Indonesia",
+        "Bosnia and Herzegovina",
+        "Russia",
+        "Kuwait",
+        "Iceland",
+        "Turkmenistan",
+        "Thailand",
+        "Pakistan",
+        "Sierra Leone",
+        "El Salvador",
+        "Morocco",
+        "China",
+        "Azerbaijan",
+        "Ecuador",
+        "Brunei",
+        "Mongolia",
+        "Uzbekistan",
+        "Lebanon",
+        "South Africa",
+        "Senegal",
+        "Uruguay",
+        "Switzerland",
+        "Fiji",
+        "Egypt",
+        "Guatemala",
+        "Turkey",
+        "Zambia",
+        "Jordan",
+        "Tajikistan",
+        "Papua New Guinea",
+        "Norway",
+        "Qatar",
+        "Somalia",
+        "United Arab Emirates",
+        "Mauritania",
+        "United States of America",
+        "Sudan",
+        "Peru",
+        "Estonia",
+        "Spain",
+        "Lithuania",
+        "Venezuela",
+        "Trinidad and Tobago",
+        "Argentina",
+        "Australia",
+        "Bermuda",
+        "Bhutan",
+        "India",
+        "Ireland",
+        "Romania",
+        "Suriname",
+        "Philippines",
+        "Central African Republic",
+        "Cyprus",
+        "Iraq",
+        "Costa Rica",
+        "Montenegro",
+        "Luxembourg",
+        "Bolivia",
+        "Colombia",
+        "Kosovo",
+        "Finland",
+        "Germany",
+        "Vanuatu",
+        "Italy",
+        "Mexico",
+        "Vietnam",
+        "Mali",
+        "Slovakia",
+        "Cambodia",
+        "Libya",
+        "Bulgaria",
+        "Belize",
+        "South Sudan",
+        "Kenya",
+        "Botswana",
+        "Monaco",
+        "Greenland",
+        "New Caledonia",
+        "Oman",
+        "Burundi",
+        "Malaysia",
+        "Honduras",
+        "Malawi",
+        "Armenia",
+        "Poland",
+        "Laos",
+        "Chad",
+        "Uganda",
+        "Angola",
+        "Georgia",
+        "Albania",
+        "Guyana",
+        "South Korea",
+        "Gabon",
+        "United Kingdom",
+        "Japan",
+        "Yemen",
+        "Greece"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./GG_Google_Mobility_Data_RACE/collection.json",
+      "type": "application/json",
+      "title": "Mobility",
+      "subtitle": "Mobility data from Google",
+      "code": "GG",
+      "id": "GG_Google_Mobility_Data_RACE",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "GG",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "cities": [
+        "/"
+      ],
+      "countries": [
+        "Malta",
+        "Slovenia",
+        "Luxembourg",
+        "Switzerland",
+        "Finland",
+        "Germany",
+        "Hungary",
+        "Croatia",
+        "Latvia",
+        "Turkey",
+        "Italy",
+        "Sweden",
+        "Denmark",
+        "Austria",
+        "Slovakia",
+        "Norway",
+        "Serbia",
+        "Bulgaria",
+        "Portugal",
+        "Czech Republic",
+        "Macedonia",
+        "Estonia",
+        "Spain",
+        "Lithuania",
+        "Poland",
+        "Bosnia and Herzegovina",
+        "Belgium",
+        "Netherlands",
+        "Ireland",
+        "France",
+        "United Kingdom",
+        "Romania",
+        "Greece"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./CV_Covid_19_cases/collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Cases",
+      "code": "CV",
+      "id": "CV_Covid_19_cases",
+      "themes": [
+        "health"
+      ],
+      "subcode": "CV",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "cities": [
+        "/"
+      ],
+      "countries": [
+        "Czechia",
+        "Malta",
+        "Slovenia",
+        "Luxembourg",
+        "Switzerland",
+        "Kosovo",
+        "Finland",
+        "Germany",
+        "Hungary",
+        "Croatia",
+        "Latvia",
+        "Turkey",
+        "Italy",
+        "Sweden",
+        "Denmark",
+        "Austria",
+        "Slovakia",
+        "Norway",
+        "Serbia",
+        "Bulgaria",
+        "North Macedonia",
+        "Portugal",
+        "Estonia",
+        "Spain",
+        "Lithuania",
+        "Poland",
+        "Bosnia and Herzegovina",
+        "Belgium",
+        "Netherlands",
+        "Ireland",
+        "Albania",
+        "France",
+        "United Kingdom",
+        "Romania",
+        "Greece"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "self",
+      "href": "/home/runner/work/RACE-catalog/RACE-catalog/build/RACE/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "RACE"
+}

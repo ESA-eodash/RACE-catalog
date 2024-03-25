@@ -1,0 +1,146 @@
+{
+  "type": "Collection",
+  "id": "wind_10m_v",
+  "stac_version": "1.0.0",
+  "description": "Gridded ERA5 is the fifth generation ECMWF reanalysis for the global climate and weather for the past 4 to 7 decades. This parameter is the wind V field",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./wind_10m_v/collection.json",
+      "type": "application/json",
+      "title": "Wind V Field",
+      "endpointtype": "Sentinel Hub_byoc",
+      "subtitle": "Gridded ERA5 is the fifth generation ECMWF reanalysis for the global climate and weather for the past 4 to 7 decades. This parameter is the wind V field",
+      "code": "CDS4",
+      "id": "wind_10m_v",
+      "themes": [
+        "air"
+      ],
+      "tags": [
+        "copernicus services",
+        "C3S",
+        "open data",
+        "sentinel hub",
+        "raster",
+        "race challenges"
+      ],
+      "satellite": [
+        "METEOSAT"
+      ],
+      "sensor": [
+        "SEVIRI"
+      ],
+      "agency": [
+        "EUMETSAT",
+        "ESA"
+      ],
+      "subcode": "CDS4"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    }
+  ],
+  "subtitle": "Gridded ERA5 is the fifth generation ECMWF reanalysis for the global climate and weather for the past 4 to 7 decades. This parameter is the wind V field",
+  "themes": [
+    "air"
+  ],
+  "tags": [
+    "copernicus services",
+    "C3S",
+    "open data",
+    "sentinel hub",
+    "raster",
+    "race challenges"
+  ],
+  "satellite": [
+    "METEOSAT"
+  ],
+  "sensor": [
+    "SEVIRI"
+  ],
+  "agency": [
+    "EUMETSAT",
+    "ESA"
+  ],
+  "subcode": "CDS4",
+  "title": "Wind V Field",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -179.999755859375,
+          -90.12489004526765,
+          179.99977453631897,
+          90.125
+        ],
+        [
+          -179.999755859375,
+          -90.12489004526765,
+          179.99977453631897,
+          90.125
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1959-01-01T00:00:00Z",
+          "2023-07-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "COPERNICUS",
+      "url": "https://cds.climate.copernicus.eu/cdsapp#!/dataset/10.24381/cds.6860a573?tab=overview)\""
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "CDS4"
+    ],
+    "themes": [
+      "air"
+    ],
+    "satellite": [
+      "METEOSAT"
+    ],
+    "sensor": [
+      "SEVIRI"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS4_wind_10m_v/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "story": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS4_wind_10m_v/CDS.md",
+      "type": "text/markdown",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS4_wind_10m_v/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

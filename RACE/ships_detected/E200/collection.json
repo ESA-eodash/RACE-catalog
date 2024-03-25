@@ -1,0 +1,133 @@
+{
+  "type": "Collection",
+  "id": "E200",
+  "stac_version": "1.0.0",
+  "description": "## Industry and Commodities\n\nEarth Observation can contribute in serval ways for monitoring of industry and commodity markets.\n\n<iframe title=\"Prices for almost all commodities have fallen since the start of the year\" aria-label=\"chart\" id=\"datawrapper-chart-PNmee\" src=\"https://datawrapper.dwcdn.net/PNmee/3/\" scrolling=\"no\" frameborder=\"0\" style=\"width: 0; min-width: 100% !important; border: none;\" height=\"400\"></iframe>\n\n[Access Chart URL](https://datawrapper.dwcdn.net/PNmee/3/)\n\n\n### Cargo and Vessels traffic in industrial areas\nThe indicator [**Cargo and Vessels traffic in industrial areas**](https://race.esa.int/?country=BE&indicator=E200&poi=BE3-E200) is based on tracking shipping vessels, which are the primary transport vehicle for most commodities and which can be directly observed and categorised with Sentinel imagery and very high resolution data. The changes in vessel dynamics within industrial piers in several european harbours can be used as a proxy for changes in industrial activities and related vessels traffic.\n\n\n## The impacts of COVID-19 on industry and comodities\nGlobal commodity markets have been strongly affected by the COVID-19 pandemic, with sharp declines in prices since the early first of the pandemic. The decline affected all commodity prices, but differed by type (Figure 1). For example, prices for crude oil plummeted as a result of the drastically reduced demand during lock-down. As a consequence of the drastically reduced demands, tanker vessels carrying crude oil have been reported to be anchored around the main oil refineries in Europe, unable to discharge their cargo due to a lack of storage capacity in refineries and storage tanks. Natural rubber and platinum also experienced large price declines. The observed decline in the prices for metal is understood to be linked to the declining economic growth in China. And even many activities related to trasnsportation of goood in containers have been affeccted.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "item",
+      "href": "./E200/2019/Ghent.json",
+      "type": "application/json",
+      "id": "BE3",
+      "latlng": "51.091559,3.740081",
+      "country": "BE",
+      "city": "Ghent"
+    },
+    {
+      "rel": "item",
+      "href": "./E200/2019/Hamburg.json",
+      "type": "application/json",
+      "id": "DE1",
+      "latlng": "53.532123,9.944467",
+      "country": "DE",
+      "city": "Hamburg"
+    },
+    {
+      "rel": "item",
+      "href": "./E200/2019/Suez.json",
+      "type": "application/json",
+      "id": "EG1",
+      "latlng": "30.939554,32.314923",
+      "country": "EG",
+      "city": "Suez "
+    },
+    {
+      "rel": "item",
+      "href": "./E200/2019/Dunkirk.json",
+      "type": "application/json",
+      "id": "FR3",
+      "latlng": "51.036138,2.285374",
+      "country": "FR",
+      "city": "Dunkirk"
+    },
+    {
+      "rel": "item",
+      "href": "./E200/2019/Genoa.json",
+      "type": "application/json",
+      "id": "IT3",
+      "latlng": "44.408142,8.885851",
+      "country": "IT",
+      "city": "Genoa"
+    },
+    {
+      "rel": "item",
+      "href": "./E200/2019/Gdynia.json",
+      "type": "application/json",
+      "id": "PL1",
+      "latlng": "54.537859,18.510887",
+      "country": "PL",
+      "city": "Gdynia"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Ships detections"
+    }
+  ],
+  "subtitle": "Ships detected in Sentinel-2 data",
+  "yAxis": "Number of ships in Port",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "Sentinel-2"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E200",
+  "endpointtype": "GeoDB",
+  "title": "Ships detections",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          2.2753740000000002,
+          30.929554,
+          32.324923,
+          54.547858999999995
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-01-02T10:28:30Z",
+          "2022-12-29T08:41:33Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "summaries": {
+    "cities": [
+      "Ghent",
+      "Hamburg",
+      "Suez ",
+      "Dunkirk",
+      "Genoa",
+      "Gdynia"
+    ],
+    "countries": [
+      "BE",
+      "DE",
+      "EG",
+      "FR",
+      "IT",
+      "PL"
+    ]
+  }
+}

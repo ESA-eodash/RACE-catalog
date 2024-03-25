@@ -1,0 +1,112 @@
+{
+  "type": "Collection",
+  "id": "parking_lot_volume",
+  "stac_version": "1.0.0",
+  "description": "## Warsaw Stadium Parking lot is empty in April as Poland has shut down due to Covid 19\n\nIn Poland, the government declared lockdown restrictions in response to the pandemic in March - April 2020. In Warsaw, the capital city, a noticeable slowdown of activities has been observed. \n\n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E11a_parking_lot_volume/PL7-E11a-Fig1.png)\n\n*Fig.1. Warsaw Stadium Parking lot as viewed in high resolution [X-band Iceye SAR imagery](https://www.iceye.com/)*\n\n**On the SAR image:** Warsaw, February and April 2020\n\n* Many cars parked on the stadium parking in February\n\n* Empty parking in March\n\n* Same effect on the railway station car parking (top right)\n\n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E11a_parking_lot_volume/PL7-E11a-Fig2.png)\n\n*Fig.2. Sentinel-2 imagery of Disneyland Paris on 11 January and 16 April 2020*\n\n**Links and resources**\n\nhttps://www.dw.com/en/coronavirus-threatens-polands-remarkable-growth-story/a-52939825\n\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./parking_lot_volume/collection.json",
+      "type": "application/json",
+      "title": "Parking lot volume",
+      "endpointtype": "Sentinel Hub_byoc",
+      "subtitle": "Parking lot volume description",
+      "code": "E11a",
+      "id": "parking_lot_volume",
+      "themes": [
+        "economy"
+      ],
+      "locations": true,
+      "tags": [
+        "placeholder"
+      ],
+      "satellite": [
+        "ICEYE"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "E11a"
+    },
+    {
+      "rel": "license",
+      "href": "http://www.opensource.org/licenses/MIT",
+      "type": "text/html"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    }
+  ],
+  "subtitle": "Parking lot volume description",
+  "themes": [
+    "economy"
+  ],
+  "locations": true,
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "ICEYE"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E11a",
+  "title": "Parking lot volume",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          21.039070567,
+          52.235855988,
+          21.052287012,
+          52.248886356
+        ],
+        [
+          21.039070567,
+          52.235855988,
+          21.052287012,
+          52.248886356
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-02-07T13:08:50Z",
+          "2020-04-13T13:10:17Z"
+        ]
+      ]
+    }
+  },
+  "license": "MIT",
+  "providers": [
+    {
+      "name": "placeholder"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E11a_parking_lot_volume/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

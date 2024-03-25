@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Godorf Wesseling",
+  "properties": {
+    "start_datetime": "2017-01-09T00:00:00Z",
+    "end_datetime": "2024-01-01T00:00:00Z",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.983921,
+        50.860509
+      ]
+    },
+    "properties": {}
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Crude Oil Storage Index"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Crude Oil Storage Index"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    6.973921,
+    50.850509,
+    6.993920999999999,
+    50.870509
+  ],
+  "stac_extensions": [],
+  "collection": "Crude_Oil_Storage_Index"
+}

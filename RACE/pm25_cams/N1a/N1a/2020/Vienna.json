@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Vienna",
+  "properties": {
+    "start_datetime": "2020-01-01T00:00:00Z",
+    "end_datetime": "2022-12-31T00:00:00Z",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        16.94,
+        48.2
+      ]
+    },
+    "properties": {}
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "City level PM25 (model)"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "City level PM25 (model)"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    16.93,
+    48.190000000000005,
+    16.950000000000003,
+    48.21
+  ],
+  "stac_extensions": [],
+  "collection": "N1a"
+}

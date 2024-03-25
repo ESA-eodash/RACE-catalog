@@ -1,0 +1,129 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "6c447be5-295c-46da-b0ca-462e27cdaec4",
+  "properties": {
+    "datetime": "2020-05-12T13:35:33Z",
+    "proj:epsg": 84,
+    "proj:bbox": [
+      8.516097261,
+      50.037676694,
+      8.533407797,
+      50.049107756
+    ],
+    "proj:geometry": {
+      "type": "Polygon",
+      "crs": {
+        "type": "name",
+        "properties": {
+          "name": "urn:ogc:def:crs:OGC::CRS84"
+        }
+      },
+      "coordinates": [
+        [
+          [
+            8.516097261,
+            50.037676694
+          ],
+          [
+            8.533407797,
+            50.037676694
+          ],
+          [
+            8.533407797,
+            50.049107756
+          ],
+          [
+            8.516097261,
+            50.049107756
+          ],
+          [
+            8.516097261,
+            50.037676694
+          ]
+        ]
+      ]
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC::CRS84"
+      }
+    },
+    "coordinates": [
+      [
+        [
+          8.516097261,
+          50.037676694
+        ],
+        [
+          8.533407797,
+          50.037676694
+        ],
+        [
+          8.533407797,
+          50.049107756
+        ],
+        [
+          8.516097261,
+          50.049107756
+        ],
+        [
+          8.516097261,
+          50.037676694
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "airport_throughput",
+      "wms:layers": [
+        "AWS_ICEYE-E13B"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2020-05-12T13:35:33Z"
+      }
+    },
+    {
+      "rel": "collection",
+      "href": "../../../collection.json",
+      "type": "application/json",
+      "title": "Airport throughput"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": [
+        "Frankfurt am Main"
+      ]
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    8.516097261,
+    50.037676694,
+    8.533407797,
+    50.049107756
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+  ],
+  "collection": "airport_throughput"
+}

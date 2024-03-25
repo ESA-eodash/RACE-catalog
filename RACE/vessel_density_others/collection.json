@@ -1,0 +1,121 @@
+{
+  "type": "Collection",
+  "id": "vessel_density_others",
+  "stac_version": "1.0.0",
+  "description": "Vessel density for non tanker or cargo vessels",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./vessel_density_others/collection.json",
+      "type": "application/json",
+      "title": "Vessel density for non tanker or cargo",
+      "endpointtype": "Sentinel Hub_byoc",
+      "subtitle": "Vessel density for non tanker or cargo vessels",
+      "code": "E13r",
+      "id": "vessel_density_others",
+      "themes": [
+        "water"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "satellite": [
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "E13r"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    }
+  ],
+  "subtitle": "Vessel density for non tanker or cargo vessels",
+  "themes": [
+    "water"
+  ],
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "Sentinel-2"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E13r",
+  "title": "Vessel density for non tanker or cargo",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -66.94948221476142,
+          19.222315518813993,
+          72.48195026034142,
+          74.65301986285093
+        ],
+        [
+          -66.94948221476142,
+          19.222315518813993,
+          72.48195026034142,
+          74.65301986285093
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2017-01-01T00:00:00Z",
+          "2020-12-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "summaries": {
+    "subcode": [
+      "E13r"
+    ],
+    "themes": [
+      "water"
+    ],
+    "satellite": [
+      "Sentinel-2"
+    ],
+    "sensor": [
+      "placeholder"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13o_vessel_density_all/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13r_vessel_density_others/E13r.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

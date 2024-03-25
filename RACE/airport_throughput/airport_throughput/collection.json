@@ -1,0 +1,77 @@
+{
+  "type": "Collection",
+  "id": "airport_throughput",
+  "stac_version": "1.0.0",
+  "description": "## Time series of parked airplanes \n\nThis indicator is based on a new algorithm and replaces the previous **\"Airports: Throughput indicator\"** which is still available in the indicators list as (Archived) data. \n \nTo learn more about the context of the International Air Travel situation as impacted by the pandemic please read the [content under the archived indicator](https://race.esa.int/?poi=FR8-E13b2&indicator=E13b2).\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./DE18/collection.json",
+      "type": "application/json",
+      "title": [
+        "Frankfurt am Main"
+      ],
+      "id": "DE18",
+      "latlng": "50.043,8.525",
+      "name": "Frankfurt am Main"
+    },
+    {
+      "rel": "child",
+      "href": "./ES17/collection.json",
+      "type": "application/json",
+      "title": [
+        "Teruel"
+      ],
+      "id": "ES17",
+      "latlng": "40.413,-1.23",
+      "name": "Teruel"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Airport throughput"
+    }
+  ],
+  "endpointtype": "Sentinel Hub_byoc",
+  "title": "Airport throughput",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -1.245691996,
+          40.394458816,
+          8.533407797,
+          50.049107756
+        ],
+        [
+          8.516097261,
+          50.037676694,
+          8.533407797,
+          50.049107756
+        ],
+        [
+          -1.245691996,
+          40.394458816,
+          -1.207508892,
+          40.429438355
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-03-20T03:50:33Z",
+          "2020-08-25T03:15:06Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

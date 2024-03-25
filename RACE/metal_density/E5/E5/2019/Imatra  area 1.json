@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Imatra  area 1",
+  "properties": {
+    "start_datetime": "2019-05-24T03:48:09Z",
+    "end_datetime": "2020-06-12T03:40:33Z",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        28.796662998976412,
+        61.151139685027665
+      ]
+    },
+    "properties": {}
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Metal density"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Metal density"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    28.78666299897641,
+    61.14113968502767,
+    28.806662998976414,
+    61.16113968502766
+  ],
+  "stac_extensions": [],
+  "collection": "E5"
+}

@@ -1,0 +1,87 @@
+{
+  "type": "Collection",
+  "id": "UK9",
+  "stac_version": "1.0.0",
+  "description": "Weymouth",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "item",
+      "href": "./cruises_impact/2020/ed2fd995-349d-425c-bca3-5d9448fffb13.json",
+      "type": "application/json",
+      "datetime": "2020-08-29"
+    },
+    {
+      "rel": "license",
+      "href": "http://www.opensource.org/licenses/MIT",
+      "type": "text/html"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Cruises impact"
+    }
+  ],
+  "subtitle": "Cruises impact description",
+  "themes": [
+    "economy"
+  ],
+  "locations": true,
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "ICEYE"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E13c",
+  "title": [
+    "Weymouth"
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -2.393369116,
+          50.585271238,
+          -2.337794841,
+          50.624532108
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-08-29T03:28:38Z",
+          "2020-08-29T03:28:38Z"
+        ]
+      ]
+    }
+  },
+  "license": "MIT",
+  "providers": [
+    {
+      "name": "placeholder"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13c_cruises_impact/thumbnail.md",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

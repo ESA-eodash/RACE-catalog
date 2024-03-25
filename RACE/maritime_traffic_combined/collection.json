@@ -1,0 +1,123 @@
+{
+  "type": "Collection",
+  "id": "maritime_traffic_combined",
+  "stac_version": "1.0.0",
+  "description": "## Commercial fluxes\n\nThe data used to compute this indicator are traffic changes extracted from mobile devices (data provided by Vodafone Spain). For each pair of months (e.g. April and February 2020) the ratio (in %) of the number of trucks from the most recent with respect to the less recent month is provided. \n\n**The following information is provided on the chart:** \n\n-\tDomestic Incoming data: represent trucks entering port of Gijon from other Spanish regions (one value per region per pair of months)\n-\tDomestic outgoing data: represent trucks exiting the port of Gijon toward other Spanish regions (one value per region per pair of months)\n-\tInternational incoming data: represent trucks entering the port of Gijon from other countries (one value per country per pair of months)\n\n**How the fluxes are computed:**\n\nFebruary 2019 has been considered as the reference period. Changes in traffic fluxes have been computed in sequence, following the diagram below, on the finest geographic granularity (regional for domestic data, national for international data). \n\n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13n_maritime_traffic_combined/E13n-fig1.png)\n*Diagram for the computation of commercial fluxes*\n\n**Spatial data aggregation**\n\nTo obtain one value per month per flux type, data are geographically aggregated. Domestic data are computed averaging all regional data per period, while international data are computed averaging data at country level.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./E13n/collection.json",
+      "type": "application/json",
+      "title": "Maritime traffic - combined",
+      "endpointtype": "GeoDB",
+      "subtitle": "Changes in the number of boats in ports",
+      "code": "E13n",
+      "id": "maritime_traffic_combined",
+      "themes": [
+        "economy"
+      ],
+      "cities": [
+        "Gijon"
+      ],
+      "countries": [
+        "ES"
+      ],
+      "yAxis": "% Variation compated  to Febuary 2019",
+      "tags": [
+        "placeholder"
+      ],
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "AIS"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "E13n"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    }
+  ],
+  "subtitle": "Changes in the number of boats in ports",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "AIS"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E13n",
+  "title": "Maritime traffic - combined",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -5.6832899999999995,
+          43.53378,
+          -5.66329,
+          43.553779999999996
+        ],
+        [
+          -5.6832899999999995,
+          43.53378,
+          -5.66329,
+          43.553779999999996
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-02-01T00:00:00Z",
+          "2020-09-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "e-GEOS"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "E13n"
+    ],
+    "themes": [
+      "economy"
+    ],
+    "satellite": [
+      "placeholder"
+    ],
+    "sensor": [
+      "AIS"
+    ],
+    "cities": [
+      "Gijon"
+    ],
+    "countries": [
+      "ES"
+    ]
+  }
+}

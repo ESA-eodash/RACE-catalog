@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Las Palmas",
+  "properties": {
+    "start_datetime": "2020-01-06T19:05:08Z",
+    "end_datetime": "2022-12-21T19:05:26Z",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -15.115872,
+        27.967126
+      ]
+    },
+    "properties": {}
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Vessel density time series"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Vessel density time series"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    -15.125872,
+    27.957126,
+    -15.105872,
+    27.977126000000002
+  ],
+  "stac_extensions": [],
+  "collection": "Sentinel_1_Vessel_Density_Europe_Timeseries"
+}

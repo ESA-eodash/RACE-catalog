@@ -1,0 +1,129 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "708c65f1-1499-4848-adab-5c69eb993150",
+  "properties": {
+    "datetime": "2020-03-20T14:27:20Z",
+    "proj:epsg": 84,
+    "proj:bbox": [
+      2.769154472,
+      48.861336953,
+      2.7987541,
+      48.881687237
+    ],
+    "proj:geometry": {
+      "type": "Polygon",
+      "crs": {
+        "type": "name",
+        "properties": {
+          "name": "urn:ogc:def:crs:OGC::CRS84"
+        }
+      },
+      "coordinates": [
+        [
+          [
+            2.769154472,
+            48.861336953
+          ],
+          [
+            2.7987541,
+            48.861336953
+          ],
+          [
+            2.7987541,
+            48.881687237
+          ],
+          [
+            2.769154472,
+            48.881687237
+          ],
+          [
+            2.769154472,
+            48.861336953
+          ]
+        ]
+      ]
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC::CRS84"
+      }
+    },
+    "coordinates": [
+      [
+        [
+          2.769154472,
+          48.861336953
+        ],
+        [
+          2.7987541,
+          48.861336953
+        ],
+        [
+          2.7987541,
+          48.881687237
+        ],
+        [
+          2.769154472,
+          48.881687237
+        ],
+        [
+          2.769154472,
+          48.861336953
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "shopping_center_volume",
+      "wms:layers": [
+        "AWS_ICEYE-E11"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2020-03-20T14:27:20Z"
+      }
+    },
+    {
+      "rel": "collection",
+      "href": "../../../collection.json",
+      "type": "application/json",
+      "title": "Parked car volume"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": [
+        "Disneyland Paris"
+      ]
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    2.769154472,
+    48.861336953,
+    2.7987541,
+    48.881687237
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+  ],
+  "collection": "shopping_center_volume"
+}

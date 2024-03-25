@@ -1,0 +1,121 @@
+{
+  "type": "Collection",
+  "id": "fruit_production",
+  "stac_version": "1.0.0",
+  "description": "## Monitoring fruit production (Berries) in Huelva, Spain\r\n\r\nThe province of Huelva (Spain) is responsible for 97.5%  of the national red berries production and stands as the world\u2019s leading strawberry producer and exporter. Satellites such as the [Pl\u00e9iades constellations](https://earth.esa.int/eogateway/missions/pleiades) allow to visualize the picking activity in between the greenhouses of berries, thanks to its archive over a core production area of Huelva. Its scheduled  acquisitions allow to monitor on a monthly basis the picking activity over the Laguna de las Madres, which consists in 13% of the total greenhouses of the province. \r\n\r\nIn addition, [Copernicus Sentinel-2](https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-2) time series could also provide useful information as it is possible to observe the total area of greenhouses over the Huelva province. It is known that the greenhouses are being opened and removed at the end of the harvesting season which is usually happening in May-June. \r\n\r\n## The impacts of COVID-19 on labor-intensive fruit production \r\nThe lockdown due to COVID-19 outbreak has led to severe restrictions in seasonal workers movements and to a sharp decline in demand on perishable produce such as fresh berries. Like many other sectors dependent on labor-intensive activities, also the production of Berries in Huelva suffered impacts. The Andalusian Strawberry and Red Fruit Interprofessional (Interfresa) pointed out in the beginning of April that the province was short by 25 000  temporary workers who are normally arriving mainly from Morocco. They also recorded an average drop in demand of 40 to 60%\u00b2 due to a sharp drop of exportations to European countries such as Germany and the United Kingdom. \r\n\r\nA comparison of the greenhouses removal activity between 2019 and 2020 could highlight a delay in May 2020. The picking activity of Huelva, was compared to the 2019 season to assess the impact of COVID-19. The strawberry season started at the end of January and was already impacted in February with a decline in truck activity of 16% and 26.5% in March. A comparison of active rows with visible berry crates was also made between the two years and it was estimated that the picking activity was reduced by 27.3% in March 2020 and by 41% in April. \r\n\r\n\r\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./E10a5/collection.json",
+      "type": "application/json",
+      "title": "Fruit production",
+      "endpointtype": "GeoDB",
+      "subtitle": "Monitoring fruit production (Berries) in Huelva, Spain",
+      "code": "E10a5",
+      "id": "fruit_production",
+      "themes": [
+        "agriculture"
+      ],
+      "cities": [
+        "Huelva Laguna de las Madres"
+      ],
+      "countries": [
+        "ES"
+      ],
+      "yAxis": "Number of trucks in the greenhouse area (absolute value and %)",
+      "tags": [
+        "placeholder"
+      ],
+      "satellite": [
+        "Pleiades",
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "E10a5"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    }
+  ],
+  "subtitle": "Monitoring fruit production (Berries) in Huelva, Spain",
+  "themes": [
+    "agriculture"
+  ],
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "Pleiades",
+    "Sentinel-2"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E10a5",
+  "title": "Fruit production",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -6.858888889999999,
+          37.17316944,
+          -6.83888889,
+          37.19316944
+        ],
+        [
+          -6.858888889999999,
+          37.17316944,
+          -6.83888889,
+          37.19316944
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-12-27T11:21:32Z",
+          "2020-06-05T11:33:22Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "summaries": {
+    "subcode": [
+      "E10a5"
+    ],
+    "themes": [
+      "agriculture"
+    ],
+    "satellite": [
+      "Sentinel-2",
+      "Pleiades"
+    ],
+    "sensor": [
+      "placeholder"
+    ],
+    "cities": [
+      "Huelva Laguna de las Madres"
+    ],
+    "countries": [
+      "ES"
+    ]
+  }
+}

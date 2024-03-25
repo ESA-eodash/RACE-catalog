@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Brussels",
+  "properties": {
+    "start_datetime": "2018-07-01T00:00:00Z",
+    "end_datetime": "2022-12-01T00:00:00Z",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.484,
+        50.9008
+      ]
+    },
+    "properties": {}
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Flying planes detections"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Flying planes detections"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    4.474,
+    50.8908,
+    4.494,
+    50.910799999999995
+  ],
+  "stac_extensions": [],
+  "collection": "E13d"
+}

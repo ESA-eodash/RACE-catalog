@@ -1,0 +1,129 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "cb216c0e-720d-4cfe-b052-3a0420da3040",
+  "properties": {
+    "datetime": "2020-04-13T13:10:17Z",
+    "proj:epsg": 84,
+    "proj:bbox": [
+      21.039072795,
+      52.235855988,
+      21.052287012,
+      52.248886052
+    ],
+    "proj:geometry": {
+      "type": "Polygon",
+      "crs": {
+        "type": "name",
+        "properties": {
+          "name": "urn:ogc:def:crs:OGC::CRS84"
+        }
+      },
+      "coordinates": [
+        [
+          [
+            21.039072795,
+            52.235855988
+          ],
+          [
+            21.052287012,
+            52.235855988
+          ],
+          [
+            21.052287012,
+            52.248886052
+          ],
+          [
+            21.039072795,
+            52.248886052
+          ],
+          [
+            21.039072795,
+            52.235855988
+          ]
+        ]
+      ]
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC::CRS84"
+      }
+    },
+    "coordinates": [
+      [
+        [
+          21.039072795,
+          52.235855988
+        ],
+        [
+          21.052287012,
+          52.235855988
+        ],
+        [
+          21.052287012,
+          52.248886052
+        ],
+        [
+          21.039072795,
+          52.248886052
+        ],
+        [
+          21.039072795,
+          52.235855988
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "parking_lot_volume",
+      "wms:layers": [
+        "AWS_ICEYE-E11A"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2020-04-13T13:10:17Z"
+      }
+    },
+    {
+      "rel": "collection",
+      "href": "../../../collection.json",
+      "type": "application/json",
+      "title": "Parking lot volume"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": [
+        "Warsaw"
+      ]
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    21.039072795,
+    52.235855988,
+    21.052287012,
+    52.248886052
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+  ],
+  "collection": "parking_lot_volume"
+}

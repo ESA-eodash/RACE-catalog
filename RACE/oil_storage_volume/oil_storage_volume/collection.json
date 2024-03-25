@@ -1,0 +1,97 @@
+{
+  "type": "Collection",
+  "id": "oil_storage_volume",
+  "stac_version": "1.0.0",
+  "description": "## Oil tanks - Rotterdam, Netherlands\n\nRotterdam harbour is the european leader in oil storage, and the tanks' filling level can be observed on ICEYE imagery.\nThe status of crude oil reserves is of great importance to the oil market and an essential factor in global economic development. That means frequent and accurate updates on reserve levels are crucial. ICEYE\u2019s new SAR satellite capability now offers daily refreshed information on the storage level of oil tanks - a novelty for the industry which uses synthetic-aperture radar (SAR)to conduct daily analysis of oil production and consumption. \n\nAs remote sensing sensors cannot \u201csee\u201d through walls and roofs, the volume of oil in storage tanks can only be measured if it is an above-ground tank with an external floating roof. This type of tank is designed to store large quantities of crude oil. The roof floats on the surface of the oil, rising and falling with the volume of the oil in the tanks to reduce the vapor space above the oil level. The height of the roof is linked to the filling volumes in the tanks.\n\nBy measuring the height and perimeter of the floating tanks as well as certain other tank dimensions, the storage volume can be reliably calculated.\n\n## The impacts of COVID-19 on oil tanks storages\n\nOil sector faced a sudden decline in demand due to the COVID-19 pandemic. As oil prices dropped below zero for the first time in April 2020, storage tanks had never been so full.  In July, tanks were still very full. During the COVID-19 pandemic, oil storage filled up as demand for oil decreased due to reduced travels.\n\n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E3_oil_storage_volume/NL3-E3-Fig1.png)\n\n*Fig.1. Oil storages filling up as demand for oil decreases when people are not travelling. The image shows Oil tanks in Rotterdam, Netherlands, as seen in [X-band Iceye SAR imagery](https://www.iceye.com/)*\n\n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E3_oil_storage_volume/NL3-E3-Fig2.png)\n\n*Fig.2. Crude product stocks*\n\n**On the SAR image:** Rotterdam port:\n- 2020.02.04: 3 tanks full, 2  tanks half filled, 2 tanks empty\n- 2020.04.13: 5 tanks full, 1 tank half filled, 1 tank empty\n- 2020.07.17: 5 tanks full, 2 tanks empty\n\n\n**Links and resources**\n\n[The impact of Covid-19 on the global oil storage sector](https://www.offshore-technology.com/comment/oil-storage-covid-19-impact/)\n\n**Read more about Iceye imagery:**\n\n[Iceye SAR Product Guide](https://www.iceye.com/hubfs/Downloadables/ICEYE-SAR-Product-Guide.pdf)\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-c47fa011-e9cd-4076-9b2f-68a93d757e58/2020/c897072e-d549-42b9-a2d1-cee9fc74b9de.json",
+      "type": "application/json",
+      "datetime": "2020-07-17"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-c47fa011-e9cd-4076-9b2f-68a93d757e58/2020/e77a400b-6aec-49ff-931c-2e798a223a33.json",
+      "type": "application/json",
+      "datetime": "2020-04-13"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-c47fa011-e9cd-4076-9b2f-68a93d757e58/2020/2d4859d8-3498-439e-bdcf-933d6e846b69.json",
+      "type": "application/json",
+      "datetime": "2020-02-04"
+    },
+    {
+      "rel": "license",
+      "href": "http://www.opensource.org/licenses/MIT",
+      "type": "text/html"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Oil storage volume"
+    }
+  ],
+  "subtitle": "Oil Storage Volume as observed by ICEYE",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "ICEYE"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E3",
+  "endpointtype": "Sentinel Hub_byoc",
+  "title": "Oil storage volume",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          4.08589,
+          51.94683,
+          4.10156,
+          51.95753
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-02-04T03:38:35Z",
+          "2020-07-17T03:44:28Z"
+        ]
+      ]
+    }
+  },
+  "license": "MIT",
+  "providers": [
+    {
+      "name": "placeholder"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E3_oil_storage_volume/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

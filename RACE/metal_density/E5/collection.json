@@ -1,0 +1,303 @@
+{
+  "type": "Collection",
+  "id": "E5",
+  "stac_version": "1.0.0",
+  "description": "## Steel production: output inventory levels\n\nSteelmaking is of the most critical industries for Europe, the second largest world producer after China. It constitutes a strategic building block for many other sectors relying on it. Steel presents an interesting indicator as it sits at the intersection of demand and supply. Its production relies on the supply of basic inputs: iron ore and coal. Almost one half of all iron processed in European steel mills is imported mainly from Brazil, Russia and Ukraine. Coal mainly comes from the USA. A disruption in the production or flow of these raw materials would result in decreased output for the European steel industry. On the other hand, steel finds most use in Automotive and construction industries, thus demand in these industries are critical for steel output.\n\nIndustrial output is a reliable proxy for measuring economic wellbeing and in turn steel industry is one of the most critical components of it. Thus, assessing steel production and combining trends with other indicators would result in a reliable economic indicator, especially in context of periods where industrial recovery is critical to economic recovery. Better understanding the pace and shape of industrial recovery calls for near real-time data and insights. This is what satellite data enables, providing European decision-makers with the most up to date tools and insights.\n\n### Steel products output indicator\nThrough its steel products output inventory levels indicator, Aerospacelab monitors 9 sites in Europe. By defining the output zone for each steel plant and monitoring the SAR (Synthetic Aperture Radar) backscatter signals based on Sentinel-1 data, Aerospacelab generates time series of inventory levels. Areas holding various forms of steel products (Coil, plate, section...) are considered in the analysis.\n\n**Initial drop**\nImportant drops in inventory levels have logically been observed amid the crisis, visible from January 2020 onward for the three sites selected here.\nThe main factors explaining such drops have been the quarantine measures and the demand, rather than the supply of raw materials. Although a decrease in output of main Iron Ore mining company Vale has been observed, it is minimal and yearly expectation remains unchanged.\n\nOn the demand side, a sharp reduction has been observed as the construction and automotive industries came to a halt. As of early May, the European Automobile Manufacturers Association has declared that factory shutdowns have generated a production loss of 2.3 million vehicles.\n\n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E5_metal_density/E5_1.png)\n\n*Figure 1: Hunedoara, Romania - Output inventory levels*\n\n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E5_metal_density/E5_2.png)\n\n*Figure 2: Imatra, Finland - Output inventory levels*\n\n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E5_metal_density/E5_3.png)\n\n*Figure 3: Katowice, Poland - Output inventory levels*\n\n\n**Signs of recovery**\n\nWith lockdown policies gradually softening up, inventory seemed back to pre-crisis levels or above around March onward.\n\nThe resurgence of steel products demand appears to have driven a gradual recovery of the European steel industry. For instance, European Automotive manufacturing plants, resuming operations from April onward, drive demand for steel products and should result in a visible recovery trend in the weeks to come for most steel mills. Resurgence of employees parking lots occupancy also points towards the same direction.\n\nThe flow of raw materials will be critical to monitor in the upcoming months as lockdowns are gradually lifted. The price of steel has climbed 25% steadily since late April, fueled by reopening economies, and especially strong demand increase from China.\n\n**Validation**\n\nNot all sites however follow a similar narrative to the one depicted above. Inventory levels can also often be explained by local contexts or operational decision. When these are made public, they can serve as basis for data validation:\nArcelorMittal\u2019s Bremen plant in Germany has idled one of its two blast furnaces in late March 2020, to cope with a collapsing demand. This is confirmed by the inventory level observed at the plant, drastically falling from April 2020 onward.\n\n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E5_metal_density/E5_4.png)\n\n*Figure 4: Bremen, Germany - Output inventory levels*\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "item",
+      "href": "./E5/2019/Imatra  area 1.json",
+      "type": "application/json",
+      "id": "FI1",
+      "latlng": "61.151139685027665,28.796662998976412",
+      "country": "FI",
+      "city": "Imatra - area 1"
+    },
+    {
+      "rel": "item",
+      "href": "./E5/2019/Imatra  area 2.json",
+      "type": "application/json",
+      "id": "FI2",
+      "latlng": "61.14619580579931,28.797549046048346",
+      "country": "FI",
+      "city": "Imatra - area 2"
+    },
+    {
+      "rel": "item",
+      "href": "./E5/2019/Imatra  area 3.json",
+      "type": "application/json",
+      "id": "FI3",
+      "latlng": "61.144720499058145,28.800730740612664",
+      "country": "FI",
+      "city": "Imatra - area 3"
+    },
+    {
+      "rel": "item",
+      "href": "./E5/2019/Katowice.json",
+      "type": "application/json",
+      "id": "PL5",
+      "latlng": "50.33586439415548,19.281123931237445",
+      "country": "PL",
+      "city": "Katowice"
+    },
+    {
+      "rel": "item",
+      "href": "./E5/2019/Hunedoara.json",
+      "type": "application/json",
+      "id": "RO8",
+      "latlng": "45.78896311080552,22.923231736132724",
+      "country": "RO",
+      "city": "Hunedoara"
+    },
+    {
+      "rel": "item",
+      "href": "./E5/2019/Borlange  area 1.json",
+      "type": "application/json",
+      "id": "SE1",
+      "latlng": "60.487957276047716,15.455598401419492",
+      "country": "SE",
+      "city": "Borlange - area 1"
+    },
+    {
+      "rel": "item",
+      "href": "./E5/2019/Boxholm  area 3.json",
+      "type": "application/json",
+      "id": "SE10",
+      "latlng": "58.19536232861801,15.03918652568827",
+      "country": "SE",
+      "city": "Boxholm - area 3"
+    },
+    {
+      "rel": "item",
+      "href": "./E5/2019/Boxholm  area 4.json",
+      "type": "application/json",
+      "id": "SE11",
+      "latlng": "58.19916735034876,15.036859972223455",
+      "country": "SE",
+      "city": "Boxholm - area 4"
+    },
+    {
+      "rel": "item",
+      "href": "./E5/2019/Hallefors  area 1.json",
+      "type": "application/json",
+      "id": "SE12",
+      "latlng": "59.780774174715646,14.498200389630115",
+      "country": "SE",
+      "city": "Hallefors - area 1"
+    },
+    {
+      "rel": "item",
+      "href": "./E5/2019/Hallefors  area 3.json",
+      "type": "application/json",
+      "id": "SE13",
+      "latlng": "59.78311262981549,14.49464139817856",
+      "country": "SE",
+      "city": "Hallefors - area 3"
+    },
+    {
+      "rel": "item",
+      "href": "./E5/2019/Hallefors  area 2.json",
+      "type": "application/json",
+      "id": "SE14",
+      "latlng": "59.783645041790216,14.498034472997306",
+      "country": "SE",
+      "city": "Hallefors - area 2"
+    },
+    {
+      "rel": "item",
+      "href": "./E5/2019/Hofors  area 1.json",
+      "type": "application/json",
+      "id": "SE15",
+      "latlng": "60.552949036489515,16.3066200733499",
+      "country": "SE",
+      "city": "Hofors - area 1"
+    },
+    {
+      "rel": "item",
+      "href": "./E5/2019/Hofors  area 2.json",
+      "type": "application/json",
+      "id": "SE16",
+      "latlng": "60.54815234071482,16.308357555087376",
+      "country": "SE",
+      "city": "Hofors - area 2"
+    },
+    {
+      "rel": "item",
+      "href": "./E5/2019/Lulea.json",
+      "type": "application/json",
+      "id": "SE17",
+      "latlng": "65.55710405897864,22.227196619403227",
+      "country": "SE",
+      "city": "Lulea"
+    },
+    {
+      "rel": "item",
+      "href": "./E5/2019/Oxelosund  area 1.json",
+      "type": "application/json",
+      "id": "SE18",
+      "latlng": "58.68145017264629,17.124343027923075",
+      "country": "SE",
+      "city": "Oxelosund - area 1"
+    },
+    {
+      "rel": "item",
+      "href": "./E5/2019/Oxelosund  area 2.json",
+      "type": "application/json",
+      "id": "SE19",
+      "latlng": "58.683908585861005,17.1278144295506",
+      "country": "SE",
+      "city": "Oxelosund - area 2"
+    },
+    {
+      "rel": "item",
+      "href": "./E5/2019/Borlange  area 2.json",
+      "type": "application/json",
+      "id": "SE2",
+      "latlng": "60.490388636746225,15.4540712671587",
+      "country": "SE",
+      "city": "Borlange - area 2"
+    },
+    {
+      "rel": "item",
+      "href": "./E5/2019/Oxelosund  area 3.json",
+      "type": "application/json",
+      "id": "SE20",
+      "latlng": "58.681367690762485,17.116121839995795",
+      "country": "SE",
+      "city": "Oxelosund - area 3"
+    },
+    {
+      "rel": "item",
+      "href": "./E5/2019/Oxelosund  area 4.json",
+      "type": "application/json",
+      "id": "SE21",
+      "latlng": "58.68023677471895,17.118113709285044",
+      "country": "SE",
+      "city": "Oxelosund - area 4"
+    },
+    {
+      "rel": "item",
+      "href": "./E5/2019/Borlange  area 3.json",
+      "type": "application/json",
+      "id": "SE3",
+      "latlng": "60.48960864224798,15.44814277460824",
+      "country": "SE",
+      "city": "Borlange - area 3"
+    },
+    {
+      "rel": "item",
+      "href": "./E5/2019/Borlange  area 4.json",
+      "type": "application/json",
+      "id": "SE4",
+      "latlng": "60.4879544296906,15.449854163712011",
+      "country": "SE",
+      "city": "Borlange - area 4"
+    },
+    {
+      "rel": "item",
+      "href": "./E5/2019/Borlange  area 5.json",
+      "type": "application/json",
+      "id": "SE5",
+      "latlng": "60.494389203324104,15.460203429995094",
+      "country": "SE",
+      "city": "Borlange - area 5"
+    },
+    {
+      "rel": "item",
+      "href": "./E5/2019/Borlange  area 6.json",
+      "type": "application/json",
+      "id": "SE6",
+      "latlng": "60.493125579582625,15.453923196501634",
+      "country": "SE",
+      "city": "Borlange - area 6"
+    },
+    {
+      "rel": "item",
+      "href": "./E5/2019/Borlange  area 7.json",
+      "type": "application/json",
+      "id": "SE7",
+      "latlng": "60.48452100732772,15.452618656189557",
+      "country": "SE",
+      "city": "Borlange - area 7"
+    },
+    {
+      "rel": "item",
+      "href": "./E5/2019/Boxholm  area 1.json",
+      "type": "application/json",
+      "id": "SE8",
+      "latlng": "58.19374529056634,15.036125986675577",
+      "country": "SE",
+      "city": "Boxholm - area 1"
+    },
+    {
+      "rel": "item",
+      "href": "./E5/2019/Boxholm  area 2.json",
+      "type": "application/json",
+      "id": "SE9",
+      "latlng": "58.19317402501288,15.040074950908355",
+      "country": "SE",
+      "city": "Boxholm - area 2"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Metal density"
+    }
+  ],
+  "subtitle": "Metal density monitoring in open warehouses produced of steel mills from SAR (Synthetic Aperture Radar) backscatter signals based on Sentinel-1 data",
+  "yAxis": "Metal Density Variation [%]",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "Sentinel-1"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E5",
+  "endpointtype": "GeoDB",
+  "title": "Metal density",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          14.48464139817856,
+          45.77896311080552,
+          28.810730740612666,
+          65.56710405897864
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-05-23T04:45:04Z",
+          "2020-06-17T05:23:14Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "summaries": {
+    "countries": [
+      "FI",
+      "PL",
+      "RO",
+      "SE"
+    ]
+  }
+}

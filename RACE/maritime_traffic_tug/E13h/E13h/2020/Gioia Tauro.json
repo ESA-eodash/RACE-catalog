@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Gioia Tauro",
+  "properties": {
+    "start_datetime": "2020-02-01T00:00:00Z",
+    "end_datetime": "2020-05-15T00:00:00Z",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        15.902413,
+        38.453396
+      ]
+    },
+    "properties": {}
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Maritime traffic - tug"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Maritime traffic - tug"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    15.892413,
+    38.443396,
+    15.912412999999999,
+    38.463395999999996
+  ],
+  "stac_extensions": [],
+  "collection": "E13h"
+}

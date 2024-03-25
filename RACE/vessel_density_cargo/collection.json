@@ -1,0 +1,121 @@
+{
+  "type": "Collection",
+  "id": "vessel_density_cargo",
+  "stac_version": "1.0.0",
+  "description": "Vessel density for cargo description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./vessel_density_cargo/collection.json",
+      "type": "application/json",
+      "title": "Vessel density for cargo",
+      "endpointtype": "Sentinel Hub_byoc",
+      "subtitle": "Vessel density for cargo description",
+      "code": "E13p",
+      "id": "vessel_density_cargo",
+      "themes": [
+        "water"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "satellite": [
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "E13p"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    }
+  ],
+  "subtitle": "Vessel density for cargo description",
+  "themes": [
+    "water"
+  ],
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "Sentinel-2"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E13p",
+  "title": "Vessel density for cargo",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -66.94948221476142,
+          19.222315518813993,
+          72.48195026034142,
+          74.65301986285093
+        ],
+        [
+          -66.94948221476142,
+          19.222315518813993,
+          72.48195026034142,
+          74.65301986285093
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2017-01-01T00:00:00Z",
+          "2020-12-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "summaries": {
+    "subcode": [
+      "E13p"
+    ],
+    "themes": [
+      "water"
+    ],
+    "satellite": [
+      "Sentinel-2"
+    ],
+    "sensor": [
+      "placeholder"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13o_vessel_density_all/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13p_vessel_density_cargo/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

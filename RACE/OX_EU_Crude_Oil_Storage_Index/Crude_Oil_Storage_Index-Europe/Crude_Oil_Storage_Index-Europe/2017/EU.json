@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "EU",
+  "properties": {
+    "start_datetime": "2017-01-09T00:00:00Z",
+    "end_datetime": "2024-01-01T00:00:00Z",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        11.57,
+        48.13
+      ]
+    },
+    "properties": {}
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Crude Oil Storage Index Europe"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Crude Oil Storage Index Europe"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    11.56,
+    48.120000000000005,
+    11.58,
+    48.14
+  ],
+  "stac_extensions": [],
+  "collection": "Crude_Oil_Storage_Index-Europe"
+}

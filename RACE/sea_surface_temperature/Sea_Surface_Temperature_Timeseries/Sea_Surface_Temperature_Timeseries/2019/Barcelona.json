@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Barcelona",
+  "properties": {
+    "start_datetime": "2019-01-05T00:00:00Z",
+    "end_datetime": "2024-03-02T00:00:00Z",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        1.358,
+        40.717
+      ]
+    },
+    "properties": {}
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Sea surface temperature time series"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Sea surface temperature time series"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    1.348,
+    40.707,
+    1.368,
+    40.727
+  ],
+  "stac_extensions": [],
+  "collection": "Sea_Surface_Temperature_Timeseries"
+}

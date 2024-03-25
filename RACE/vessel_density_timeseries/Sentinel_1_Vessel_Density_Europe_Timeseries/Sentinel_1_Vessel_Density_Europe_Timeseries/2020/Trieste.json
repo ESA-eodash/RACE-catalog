@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Trieste",
+  "properties": {
+    "start_datetime": "2020-01-02T05:19:02Z",
+    "end_datetime": "2022-12-29T05:19:20Z",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        13.700997,
+        45.63555
+      ]
+    },
+    "properties": {}
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Vessel density time series"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Vessel density time series"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    13.690997,
+    45.625550000000004,
+    13.710996999999999,
+    45.64555
+  ],
+  "stac_extensions": [],
+  "collection": "Sentinel_1_Vessel_Density_Europe_Timeseries"
+}
