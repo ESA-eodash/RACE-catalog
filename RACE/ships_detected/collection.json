@@ -1,0 +1,144 @@
+{
+  "type": "Collection",
+  "id": "ships_detected",
+  "stac_version": "1.0.0",
+  "description": "## Ships detected in port areas (ML on Sentinel-2)\n\nThis indicator shows ships detected in industrial areas of major European ports. It is based on a Machine Learning model applied on Copernicus Sentinel-2 data with cloud-masking. The detection is performed on predefined areas of interest. \n\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./ships_detected/collection.json",
+      "type": "application/json",
+      "title": "Ships detections",
+      "endpointtype": "GeoDB",
+      "subtitle": "Ships detected in Sentinel-2 data",
+      "code": "E200",
+      "id": "ships_detected",
+      "themes": [
+        "economy"
+      ],
+      "cities": [
+        "Ghent",
+        "Hamburg",
+        "Suez ",
+        "Dunkirk",
+        "Genoa",
+        "Gdynia"
+      ],
+      "countries": [
+        "BE",
+        "DE",
+        "EG",
+        "FR",
+        "IT",
+        "PL"
+      ],
+      "yAxis": "Number of ships in Port",
+      "tags": [
+        "Multi-sensors"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "E200",
+      "sensor": [
+        "MSI"
+      ],
+      "satellite": [
+        "Sentinel-2"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    }
+  ],
+  "subtitle": "Ships detected in Sentinel-2 data",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Multi-sensors"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E200",
+  "sensor": [
+    "MSI"
+  ],
+  "satellite": [
+    "Sentinel-2"
+  ],
+  "title": "Ships detections",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          2.2753740000000002,
+          30.929554,
+          32.324923,
+          54.547858999999995
+        ],
+        [
+          2.2753740000000002,
+          30.929554,
+          32.324923,
+          54.547858999999995
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-01-02T10:28:30Z",
+          "2022-12-29T08:41:33Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "Copernicus",
+      "url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "E200"
+    ],
+    "themes": [
+      "economy"
+    ],
+    "satellite": [
+      "Sentinel-2"
+    ],
+    "sensor": [
+      "MSI"
+    ],
+    "cities": [
+      "Ghent",
+      "Suez ",
+      "Genoa",
+      "Dunkirk",
+      "Gdynia",
+      "Hamburg"
+    ],
+    "countries": [
+      "PL",
+      "DE",
+      "EG",
+      "IT",
+      "BE",
+      "FR"
+    ]
+  }
+}

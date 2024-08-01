@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Milan",
+  "properties": {
+    "start_datetime": "2020-03-16T10:15:03Z",
+    "end_datetime": "2020-05-07T10:14:51Z",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        9.12225,
+        45.43371
+      ]
+    },
+    "properties": {}
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Activity at shopping centers"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Activity at shopping centers"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    9.11225,
+    45.42371,
+    9.132249999999999,
+    45.443709999999996
+  ],
+  "stac_extensions": [],
+  "collection": "shopping_center_activity"
+}

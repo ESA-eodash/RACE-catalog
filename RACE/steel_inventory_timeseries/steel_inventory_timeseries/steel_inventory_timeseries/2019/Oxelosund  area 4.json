@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Oxelosund  area 4",
+  "properties": {
+    "start_datetime": "2019-05-24T04:37:19Z",
+    "end_datetime": "2020-06-13T05:07:08Z",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        17.118113709285044,
+        58.68023677471895
+      ]
+    },
+    "properties": {}
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Steel inventory timeseries"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Steel inventory timeseries"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    17.108113709285043,
+    58.67023677471895,
+    17.128113709285046,
+    58.69023677471895
+  ],
+  "stac_extensions": [],
+  "collection": "steel_inventory_timeseries"
+}
