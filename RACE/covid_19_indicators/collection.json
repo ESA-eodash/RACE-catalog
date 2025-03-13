@@ -1,0 +1,197 @@
+{
+  "type": "Collection",
+  "id": "covid_19_indicators",
+  "stac_version": "1.1.0",
+  "description": "These indicators show some paramenters related to the Covid-19 pandemic",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./CV_Covid_19_cases/collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Cases",
+      "endpointtype": "GeoDB",
+      "code": "CV",
+      "id": "CV_Covid_19_cases",
+      "themes": [
+        "health"
+      ],
+      "cities": [
+        "/"
+      ],
+      "countries": [
+        "Albania",
+        "Austria",
+        "Bosnia and Herzegovina",
+        "Belgium",
+        "Bulgaria",
+        "Switzerland",
+        "Czechia",
+        "Germany",
+        "Denmark",
+        "Estonia",
+        "Spain",
+        "Finland",
+        "France",
+        "United Kingdom",
+        "Greece",
+        "Croatia",
+        "Hungary",
+        "Ireland",
+        "Italy",
+        "Lithuania",
+        "Luxembourg",
+        "Latvia",
+        "North Macedonia",
+        "Malta",
+        "Netherlands",
+        "Norway",
+        "Poland",
+        "Portugal",
+        "Romania",
+        "Serbia",
+        "Sweden",
+        "Slovenia",
+        "Slovakia",
+        "Turkey",
+        "Kosovo"
+      ],
+      "yAxis": "/",
+      "tags": [
+        "Covid-19",
+        "Human activities",
+        "Open data"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "CV",
+      "insituSources": [
+        "Other"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./OW_Covid_19_vaccinations/collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Vaccinations",
+      "endpointtype": "GeoDB",
+      "code": "OW",
+      "id": "OW_Covid_19_vaccinations",
+      "themes": [
+        "health"
+      ],
+      "cities": [
+        "/"
+      ],
+      "countries": [
+        "Albania",
+        "Austria",
+        "Bosnia and Herzegovina",
+        "Belgium",
+        "Bulgaria",
+        "Switzerland",
+        "Czechia",
+        "Germany",
+        "Denmark",
+        "Estonia",
+        "Spain",
+        "Finland",
+        "France",
+        "United Kingdom",
+        "Greece",
+        "Croatia",
+        "Hungary",
+        "Ireland",
+        "Italy",
+        "Lithuania",
+        "Luxembourg",
+        "Latvia",
+        "North Macedonia",
+        "Malta",
+        "Netherlands",
+        "Norway",
+        "Poland",
+        "Portugal",
+        "Romania",
+        "Serbia",
+        "Sweden",
+        "Slovenia",
+        "Slovakia",
+        "Turkey",
+        "Kosovo"
+      ],
+      "yAxis": "/",
+      "tags": [
+        "Covid-19",
+        "Human activities",
+        "Open data"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "OW",
+      "insituSources": [
+        "Other"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    }
+  ],
+  "subcode": "CV19",
+  "title": "Covid-19 indicators",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -9.142999999999999,
+          -1.293,
+          36.827,
+          60.177
+        ],
+        [
+          -9.142999999999999,
+          35.873000000000005,
+          32.876999999999995,
+          60.177
+        ],
+        [
+          -9.142999999999999,
+          -1.293,
+          36.827,
+          60.177
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-01-22T00:00:00Z",
+          "2024-03-11T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "summaries": {
+    "subcode": [
+      "CV",
+      "OW"
+    ],
+    "themes": [
+      "health"
+    ],
+    "cities": [
+      "/"
+    ]
+  }
+}

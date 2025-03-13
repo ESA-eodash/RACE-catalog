@@ -1,0 +1,563 @@
+{
+  "type": "Collection",
+  "id": "agricultural_production",
+  "stac_version": "1.1.0",
+  "description": "These indicators show some agricultural production parameters in various European locations",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./agricultural_production_area/collection.json",
+      "type": "application/json",
+      "title": "Agricultural production - area",
+      "endpointtype": "GeoDB",
+      "subtitle": "Agricultural production in Europe",
+      "code": "E10a2",
+      "id": "agricultural_production_area",
+      "themes": [
+        "agriculture"
+      ],
+      "cities": [
+        "Brandenburg Region"
+      ],
+      "countries": [
+        "DE"
+      ],
+      "yAxis": "Cumulative Proportion of total areas under active management",
+      "tags": [
+        "Copernicus",
+        "Open data"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "E10a2",
+      "sensor": [
+        "MSI"
+      ],
+      "satellite": [
+        "Sentinel-2"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./agricultural_production_area_change/collection.json",
+      "type": "application/json",
+      "title": "Agricultural production - area change",
+      "endpointtype": "GeoDB",
+      "subtitle": "Agricultural production in Europe",
+      "code": "E10a3",
+      "id": "agricultural_production_area_change",
+      "themes": [
+        "agriculture"
+      ],
+      "cities": [
+        "Brandenburg"
+      ],
+      "countries": [
+        "DE"
+      ],
+      "yAxis": "Cultivated area 2020-2019 / Cultivated area 2019",
+      "tags": [
+        "Copernicus",
+        "Open data"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "E10a3",
+      "sensor": [
+        "MSI"
+      ],
+      "satellite": [
+        "Sentinel-2"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./agricultural_production_productive_area/collection.json",
+      "type": "application/json",
+      "title": "Agricultural production - productive area",
+      "endpointtype": "GeoDB",
+      "subtitle": "Agricultural production in Europe",
+      "code": "E10a1",
+      "id": "agricultural_production_productive_area",
+      "themes": [
+        "agriculture"
+      ],
+      "cities": [
+        "Brandenburg",
+        "Huelva (Lagunas de las Madres)"
+      ],
+      "countries": [
+        "DE",
+        "ES"
+      ],
+      "yAxis": "Total area [ha]",
+      "tags": [
+        "Copernicus",
+        "Open data"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "E10a1",
+      "sensor": [
+        "MSI"
+      ],
+      "satellite": [
+        "Sentinel-2"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./agricultural_workers/collection.json",
+      "type": "application/json",
+      "title": "Agricultural workers",
+      "endpointtype": "GeoDB",
+      "subtitle": "Availability of agricultural workers",
+      "code": "E10a9",
+      "id": "agricultural_workers",
+      "themes": [
+        "agriculture"
+      ],
+      "cities": [
+        "Apulia"
+      ],
+      "countries": [
+        "IT"
+      ],
+      "yAxis": "/",
+      "tags": [
+        "Land cover",
+        "Multi-sensors"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "E10a9",
+      "sensor": [
+        "MSI",
+        "DMAC"
+      ],
+      "satellite": [
+        "Sentinel-2",
+        "Deimos-2"
+      ],
+      "insituSources": [
+        "Mobile"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./fruit_production/collection.json",
+      "type": "application/json",
+      "title": "Fruit production",
+      "endpointtype": "GeoDB",
+      "subtitle": "Monitoring fruit production (Berries) in Huelva, Spain",
+      "code": "E10a5",
+      "id": "fruit_production",
+      "themes": [
+        "agriculture"
+      ],
+      "cities": [
+        "Huelva Laguna de las Madres"
+      ],
+      "countries": [
+        "ES"
+      ],
+      "yAxis": "Number of trucks in the greenhouse area (absolute value and %)",
+      "tags": [
+        "Copernicus",
+        "Multi-sensors"
+      ],
+      "agency": [
+        "ESA",
+        "CNES"
+      ],
+      "subcode": "E10a5",
+      "sensor": [
+        "MSI",
+        "HiRI"
+      ],
+      "satellite": [
+        "Sentinel-2",
+        "Pleiades"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./harvested_parcels_evolution/collection.json",
+      "type": "application/json",
+      "title": "Harvested parcels",
+      "endpointtype": "GeoDB",
+      "subtitle": "Evolution of harvested parcels in percentage",
+      "code": "E10a6",
+      "id": "harvested_parcels_evolution",
+      "themes": [
+        "agriculture"
+      ],
+      "cities": [
+        "Comunidad Foral de Navarra",
+        "La Rioja",
+        "Aragon",
+        "Comunidad de Madrid",
+        "Castilla y Leon",
+        "Castilla-La Mancha",
+        "Extremadura",
+        "Cataluna",
+        "Comunidad Valenciana",
+        "Andalucia",
+        "Region de Murcia"
+      ],
+      "countries": [
+        "ES"
+      ],
+      "yAxis": "Cumulative (%)",
+      "tags": [
+        "Copernicus",
+        "Sen4CAP",
+        "Multi-sensors"
+      ],
+      "agency": [
+        "ESA",
+        "NASA",
+        "USGS"
+      ],
+      "subcode": "E10a6",
+      "sensor": [
+        "C-SAR",
+        "MSI",
+        "OLI"
+      ],
+      "satellite": [
+        "Sentinel-1",
+        "Sentinel-2",
+        "Landsat-8"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./E10a10_harvesting_evolution_winter_cereal/collection.json",
+      "type": "application/json",
+      "title": "Harvesting evolution winter cereal",
+      "endpointtype": "GeoDB",
+      "subtitle": "Monitoring row crop harvesting with satellite data",
+      "code": "E10a10",
+      "id": "E10a10_harvesting_evolution_winter_cereal",
+      "themes": [
+        "agriculture"
+      ],
+      "cities": [
+        "Austria",
+        "Bulgaria",
+        "Czech Republic",
+        "Germany",
+        "Denmark",
+        "Estonia",
+        "Spain",
+        "France",
+        "Croatia",
+        "Hungary",
+        "Italy",
+        "Lithuania",
+        "Latvia",
+        "Poland",
+        "Romania",
+        "Serbia",
+        "Sweden",
+        "Slovak Republic",
+        "United Kingdom"
+      ],
+      "countries": [
+        "AT",
+        "BG",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FR",
+        "HR",
+        "HU",
+        "IT",
+        "LT",
+        "LV",
+        "PL",
+        "RO",
+        "RS",
+        "SE",
+        "SK",
+        "GB"
+      ],
+      "yAxis": "Cumulative (%)",
+      "tags": [
+        "Copernicus",
+        "Open data"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "E10a10",
+      "sensor": [
+        "C-SAR"
+      ],
+      "satellite": [
+        "Sentinel-1"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./E10a10_2_harvesting_evolution_winter_rapeseed/collection.json",
+      "type": "application/json",
+      "title": "Harvesting evolution winter rapeseed",
+      "endpointtype": "GeoDB",
+      "subtitle": "Monitoring row crop harvesting with satellite data",
+      "code": "E10a10_2",
+      "id": "E10a10_2_harvesting_evolution_winter_rapeseed",
+      "themes": [
+        "agriculture"
+      ],
+      "cities": [
+        "Austria",
+        "Bulgaria",
+        "Czech Republic",
+        "Germany",
+        "Denmark",
+        "Estonia",
+        "France",
+        "Croatia",
+        "Hungary",
+        "Lithuania",
+        "Latvia",
+        "Poland",
+        "Romania",
+        "Sweden",
+        "Slovak Republic",
+        "United Kingdom"
+      ],
+      "countries": [
+        "AT",
+        "BG",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "FR",
+        "HR",
+        "HU",
+        "LT",
+        "LV",
+        "PL",
+        "RO",
+        "SE",
+        "SK",
+        "GB"
+      ],
+      "yAxis": "Cumulative (%)",
+      "tags": [
+        "Copernicus",
+        "Open data"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "E10a10_2",
+      "sensor": [
+        "C-SAR"
+      ],
+      "satellite": [
+        "Sentinel-1"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./winter_cereals/collection.json",
+      "type": "application/json",
+      "title": "Winter cereals",
+      "endpointtype": "GeoDB",
+      "subtitle": "Winter cereals growth and harvest \u2013 Spain",
+      "code": "E10a8",
+      "id": "winter_cereals",
+      "themes": [
+        "agriculture"
+      ],
+      "cities": [
+        "Spain"
+      ],
+      "countries": [
+        "ES"
+      ],
+      "yAxis": "(%) of Harvested and non-Harvested areas",
+      "tags": [
+        "Copernicus",
+        "Sen4CAP",
+        "Multi-sensors"
+      ],
+      "agency": [
+        "ESA",
+        "NASA",
+        "USGS"
+      ],
+      "subcode": "E10a8",
+      "sensor": [
+        "C-SAR",
+        "MSI",
+        "OLI"
+      ],
+      "satellite": [
+        "Sentinel-1",
+        "Sentinel-2",
+        "Landsat-8"
+      ]
+    },
+    {
+      "rel": "service",
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_{{feature.values_.geoDBID}}?aoi_id=eq.{{feature.values_.id}}&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
+      "type": "application/json",
+      "id": "combined_geodb",
+      "method": "GET"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    }
+  ],
+  "subcode": "APRO",
+  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodb_form_full.json",
+  "eodash:vegadefinition": "https://santilland.github.io/process_example/definitions/geodbvega.json",
+  "title": "Agricultural production in Europe",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -6.858888889999999,
+          37.17316,
+          25.552485370000003,
+          58.681929720999996
+        ],
+        [
+          13.080632,
+          52.121413000000004,
+          13.100632,
+          52.141413
+        ],
+        [
+          13.080632,
+          52.121413000000004,
+          13.100632,
+          52.141413
+        ],
+        [
+          -6.85888,
+          37.17316,
+          13.10063,
+          52.14141
+        ],
+        [
+          15.51506,
+          41.56712,
+          15.79358,
+          41.81107
+        ],
+        [
+          -6.858888889999999,
+          37.17316944,
+          -6.83888889,
+          37.19316944
+        ],
+        [
+          -6.148,
+          37.539,
+          1.496,
+          42.653999999999996
+        ],
+        [
+          -3.65755047,
+          40.23448698,
+          25.552485370000003,
+          58.68192972
+        ],
+        [
+          -1.78396816,
+          42.758903181,
+          25.552485370000003,
+          58.681929720999996
+        ],
+        [
+          -4.467,
+          40.034,
+          -4.447,
+          40.053999999999995
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-04-01T00:00:00Z",
+          "2020-11-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "summaries": {
+    "subcode": [
+      "E10a10",
+      "E10a6",
+      "E10a2",
+      "E10a5",
+      "E10a3",
+      "E10a8",
+      "E10a9",
+      "E10a10_2",
+      "E10a1"
+    ],
+    "themes": [
+      "agriculture"
+    ],
+    "satellite": [
+      "Sentinel-2",
+      "Landsat-8",
+      "Sentinel-1",
+      "Pleiades",
+      "Deimos-2"
+    ],
+    "sensor": [
+      "C-SAR",
+      "DMAC",
+      "MSI",
+      "HiRI",
+      "OLI"
+    ],
+    "countries": [
+      "RS",
+      "ES",
+      "SK",
+      "LV",
+      "HU",
+      "CZ",
+      "GB",
+      "PL",
+      "LT",
+      "AT",
+      "SE",
+      "HR",
+      "IT",
+      "DK",
+      "FR",
+      "RO",
+      "EE",
+      "BG",
+      "DE"
+    ]
+  }
+}

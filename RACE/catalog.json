@@ -1,0 +1,1610 @@
+{
+  "type": "Catalog",
+  "id": "RACE",
+  "stac_version": "1.1.0",
+  "description": "Rapid Action for Citizens with Earth Observation",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./meteorological_variables/collection.json",
+      "type": "application/json",
+      "title": "C3S meteorological variables",
+      "code": "C3S",
+      "id": "meteorological_variables",
+      "subcode": "C3S",
+      "themes": [
+        "air"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS1_temperature/CDS1_temperature.png",
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS2_relative_humidity/CDS2_relative_humidity.png",
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS4_wind_10m_v/CDS4_wind_10m_v.png",
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS3_wind_10m_u/CDS3_wind_10m_u.png"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./shopping_center_activity/collection.json",
+      "type": "application/json",
+      "title": "Activity at shopping centers",
+      "subtitle": "Occupancy of customer parking",
+      "code": "E11",
+      "id": "shopping_center_activity",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E11",
+      "satellite": [
+        "Sentinel-1"
+      ],
+      "sensor": [
+        "C-SAR"
+      ],
+      "cities": [
+        "Warsaw",
+        "Rome",
+        "Bucharest",
+        "Athens",
+        "Milan",
+        "Brussels"
+      ],
+      "countries": [
+        "BE",
+        "IT",
+        "GR",
+        "PL",
+        "RO"
+      ],
+      "tags": [
+        "Copernicus",
+        "Mobility",
+        "Traffic",
+        "Open data"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "insituSources": [
+        "Mobile"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./border_crossing_vehicles_timeseries/collection.json",
+      "type": "application/json",
+      "title": "Border crossing vehicles time series",
+      "subtitle": "Volume of highway occupancy from Sentinel-1 data",
+      "code": "E12b",
+      "id": "border_crossing_vehicles_timeseries",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E12b",
+      "satellite": [
+        "Sentinel-1"
+      ],
+      "sensor": [
+        "C-SAR"
+      ],
+      "cities": [
+        "Folkestone"
+      ],
+      "countries": [
+        "GB"
+      ],
+      "tags": [
+        "Copernicus",
+        "SAR",
+        "Mobility",
+        "Traffic",
+        "Open data"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./truck_detections_motorways/collection.json",
+      "type": "application/json",
+      "title": "Truck detections motorways",
+      "subtitle": "Truck detections on motorways description",
+      "code": "E12c",
+      "id": "truck_detections_motorways",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E12c",
+      "satellite": [
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "MSI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E12c_truck_detections_motorways/E12c_truck_detections_motorways.png"
+      ],
+      "tags": [
+        "Copernicus",
+        "Mobility",
+        "Traffic",
+        "Open data",
+        "Community"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./truck_detections_primary_roads/collection.json",
+      "type": "application/json",
+      "title": "Truck detections primary roads",
+      "subtitle": "Truck detections on primary roads description",
+      "code": "E12d",
+      "id": "truck_detections_primary_roads",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E12d",
+      "satellite": [
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "MSI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E12d_truck_detections_primary_roads/E12d_truck_detections_primary_roads.png"
+      ],
+      "tags": [
+        "Copernicus",
+        "Mobility",
+        "Traffic",
+        "Open data",
+        "Community"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./parked_planes/collection.json",
+      "type": "application/json",
+      "title": "Parked plane detections",
+      "subtitle": "Parked planes detected on Sentinel-2 data",
+      "code": "E13b",
+      "id": "parked_planes",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E13b",
+      "satellite": [
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "MSI"
+      ],
+      "cities": [
+        "Warsaw",
+        "Stockholm",
+        "Rome",
+        "Oslo",
+        "Palma de Mallorca",
+        "Zurich",
+        "Orly",
+        "Luton",
+        "Amsterdam",
+        "Helsinki",
+        "Manchester",
+        "Lisbon",
+        "Paris",
+        "London Stansted",
+        "Barcelona",
+        "Frankfurt",
+        "Heathrow",
+        "Madrid",
+        "Istanbul",
+        "Vienna",
+        "Malaga",
+        "Dusseldorf",
+        "Berlin",
+        "Muenchen",
+        "Chateauroux",
+        "Copenhagen",
+        "Brussels",
+        "Dublin",
+        "Gatwick",
+        "Athens",
+        "Milan"
+      ],
+      "countries": [
+        "ES",
+        "TR",
+        "CH",
+        "NL",
+        "BE",
+        "GB",
+        "UK",
+        "PL",
+        "AT",
+        "SE",
+        "IT",
+        "PT",
+        "NO",
+        "DK",
+        "FI",
+        "IE",
+        "GR",
+        "FR",
+        "DE"
+      ],
+      "tags": [
+        "Copernicus",
+        "Mobility",
+        "Air traffic",
+        "Open data"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./flying_planes/collection.json",
+      "type": "application/json",
+      "title": "Flying planes detections",
+      "subtitle": "Flying planes detected on Sentinel-2 data",
+      "code": "E13d",
+      "id": "flying_planes",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E13d",
+      "satellite": [
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "MSI"
+      ],
+      "cities": [
+        "Warsaw",
+        "Stockholm",
+        "Rome",
+        "Oslo",
+        "Palma de Mallorca",
+        "Zurich",
+        "Amsterdam",
+        "Munich",
+        "Helsinki",
+        "Manchester",
+        "Lisbon",
+        "Paris",
+        "Barcelona",
+        "Frankfurt",
+        "London",
+        "Madrid",
+        "Istanbul",
+        "Vienna",
+        "Malaga",
+        "Dusseldorf",
+        "Berlin",
+        "Copenhagen",
+        "Brussels",
+        "Dublin",
+        "Athens",
+        "Milan"
+      ],
+      "countries": [
+        "BE",
+        "FI",
+        "ES",
+        "IE",
+        "NL",
+        "SE",
+        "TR",
+        "CH",
+        "GR",
+        "IT",
+        "GB",
+        "PT",
+        "FR",
+        "NO",
+        "DK",
+        "PL",
+        "AT",
+        "DE"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13d_flying_planes/E13d_flying_planes_2.png"
+      ],
+      "tags": [
+        "Copernicus",
+        "Mobility",
+        "Air traffic",
+        "Open data",
+        "Community"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./vessel_density/collection.json",
+      "type": "application/json",
+      "title": "Vessel density in Europe",
+      "code": "VED",
+      "id": "vessel_density",
+      "subcode": "VED",
+      "themes": [
+        "economy",
+        "water"
+      ],
+      "satellite": [
+        "Sentinel-1"
+      ],
+      "sensor": [
+        "C-SAR"
+      ],
+      "cities": [
+        "Bremerhaven, Hamburg, Wilhelmshaven",
+        "Valencia",
+        "Rotterdam",
+        "Gdansk",
+        "Amsterdam",
+        "Peiraias",
+        "Antwerpen",
+        "Dunkerque",
+        "G\u00f6teborg",
+        "Sines",
+        "Hamburg",
+        "Kaliningrad",
+        "Barcelona",
+        "Tallin",
+        "Algeciras",
+        "Skagen",
+        "Bilbao",
+        "Constanta",
+        "Las Palmas",
+        "La Spezia",
+        "Marseille",
+        "Le Havre",
+        "Riga",
+        "Klaipeda",
+        "Dublin",
+        "Trieste",
+        "Instanbul",
+        "Genova",
+        "Bergen",
+        "Aliaga",
+        "Gioia Tauro",
+        "Taranto"
+      ],
+      "countries": [
+        "BE",
+        "ES",
+        "IE",
+        "NL",
+        "TR",
+        "IT",
+        "GR",
+        "RO",
+        "PT",
+        "FR",
+        "NO",
+        "RU",
+        "DK",
+        "PL",
+        "LT",
+        "LV",
+        "EE",
+        "DE"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13q_vessel_density_tanker/E13q_vessel_density_tanker.png",
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13p_vessel_density_cargo/E13p_vessel_density_cargo.png",
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13r_vessel_density_others/E13r_vessel_density_others.png",
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13o_vessel_density_all/E13o_vessel_density_all.png"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./ships_detected/collection.json",
+      "type": "application/json",
+      "title": "Ships detections",
+      "subtitle": "Ships detected in Sentinel-2 data",
+      "code": "E200",
+      "id": "ships_detected",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E200",
+      "satellite": [
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "MSI"
+      ],
+      "cities": [
+        "Suez ",
+        "Ghent",
+        "Genoa",
+        "Hamburg",
+        "Dunkirk",
+        "Gdynia"
+      ],
+      "countries": [
+        "BE",
+        "EG",
+        "IT",
+        "FR",
+        "PL",
+        "DE"
+      ],
+      "tags": [
+        "Multi-sensors"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./crude_oil_storage/collection.json",
+      "type": "application/json",
+      "title": "Crude oil storage monitoring",
+      "subtitle": "Crude Oil Storage Volume as observed by ICEYE",
+      "code": "E3",
+      "id": "crude_oil_storage",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E3",
+      "satellite": [
+        "ICEYE SAR"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E3_crude_oil_storage/E3_crude_oil_storage.png"
+      ],
+      "tags": [
+        "SAR",
+        "Ports",
+        "Maritime"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./intermediate_goods_production/collection.json",
+      "type": "application/json",
+      "title": "Intermediate goods production",
+      "subtitle": "Assessment of intermediate goods production sites (steel mills/other metal production, cement production, chemicals/plastics production).",
+      "code": "E4",
+      "id": "intermediate_goods_production",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E4",
+      "cities": [
+        "Hamburg",
+        "Genoa"
+      ],
+      "countries": [
+        "IT",
+        "DE"
+      ],
+      "tags": [
+        "Multi-sensors"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./steel_inventory_timeseries/collection.json",
+      "type": "application/json",
+      "title": "Steel inventory timeseries",
+      "subtitle": "Steel inventory monitoring in open warehouses from SAR (Synthetic Aperture Radar) backscatter signals based on Sentinel-1 data",
+      "code": "E5",
+      "id": "steel_inventory_timeseries",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E5",
+      "satellite": [
+        "Sentinel-1"
+      ],
+      "sensor": [
+        "C-SAR"
+      ],
+      "cities": [
+        "Borlange - area 2",
+        "Imatra - area 2",
+        "Boxholm - area 1",
+        "Hallefors - area 2",
+        "Lulea",
+        "Imatra - area 1",
+        "Boxholm - area 2",
+        "Hofors - area 1",
+        "Hallefors - area 1",
+        "Borlange - area 5",
+        "Hunedoara",
+        "Borlange - area 3",
+        "Boxholm - area 3",
+        "Borlange - area 7",
+        "Hallefors - area 3",
+        "Borlange - area 1",
+        "Borlange - area 4",
+        "Oxelosund - area 3",
+        "Oxelosund - area 4",
+        "Imatra - area 3",
+        "Oxelosund - area 1",
+        "Boxholm - area 4",
+        "Katowice",
+        "Oxelosund - area 2",
+        "Borlange - area 6",
+        "Hofors - area 2"
+      ],
+      "countries": [
+        "RO",
+        "SE",
+        "FI",
+        "PL"
+      ],
+      "tags": [
+        "Copernicus",
+        "Open data"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./global_parameters/collection.json",
+      "type": "application/json",
+      "title": "Global parameters",
+      "code": "GLP",
+      "id": "global_parameters",
+      "subcode": "GLP",
+      "themes": [
+        "air",
+        "extreme-events"
+      ],
+      "satellite": [
+        "GOSAT",
+        "Sentinel-5P"
+      ],
+      "sensor": [
+        "TROPOMI",
+        "TANSO"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_methane_monitoring/N1_methane_monitoring.png",
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_SO2/N1_SO2.png",
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_CO/N1_CO.png"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./ocean_variables/collection.json",
+      "type": "application/json",
+      "title": "Ocean variables",
+      "code": "OCVA",
+      "id": "ocean_variables",
+      "subcode": "OCVA",
+      "themes": [
+        "water"
+      ],
+      "satellite": [
+        "Sentinel-3",
+        "Aqua",
+        "JPSS-1",
+        "Suomi NPP"
+      ],
+      "sensor": [
+        "VIIRS",
+        "MODIS",
+        "OLCI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3c_ocean_colour_plankton_mediterranean/N3c_ocean_colour_plankton_mediterranean.png",
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3c_ocean_colour_plankton_atlantic/N3c_ocean_colour_plankton_atlantic.png",
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3c_ocean_colour_plankton_black_sea/N3c_ocean_colour_plankton_black_sea.png"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./water_quality/collection.json",
+      "type": "application/json",
+      "title": "Water quality",
+      "code": "WAQ",
+      "id": "water_quality",
+      "subcode": "WAQ",
+      "themes": [
+        "oceans",
+        "water"
+      ],
+      "satellite": [
+        "Sentinel-3",
+        "Metop-B",
+        "Other",
+        "Suomi NPP",
+        "JPSS-1"
+      ],
+      "sensor": [
+        "VIIRS",
+        "OLCI",
+        "SLSTR",
+        "AVHRR"
+      ],
+      "cities": [
+        "Venice Lagoon",
+        "Lisbon",
+        "Constanta",
+        "Hamburg",
+        "Marseilles",
+        "Barcelona"
+      ],
+      "countries": [
+        "ES",
+        "IT",
+        "PT",
+        "FR",
+        "RO",
+        "GE"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_sea_surface_temperature/N3a2_sea_surface_temperature.png",
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_total_suspended_matter/N3a2_total_suspended_matter.png",
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration/N3a2_chl_concentration.png"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./population_density/collection.json",
+      "type": "application/json",
+      "title": "Population density",
+      "subtitle": "Population density 2020",
+      "code": "NASAPopulation",
+      "id": "population_density",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "NASAPopulation",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NASAPopulation/NASAPopulation.png"
+      ],
+      "tags": [
+        "Society",
+        "population",
+        "Open data"
+      ],
+      "agency": [
+        "NASA"
+      ],
+      "insituSources": [
+        "Other"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./world_settlement_footprint/collection.json",
+      "type": "application/json",
+      "title": "World settlement footprint",
+      "subtitle": "World settlement footprint description",
+      "code": "WSF",
+      "id": "world_settlement_footprint",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "WSF",
+      "satellite": [
+        "Sentinel-1",
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "C-SAR",
+        "MSI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/WSF_world_settlement_footprint/WSF_world_settlement_footprint.png"
+      ],
+      "tags": [
+        "Human settlement",
+        "Human activities",
+        "Open data"
+      ],
+      "agency": [
+        "DLR"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./ports_air_quality/collection.json",
+      "type": "application/json",
+      "title": "Air quality in ports",
+      "code": "CAQ",
+      "id": "ports_air_quality",
+      "subcode": "CAQ",
+      "themes": [
+        "economy",
+        "air"
+      ],
+      "satellite": [
+        "GNSS",
+        "Sentinel-5P"
+      ],
+      "sensor": [
+        "TROPOMI"
+      ],
+      "cities": [
+        "Gioia Tauro",
+        "Genoa"
+      ],
+      "countries": [
+        "IT"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./industrial_inventory/collection.json",
+      "type": "application/json",
+      "title": "Automobile inventory level",
+      "subtitle": "Inventory level in logisitc areas of production sites",
+      "code": "E8",
+      "id": "industrial_inventory",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E8",
+      "satellite": [
+        "Sentinel-1",
+        "ICEYE SAR"
+      ],
+      "sensor": [
+        "C-SAR"
+      ],
+      "cities": [
+        "Nosovice",
+        "Neckarsulm",
+        "Koln",
+        "Regensburg",
+        "Wolfsburg",
+        "Swindon",
+        "Bremen",
+        "Mioveni",
+        "Zwickau",
+        "Martorell",
+        "Saarlouis",
+        "Barcelona",
+        "Emden",
+        "Eisenach",
+        "Dingolfing",
+        "Russelsheim",
+        "Sindelfingen",
+        "Ingolstadt",
+        "Kvasiny",
+        "Craiova",
+        "Leipzig",
+        "Ghent",
+        "Cassino"
+      ],
+      "countries": [
+        "BE",
+        "ES",
+        "IT",
+        "CZ",
+        "GB",
+        "RO",
+        "DE"
+      ],
+      "tags": [
+        "Copernicus",
+        "Multi-sensors"
+      ],
+      "agency": [
+        "European Commission",
+        "ESA"
+      ],
+      "otherSources": [
+        "Multi-sensors"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./agricultural_production/collection.json",
+      "type": "application/json",
+      "title": "Agricultural production in Europe",
+      "code": "APRO",
+      "id": "agricultural_production",
+      "subcode": "APRO",
+      "themes": [
+        "agriculture"
+      ],
+      "satellite": [
+        "Sentinel-2",
+        "Landsat-8",
+        "Sentinel-1",
+        "Pleiades",
+        "Deimos-2"
+      ],
+      "sensor": [
+        "C-SAR",
+        "DMAC",
+        "MSI",
+        "HiRI",
+        "OLI"
+      ],
+      "cities": [
+        "Andalucia",
+        "Castilla y Leon",
+        "Serbia",
+        "Huelva Laguna de las Madres",
+        "Italy",
+        "Poland",
+        "Comunidad Valenciana",
+        "Romania",
+        "Apulia",
+        "La Rioja",
+        "Brandenburg Region",
+        "Latvia",
+        "Slovak Republic",
+        "United Kingdom",
+        "Estonia",
+        "Comunidad Foral de Navarra",
+        "Sweden",
+        "Huelva (Lagunas de las Madres)",
+        "Spain",
+        "Brandenburg",
+        "Croatia",
+        "Cataluna",
+        "Germany",
+        "France",
+        "Region de Murcia",
+        "Aragon",
+        "Extremadura",
+        "Denmark",
+        "Comunidad de Madrid",
+        "Lithuania",
+        "Bulgaria",
+        "Austria",
+        "Czech Republic",
+        "Hungary",
+        "Castilla-La Mancha"
+      ],
+      "countries": [
+        "RS",
+        "ES",
+        "SK",
+        "LV",
+        "HU",
+        "CZ",
+        "GB",
+        "PL",
+        "LT",
+        "AT",
+        "SE",
+        "HR",
+        "IT",
+        "DK",
+        "FR",
+        "RO",
+        "EE",
+        "BG",
+        "DE"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./air_quality_european_level/collection.json",
+      "type": "application/json",
+      "title": "Air quality in Europe",
+      "code": "AQEL",
+      "id": "air_quality_european_level",
+      "subcode": "AQEL",
+      "themes": [
+        "air"
+      ],
+      "satellite": [
+        "Sentinel-5P"
+      ],
+      "sensor": [
+        "TROPOMI"
+      ],
+      "cities": [
+        "Warsaw",
+        "Stockholm",
+        "Rome",
+        "Oslo",
+        "Lyon",
+        "Pristina",
+        "Valencia",
+        "Tallinn",
+        "Tirana",
+        "Ljubljana",
+        "Amsterdam",
+        "Munich",
+        "Bratislava",
+        "Helsinki",
+        "Budapest",
+        "Lisbon",
+        "Paris",
+        "Prague",
+        "Vilnius",
+        "Skopje",
+        "Ankara",
+        "Hamburg",
+        "Luxembourg",
+        "Barcelona",
+        "London",
+        "Cologne",
+        "Sarajevo",
+        "Nicosia",
+        "Madrid",
+        "Podgorica",
+        "Belgrade",
+        "Reykjavik",
+        "Monaco",
+        "Vienna",
+        "Valletta",
+        "Berlin",
+        "Marseille",
+        "Copenhagen",
+        "Sofia",
+        "Riga",
+        "Birmingham",
+        "Bern",
+        "Brussels",
+        "Turin",
+        "Dublin",
+        "Naples",
+        "Bucharest",
+        "Athens",
+        "Milan",
+        "Zagreb"
+      ],
+      "countries": [
+        "RS",
+        "ES",
+        "TR",
+        "CH",
+        "ME",
+        "SK",
+        "AL",
+        "HU",
+        "LV",
+        "NL",
+        "BE",
+        "CY",
+        "LU",
+        "BA",
+        "CZ",
+        "GB",
+        "PL",
+        "AT",
+        "LT",
+        "MK",
+        "MC",
+        "SE",
+        "HR",
+        "IT",
+        "IS",
+        "PT",
+        "NO",
+        "DK",
+        "FI",
+        "IE",
+        "GR",
+        "SI",
+        "FR",
+        "XK",
+        "RO",
+        "MT",
+        "EE",
+        "BG",
+        "DE"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_NO2/N1b_NO2.png",
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2/N1_NO2.png",
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_PM25/N1b_PM25.png",
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_PM10/N1b_PM10.png",
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_O3/N1b_O3.png"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./boats_in_ports/collection.json",
+      "type": "application/json",
+      "title": "Boats in ports",
+      "code": "BIPS",
+      "id": "boats_in_ports",
+      "subcode": "BIPS",
+      "themes": [
+        "economy"
+      ],
+      "cities": [
+        "Gioia Tauro",
+        "Genoa"
+      ],
+      "countries": [
+        "IT"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./trucks_port/collection.json",
+      "type": "application/json",
+      "title": "Commercial fluxes",
+      "subtitle": "Changes in the number of trucks in ports",
+      "code": "E13n",
+      "id": "trucks_port",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E13n",
+      "cities": [
+        "Gijon"
+      ],
+      "countries": [
+        "ES"
+      ],
+      "tags": [
+        "Ports",
+        "Traffic"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "insituSources": [
+        "Mobile"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./HLS_NDVI/collection.json",
+      "type": "application/json",
+      "title": "Sentinel-2 Ships-detection on-the-fly",
+      "code": "E13c_ship_detections",
+      "id": "HLS_NDVI",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E13c_ship_detections",
+      "satellite": [
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "MSI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13c_ship_detections_algorithm/thumbnail.png"
+      ],
+      "tags": [
+        "Ports",
+        "Maritime",
+        "Traffic",
+        "Multi-sensors"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./GHS-BUILT-S-R2023A/collection.json",
+      "type": "application/json",
+      "title": "GHS-BUILT-S-R2023A",
+      "subtitle": "GHS built-up surface dataset GHS-BUILT-S_GLOBE_R2023A",
+      "code": "GHSBUILT",
+      "id": "GHS-BUILT-S-R2023A",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "GHSBUILT",
+      "satellite": [
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "MSI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GHS-BUILT-S-R2023A/GHS-BUILT-S-R2023A.png"
+      ],
+      "tags": [
+        "Copernicus",
+        "Human settlement",
+        "Human activities",
+        "EMS",
+        "Open data"
+      ],
+      "agency": [
+        "European Commission"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./OX_Crude_Oil_Storage_Index/collection.json",
+      "type": "application/json",
+      "title": "Crude Oil Storage Index",
+      "subtitle": "Level of oil in tanks based on SAR and optical data",
+      "code": "OX",
+      "id": "OX_Crude_Oil_Storage_Index",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "OX",
+      "satellite": [
+        "Sentinel-1",
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "C-SAR",
+        "MSI"
+      ],
+      "cities": [
+        "Antwerp",
+        "Fos-Lavera",
+        "Pachi",
+        "Rotterdam",
+        "Cork",
+        "Grangemouth",
+        "Sarroch",
+        "Dalmeny",
+        "Cartagena",
+        "Godorf Wesseling",
+        "Algeciras",
+        "Tarragona",
+        "Thessaloniki",
+        "Sullom Voe",
+        "Omisalj",
+        "Wilhelmshaven",
+        "Elefsina",
+        "Le Havre",
+        "Corinth",
+        "Trieste",
+        "Schwechat",
+        "Finnart",
+        "Teesport",
+        "Aspropyrgos"
+      ],
+      "countries": [
+        "BE",
+        "ES",
+        "IE",
+        "HR",
+        "IT",
+        "GB",
+        "DE",
+        "GR",
+        "FR",
+        "AT",
+        "NL"
+      ],
+      "tags": [
+        "Copernicus",
+        "Human activities",
+        "Ports",
+        "Maritime",
+        "Multi-sensors"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "insituSources": [
+        "AIS",
+        "Other"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./OX_EU_Crude_Oil_Storage_Index/collection.json",
+      "type": "application/json",
+      "title": "Crude Oil Storage Index Europe",
+      "subtitle": "Level of oil in tanks based on SAR and optical data Europe",
+      "code": "OX_EU",
+      "id": "OX_EU_Crude_Oil_Storage_Index",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "OX_EU",
+      "satellite": [
+        "Sentinel-1",
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "C-SAR",
+        "MSI"
+      ],
+      "cities": [
+        "/"
+      ],
+      "countries": [
+        "/"
+      ],
+      "tags": [
+        "Copernicus",
+        "Human activities",
+        "Ports",
+        "Maritime",
+        "Multi-sensors"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "insituSources": [
+        "AIS",
+        "Other"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./people_mobility_reports/collection.json",
+      "type": "application/json",
+      "title": "People Mobility Reports",
+      "subtitle": "People mobility data showing the impact of COVID-19 lockdown restrictions",
+      "code": "GG",
+      "id": "people_mobility_reports",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "GG",
+      "cities": [
+        "/"
+      ],
+      "countries": [
+        "Greece",
+        "Serbia",
+        "Italy",
+        "Macedonia",
+        "Poland",
+        "Romania",
+        "Ireland",
+        "Latvia",
+        "United Kingdom",
+        "Slovakia",
+        "Estonia",
+        "Luxembourg",
+        "Netherlands",
+        "Sweden",
+        "Spain",
+        "Croatia",
+        "Turkey",
+        "Germany",
+        "France",
+        "Malta",
+        "Denmark",
+        "Portugal",
+        "Norway",
+        "Lithuania",
+        "Slovenia",
+        "Finland",
+        "Bulgaria",
+        "Bosnia and Herzegovina",
+        "Austria",
+        "Belgium",
+        "Czech Republic",
+        "Hungary",
+        "Switzerland"
+      ],
+      "tags": [
+        "Mobility",
+        "Traffic"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "insituSources": [
+        "Mobile"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./covid_19_indicators/collection.json",
+      "type": "application/json",
+      "title": "Covid-19 indicators",
+      "code": "CV19",
+      "id": "covid_19_indicators",
+      "subcode": "CV19",
+      "themes": [
+        "health"
+      ],
+      "cities": [
+        "/"
+      ],
+      "countries": [
+        "Greece",
+        "Serbia",
+        "Italy",
+        "Poland",
+        "Romania",
+        "Ireland",
+        "Latvia",
+        "Kosovo",
+        "United Kingdom",
+        "Slovakia",
+        "Estonia",
+        "Luxembourg",
+        "Czechia",
+        "Netherlands",
+        "Sweden",
+        "Spain",
+        "Croatia",
+        "Albania",
+        "North Macedonia",
+        "Turkey",
+        "Germany",
+        "France",
+        "Malta",
+        "Denmark",
+        "Portugal",
+        "Norway",
+        "Lithuania",
+        "Slovenia",
+        "Finland",
+        "Bulgaria",
+        "Bosnia and Herzegovina",
+        "Austria",
+        "Belgium",
+        "Hungary",
+        "Switzerland"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./CropModel_Forecast_Ind/collection.json",
+      "type": "application/json",
+      "title": "CropModel Forecast",
+      "code": "CROPOM_Ind",
+      "id": "CropModel_Forecast_Ind",
+      "subcode": "CROPOM_Ind",
+      "themes": [
+        "economy",
+        "agriculture"
+      ],
+      "satellite": [
+        "Sentinel-2",
+        "CLMS HR-VPP Seasonal Trajectory",
+        "CLMS HR-VPP Vegetation Indices"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./ESDL_Hydrology_SM/collection.json",
+      "type": "application/json",
+      "title": "Surface Soil Moisture",
+      "code": "ESDL_Hydrology_SM",
+      "id": "ESDL_Hydrology_SM",
+      "themes": [
+        "agriculture",
+        "water"
+      ],
+      "subcode": "ESDL_Hydrology_SM",
+      "satellite": [
+        "Sentinel-1"
+      ],
+      "sensor": [
+        "C-SAR"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_SM/image.png"
+      ],
+      "tags": [
+        "Open data",
+        "surface soil moisture",
+        "radiative transfer"
+      ],
+      "agency": [
+        "EURAC"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./ESDL_Hydrology_Precipitation/collection.json",
+      "type": "application/json",
+      "title": "Daily precipitation product",
+      "code": "ESDL_Hydrology_Precipitation",
+      "id": "ESDL_Hydrology_Precipitation",
+      "themes": [
+        "agriculture",
+        "water"
+      ],
+      "subcode": "ESDL_Hydrology_Precipitation",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_Precipitation/image.png"
+      ],
+      "yAxis": "mm/day",
+      "tags": [
+        "Open data",
+        "precipitation",
+        "CPC",
+        "GPM",
+        "CHELSA Climatology"
+      ],
+      "agency": [
+        "EURAC"
+      ],
+      "otherSources": [
+        "GPM",
+        "CPC",
+        "model",
+        "ERA5"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./IDEAS1_hopi_minesweeper/collection.json",
+      "type": "application/json",
+      "title": "HOUHPI Minesweeper Game",
+      "subtitle": "Indicator 1: HOUHPI Game mode",
+      "code": "IND1_1_minesweeper",
+      "id": "IDEAS1_hopi_minesweeper",
+      "themes": [
+        "health"
+      ],
+      "subcode": "IND1_1_minesweeper",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS1_hopi/IDEAS1_hopi_minesweeper.png"
+      ],
+      "tags": [
+        "game"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./IDEAS1_hopi/collection.json",
+      "type": "application/json",
+      "title": "Health-Oriented Urban Heat and Pollution Index",
+      "subtitle": "Indicator 1: HOUHPI",
+      "code": "IND1_1",
+      "id": "IDEAS1_hopi",
+      "themes": [
+        "health"
+      ],
+      "subcode": "IND1_1",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS1_hopi/IDEAS1_hopi.png"
+      ],
+      "tags": [
+        "heat",
+        "pollution"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./IDEAS2_wildlife_minesweeper/collection.json",
+      "type": "application/json",
+      "title": "Wildlife Biodiversity Minesweeper Game",
+      "subtitle": "Indicator 2: Wildlife Diversity Game mode",
+      "code": "IND2_1_minesweeper",
+      "id": "IDEAS2_wildlife_minesweeper",
+      "themes": [
+        "agriculture"
+      ],
+      "subcode": "IND2_1_minesweeper",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS2_wildlife/IDEAS2_wildlife_minesweeper.png"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./IDEAS2_wildlife/collection.json",
+      "type": "application/json",
+      "title": "Wildlife Biodiversity Indicator",
+      "subtitle": "Identify areas of high biodiversity",
+      "code": "IND2_1",
+      "id": "IDEAS2_wildlife",
+      "themes": [
+        "agriculture"
+      ],
+      "subcode": "IND2_1",
+      "satellite": [
+        "MODIS",
+        "Sentinel-3"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS2_wildlife/IDEAS2_wildlife.png"
+      ],
+      "tags": [
+        "GBIF",
+        "Open data"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "insituSources": [
+        "GBIF"
+      ],
+      "otherSources": [
+        "Open Data Soft"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./IDEAS5_real_estate/collection.json",
+      "type": "application/json",
+      "title": "Heat Risk Indicator",
+      "subtitle": "",
+      "code": "IND5_1",
+      "id": "IDEAS5_real_estate",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "IND5_1",
+      "satellite": [
+        "Landsat 8",
+        "Landsat 9"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/IDEAS5_real_estate/IDEAS5_real_estate.png"
+      ],
+      "tags": [
+        "real estate"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./WASDI_FLOOD/collection.json",
+      "type": "application/json",
+      "title": "Flood mapping",
+      "subtitle": "Automated flood map",
+      "code": "WASDI_FLOOD",
+      "id": "WASDI_FLOOD",
+      "themes": [
+        "extremes"
+      ],
+      "subcode": "WASDI_FLOOD",
+      "satellite": [
+        "Sentinel-1",
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "SAR",
+        "MSI"
+      ],
+      "tags": [
+        "Copernicus Services",
+        "Flood",
+        "Open data",
+        "Multi-sensors",
+        "Copernicus",
+        "Climate change service",
+        "Urban area",
+        "Disasters",
+        "Sentinel"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "self",
+      "href": "https://eurodatacube.github.io/eodash-catalog/RACE/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "RACE"
+}

@@ -1,0 +1,869 @@
+{
+  "type": "Collection",
+  "id": "air_quality_european_level",
+  "stac_version": "1.1.0",
+  "description": "Air quality parameters at European level",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./NO2/collection.json",
+      "type": "application/json",
+      "title": "Air Quality (NO2 concetrations) map",
+      "endpointtype": "WMS_Time",
+      "subtitle": "Nitrogen dioxide in Europe - daily average",
+      "code": "N1b_NO2",
+      "id": "NO2",
+      "themes": [
+        "air"
+      ],
+      "tags": [
+        "Air quality",
+        "Copernicus Services",
+        "NO2",
+        "CAMS",
+        "Multi-sensors",
+        "Open data",
+        "Air pollution"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
+      ],
+      "subcode": "N1b_NO2",
+      "otherSources": [
+        "EAC4"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./no2_cams/collection.json",
+      "type": "application/json",
+      "title": "Air Quality (NO2 concetrations) at city level (model)",
+      "endpointtype": "GeoDB",
+      "subtitle": "Copernicus Atmosphere Monitoring Service (CAMS) time series",
+      "code": "N1b",
+      "id": "no2_cams",
+      "themes": [
+        "air"
+      ],
+      "cities": [
+        "Tirana",
+        "Vienna",
+        "Sarajevo",
+        "Brussels",
+        "Sofia",
+        "Bern",
+        "Nicosia",
+        "Prague",
+        "Cologne",
+        "Berlin",
+        "Hamburg",
+        "Munich",
+        "Copenhagen",
+        "Tallinn",
+        "Madrid",
+        "Barcelona",
+        "Valencia",
+        "Helsinki",
+        "Paris",
+        "Lyon",
+        "Marseille",
+        "Athens",
+        "Zagreb",
+        "Budapest",
+        "Dublin",
+        "Reykjavik",
+        "Milan",
+        "Rome",
+        "Naples",
+        "Turin",
+        "Vilnius",
+        "Luxembourg",
+        "Riga",
+        "Monaco",
+        "Podgorica",
+        "Skopje",
+        "Valletta",
+        "Amsterdam",
+        "Oslo",
+        "Warsaw",
+        "Lisbon",
+        "Bucharest",
+        "Belgrade",
+        "Stockholm",
+        "Ljubljana",
+        "Bratislava",
+        "Ankara",
+        "Birmingham",
+        "London",
+        "Pristina"
+      ],
+      "countries": [
+        "AL",
+        "AT",
+        "BA",
+        "BE",
+        "BG",
+        "CH",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LT",
+        "LU",
+        "LV",
+        "MC",
+        "ME",
+        "MK",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "RS",
+        "SE",
+        "SI",
+        "SK",
+        "TR",
+        "GB",
+        "XK"
+      ],
+      "yAxis": "Nitrogen Dioxide Surface Concentration[micro g/m3]",
+      "tags": [
+        "Air quality",
+        "Copernicus Services",
+        "NO2",
+        "CAMS",
+        "Multi-sensors",
+        "Open data",
+        "Air pollution"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
+      ],
+      "subcode": "N1b",
+      "otherSources": [
+        "EAC4"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./o3_cams/collection.json",
+      "type": "application/json",
+      "title": "Air Quality (O3 concetrations) at city level (model)",
+      "endpointtype": "GeoDB",
+      "subtitle": "Copernicus Atmosphere Monitoring Service (CAMS) time series",
+      "code": "N1d",
+      "id": "o3_cams",
+      "themes": [
+        "air"
+      ],
+      "cities": [
+        "Tirana",
+        "Vienna",
+        "Sarajevo",
+        "Brussels",
+        "Sofia",
+        "Bern",
+        "Nicosia",
+        "Prague",
+        "Cologne",
+        "Berlin",
+        "Hamburg",
+        "Munich",
+        "Copenhagen",
+        "Tallinn",
+        "Madrid",
+        "Barcelona",
+        "Valencia",
+        "Helsinki",
+        "Paris",
+        "Lyon",
+        "Marseille",
+        "Athens",
+        "Zagreb",
+        "Budapest",
+        "Dublin",
+        "Reykjavik",
+        "Milan",
+        "Rome",
+        "Naples",
+        "Turin",
+        "Vilnius",
+        "Luxembourg",
+        "Riga",
+        "Monaco",
+        "Podgorica",
+        "Skopje",
+        "Valletta",
+        "Amsterdam",
+        "Oslo",
+        "Warsaw",
+        "Lisbon",
+        "Bucharest",
+        "Belgrade",
+        "Stockholm",
+        "Ljubljana",
+        "Bratislava",
+        "Ankara",
+        "Birmingham",
+        "London",
+        "Pristina"
+      ],
+      "countries": [
+        "AL",
+        "AT",
+        "BA",
+        "BE",
+        "BG",
+        "CH",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LT",
+        "LU",
+        "LV",
+        "MC",
+        "ME",
+        "MK",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "RS",
+        "SE",
+        "SI",
+        "SK",
+        "TR",
+        "GB",
+        "XK"
+      ],
+      "yAxis": "O3 Surface Concentration[micro g/m3]",
+      "tags": [
+        "Air quality",
+        "Copernicus Services",
+        "O3",
+        "CAMS",
+        "Multi-sensors",
+        "Open data",
+        "Air pollution"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
+      ],
+      "subcode": "N1d",
+      "otherSources": [
+        "EAC4"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./O3/collection.json",
+      "type": "application/json",
+      "title": "Air Quality (O3 concetrations) map",
+      "endpointtype": "WMS_Time",
+      "subtitle": "Ozone at global level - daily average",
+      "code": "N1b_O3",
+      "id": "O3",
+      "themes": [
+        "air"
+      ],
+      "tags": [
+        "Air quality",
+        "Copernicus Services",
+        "O3",
+        "CAMS",
+        "Multi-sensors",
+        "Open data",
+        "Air pollution"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
+      ],
+      "subcode": "N1b_O3",
+      "otherSources": [
+        "EAC4"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./pm10_cams/collection.json",
+      "type": "application/json",
+      "title": "Air Quality (PM10 concetrations) at city level (model)",
+      "endpointtype": "GeoDB",
+      "subtitle": "Copernicus Atmosphere Monitoring Service (CAMS) time series",
+      "code": "N1c",
+      "id": "pm10_cams",
+      "themes": [
+        "air"
+      ],
+      "cities": [
+        "Tirana",
+        "Vienna",
+        "Sarajevo",
+        "Brussels",
+        "Sofia",
+        "Bern",
+        "Nicosia",
+        "Prague",
+        "Cologne",
+        "Berlin",
+        "Hamburg",
+        "Munich",
+        "Copenhagen",
+        "Tallinn",
+        "Madrid",
+        "Barcelona",
+        "Valencia",
+        "Helsinki",
+        "Paris",
+        "Lyon",
+        "Marseille",
+        "Athens",
+        "Zagreb",
+        "Budapest",
+        "Dublin",
+        "Reykjavik",
+        "Milan",
+        "Rome",
+        "Naples",
+        "Turin",
+        "Vilnius",
+        "Luxembourg",
+        "Riga",
+        "Monaco",
+        "Podgorica",
+        "Skopje",
+        "Valletta",
+        "Amsterdam",
+        "Oslo",
+        "Warsaw",
+        "Lisbon",
+        "Bucharest",
+        "Belgrade",
+        "Stockholm",
+        "Ljubljana",
+        "Bratislava",
+        "Ankara",
+        "Birmingham",
+        "London",
+        "Pristina"
+      ],
+      "countries": [
+        "AL",
+        "AT",
+        "BA",
+        "BE",
+        "BG",
+        "CH",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LT",
+        "LU",
+        "LV",
+        "MC",
+        "ME",
+        "MK",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "RS",
+        "SE",
+        "SI",
+        "SK",
+        "TR",
+        "GB",
+        "XK"
+      ],
+      "yAxis": "PM10 Surface Concentration[micro g/m3]",
+      "tags": [
+        "Air quality",
+        "Copernicus Services",
+        "PM10",
+        "CAMS",
+        "Multi-sensors",
+        "Open data",
+        "Air pollution",
+        "Particulate matter"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
+      ],
+      "subcode": "N1c",
+      "otherSources": [
+        "EAC4"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./PM10/collection.json",
+      "type": "application/json",
+      "title": "Air Quality (PM10 concetrations) map",
+      "endpointtype": "WMS_Time",
+      "subtitle": "Particulate matter 10\u00b5m in Europe - daily average",
+      "code": "N1b_PM10",
+      "id": "PM10",
+      "themes": [
+        "air"
+      ],
+      "tags": [
+        "Air quality",
+        "Copernicus Services",
+        "PM10",
+        "CAMS",
+        "Multi-sensors",
+        "Open data",
+        "Air pollution"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
+      ],
+      "subcode": "N1b_PM10",
+      "otherSources": [
+        "EAC4"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./PM25/collection.json",
+      "type": "application/json",
+      "title": "Air Quality (PM2.5 concetrations) map",
+      "endpointtype": "WMS_Time",
+      "subtitle": "Particulate matter 2.5\u00b5m in Europe - daily average",
+      "code": "N1b_PM25",
+      "id": "PM25",
+      "themes": [
+        "air"
+      ],
+      "tags": [
+        "Air quality",
+        "Copernicus Services",
+        "PM25",
+        "CAMS",
+        "Multi-sensors",
+        "Open data",
+        "Air pollution"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
+      ],
+      "subcode": "N1b_PM25",
+      "otherSources": [
+        "EAC4"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./pm25_cams/collection.json",
+      "type": "application/json",
+      "title": "Air Quality (PM25 concetrations) at city level (model)",
+      "endpointtype": "GeoDB",
+      "subtitle": "Copernicus Atmosphere Monitoring Service (CAMS) time series",
+      "code": "N1a",
+      "id": "pm25_cams",
+      "themes": [
+        "air"
+      ],
+      "cities": [
+        "Tirana",
+        "Vienna",
+        "Sarajevo",
+        "Brussels",
+        "Sofia",
+        "Bern",
+        "Nicosia",
+        "Prague",
+        "Cologne",
+        "Berlin",
+        "Hamburg",
+        "Munich",
+        "Copenhagen",
+        "Tallinn",
+        "Madrid",
+        "Barcelona",
+        "Valencia",
+        "Helsinki",
+        "Paris",
+        "Lyon",
+        "Marseille",
+        "Athens",
+        "Zagreb",
+        "Budapest",
+        "Dublin",
+        "Reykjavik",
+        "Milan",
+        "Rome",
+        "Naples",
+        "Turin",
+        "Vilnius",
+        "Luxembourg",
+        "Riga",
+        "Monaco",
+        "Podgorica",
+        "Skopje",
+        "Valletta",
+        "Amsterdam",
+        "Oslo",
+        "Warsaw",
+        "Lisbon",
+        "Bucharest",
+        "Belgrade",
+        "Stockholm",
+        "Ljubljana",
+        "Bratislava",
+        "Ankara",
+        "Birmingham",
+        "London",
+        "Pristina"
+      ],
+      "countries": [
+        "AL",
+        "AT",
+        "BA",
+        "BE",
+        "BG",
+        "CH",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LT",
+        "LU",
+        "LV",
+        "MC",
+        "ME",
+        "MK",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "RS",
+        "SE",
+        "SI",
+        "SK",
+        "TR",
+        "GB",
+        "XK"
+      ],
+      "yAxis": "PM2.5 Surface Concentration[micro g/m3]",
+      "tags": [
+        "Air quality",
+        "Copernicus Services",
+        "PM25",
+        "CAMS",
+        "Multi-sensors",
+        "Open data",
+        "Particulate matter",
+        "Air pollution"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
+      ],
+      "subcode": "N1a",
+      "otherSources": [
+        "EAC4"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./NO2_daily/collection.json",
+      "type": "application/json",
+      "title": "Air Quality (tropospheric NO2 concetrations)",
+      "endpointtype": "Sentinel Hub_byoc",
+      "subtitle": "Daily Nitrogen Dioxide",
+      "code": "N1_NO2",
+      "id": "NO2_daily",
+      "themes": [
+        "air"
+      ],
+      "tags": [
+        "Air quality",
+        "NO2",
+        "Open data",
+        "Air pollution"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "N1_NO2",
+      "sensor": [
+        "TROPOMI"
+      ],
+      "satellite": [
+        "Sentinel-5P"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./city_no2/collection.json",
+      "type": "application/json",
+      "title": "Air Quality (tropospheric NO2 concetrations) at city level",
+      "endpointtype": "GeoDB",
+      "subtitle": "NO2 detected at cities based on Sentinel-5P data",
+      "code": "N1",
+      "id": "city_no2",
+      "themes": [
+        "air"
+      ],
+      "cities": [
+        "Vienna",
+        "Brussels",
+        "Sofia",
+        "Nicosia",
+        "Prague",
+        "Berlin",
+        "Copenhagen",
+        "Tallinn",
+        "Madrid",
+        "Helsinki",
+        "Paris",
+        "Athens",
+        "Zagreb",
+        "Budapest",
+        "Dublin",
+        "Rome",
+        "Vilnius",
+        "Luxembourg",
+        "Riga",
+        "Valletta",
+        "Amsterdam",
+        "Warsaw",
+        "Lisbon",
+        "Bucharest",
+        "Stockholm",
+        "Ljubljana",
+        "Bratislava"
+      ],
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IT",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "yAxis": "Tropospheric NO2 (\u03bcmol/m2)",
+      "tags": [
+        "Air quality",
+        "NO2",
+        "Open data",
+        "Nitrogen dioxide",
+        "Air pollution"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "N1",
+      "sensor": [
+        "TROPOMI"
+      ],
+      "satellite": [
+        "Sentinel-5P"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    }
+  ],
+  "subcode": "AQEL",
+  "title": "Air quality in Europe",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ],
+        [
+          -25,
+          30,
+          45,
+          72
+        ],
+        [
+          -21.96,
+          35.160000000000004,
+          33.379999999999995,
+          64.16000000000001
+        ],
+        [
+          -21.162000000000003,
+          35.160000000000004,
+          33.949999999999996,
+          64.16000000000001
+        ],
+        [
+          -25,
+          30,
+          45,
+          72
+        ],
+        [
+          -21.162000000000003,
+          35.160000000000004,
+          33.949999999999996,
+          64.16000000000001
+        ],
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ],
+        [
+          -21.162000000000003,
+          35.160000000000004,
+          33.949999999999996,
+          64.16000000000001
+        ],
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ],
+        [
+          -9.143333,
+          35.15666667,
+          33.376667,
+          60.176666669999996
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-04-30T00:00:00Z",
+          "2025-02-10T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "summaries": {
+    "subcode": [
+      "N1a",
+      "N1_NO2",
+      "N1b",
+      "N1b_PM25",
+      "N1b_NO2",
+      "N1b_PM10",
+      "N1",
+      "N1d",
+      "N1c",
+      "N1b_O3"
+    ],
+    "themes": [
+      "air"
+    ],
+    "satellite": [
+      "Sentinel-5P"
+    ],
+    "sensor": [
+      "TROPOMI"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_NO2/N1b_NO2.png",
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2/N1_NO2.png",
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_PM25/N1b_PM25.png",
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_PM10/N1b_PM10.png",
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1b_O3/N1b_O3.png"
+    ]
+  }
+}

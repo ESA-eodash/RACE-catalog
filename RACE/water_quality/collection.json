@@ -1,0 +1,319 @@
+{
+  "type": "Collection",
+  "id": "water_quality",
+  "stac_version": "1.1.0",
+  "description": "These indicators show the water quality in several locations",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./chl_concentration/collection.json",
+      "type": "application/json",
+      "title": "Chlorophyll-a concentration maps",
+      "endpointtype": "Sentinel Hub_byoc",
+      "subtitle": "Chlorophyll-a concentration description",
+      "code": "N3a2",
+      "id": "chl_concentration",
+      "themes": [
+        "oceans"
+      ],
+      "locations": true,
+      "tags": [
+        "Water quality",
+        "Copernicus Services",
+        "CHL",
+        "CMEMS",
+        "Open data"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
+      ],
+      "subcode": "N3a2",
+      "sensor": [
+        "OLCI"
+      ],
+      "satellite": [
+        "Sentinel-3"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./regional_water_quality_timeseries/collection.json",
+      "type": "application/json",
+      "title": "Regional water quality time series",
+      "endpointtype": "GeoDB",
+      "subtitle": "Regional water quality time series",
+      "code": "N3",
+      "id": "regional_water_quality_timeseries",
+      "themes": [
+        "water"
+      ],
+      "cities": [
+        "Hamburg",
+        "Barcelona",
+        "Marseilles",
+        "Venice Lagoon",
+        "Lisbon",
+        "Constanta"
+      ],
+      "countries": [
+        "GE",
+        "ES",
+        "FR",
+        "IT",
+        "PT",
+        "RO"
+      ],
+      "yAxis": "Chlorophyll-a concentration [mg m-3]",
+      "tags": [
+        "Water quality",
+        "Copernicus Services",
+        "CHL",
+        "CMEMS",
+        "Open data"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
+      ],
+      "subcode": "N3",
+      "sensor": [
+        "OLCI"
+      ],
+      "satellite": [
+        "Sentinel-3"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./total_suspended_matter/collection.json",
+      "type": "application/json",
+      "title": "Total suspended matter maps",
+      "endpointtype": "Sentinel Hub_byoc",
+      "subtitle": "Total suspended matter description",
+      "code": "N3a2_TSM",
+      "id": "total_suspended_matter",
+      "themes": [
+        "water"
+      ],
+      "locations": true,
+      "tags": [
+        "Water quality",
+        "Copernicus Services",
+        "Suspended matter",
+        "CMEMS",
+        "Open data"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
+      ],
+      "subcode": "N3a2_TSM",
+      "sensor": [
+        "OLCI"
+      ],
+      "satellite": [
+        "Sentinel-3"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./sea_surface_temperature_time_series/collection.json",
+      "type": "application/json",
+      "title": "Sea surface temperature time series",
+      "endpointtype": "GeoDB",
+      "subtitle": "Key ocean monitoring indicator",
+      "code": "SST",
+      "id": "sea_surface_temperature_time_series",
+      "themes": [
+        "water"
+      ],
+      "cities": [
+        "Hamburg",
+        "Barcelona",
+        "Marseilles",
+        "Venice Lagoon",
+        "Lisbon",
+        "Constanta"
+      ],
+      "countries": [
+        "GE",
+        "ES",
+        "FR",
+        "IT",
+        "PT",
+        "RO"
+      ],
+      "yAxis": "Sea Surface Temperature [Celsius Degree]",
+      "tags": [
+        "Water quality",
+        "Copernicus Services",
+        "Surface temperature",
+        "CMEMS",
+        "Multisensor",
+        "Open data"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
+      ],
+      "subcode": "SST",
+      "sensor": [
+        "AVHRR",
+        "VIIRS",
+        "SLSTR"
+      ],
+      "satellite": [
+        "Metop-B",
+        "JPSS-1",
+        "Suomi NPP",
+        "Sentinel-3",
+        "Other"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./sea_surface_temperature_maps/collection.json",
+      "type": "application/json",
+      "title": "Sea surface temperature maps",
+      "endpointtype": "Sentinel Hub_byoc",
+      "subtitle": "Sea surface temperature description",
+      "code": "N3a2_SST",
+      "id": "sea_surface_temperature_maps",
+      "themes": [
+        "water"
+      ],
+      "locations": true,
+      "tags": [
+        "Water quality",
+        "Copernicus Services",
+        "Surface temperature",
+        "CMEMS",
+        "Open data"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
+      ],
+      "subcode": "N3a2_SST",
+      "sensor": [
+        "OLCI"
+      ],
+      "satellite": [
+        "Sentinel-3"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    }
+  ],
+  "subcode": "WAQ",
+  "title": "Water quality",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -10.504186630249023,
+          37.997182846069336,
+          30.604209899902344,
+          54.40508270263672
+        ],
+        [
+          -10.502786636352539,
+          37.99824142456055,
+          30.602052688598633,
+          54.40245819091797
+        ],
+        [
+          -9.4467,
+          38.6567,
+          29.4566,
+          54.161699999999996
+        ],
+        [
+          0.49828179185742777,
+          40.49733319888819,
+          30.602052688598633,
+          45.8014030456543
+        ],
+        [
+          -9.4467,
+          38.6567,
+          29.4566,
+          54.161699999999996
+        ],
+        [
+          -10.504186630249023,
+          37.997182846069336,
+          30.604209899902344,
+          54.40508270263672
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-01-05T00:00:00Z",
+          "2025-01-04T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "summaries": {
+    "subcode": [
+      "SST",
+      "N3",
+      "N3a2_SST",
+      "N3a2",
+      "N3a2_TSM"
+    ],
+    "themes": [
+      "oceans",
+      "water"
+    ],
+    "satellite": [
+      "Sentinel-3",
+      "Metop-B",
+      "Other",
+      "Suomi NPP",
+      "JPSS-1"
+    ],
+    "sensor": [
+      "VIIRS",
+      "OLCI",
+      "SLSTR",
+      "AVHRR"
+    ],
+    "cities": [
+      "Venice Lagoon",
+      "Lisbon",
+      "Constanta",
+      "Hamburg",
+      "Marseilles",
+      "Barcelona"
+    ],
+    "countries": [
+      "ES",
+      "IT",
+      "PT",
+      "FR",
+      "RO",
+      "GE"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_sea_surface_temperature/N3a2_sea_surface_temperature.png",
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_total_suspended_matter/N3a2_total_suspended_matter.png",
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration/N3a2_chl_concentration.png"
+    ]
+  }
+}

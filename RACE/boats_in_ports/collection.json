@@ -1,0 +1,334 @@
+{
+  "type": "Collection",
+  "id": "boats_in_ports",
+  "stac_version": "1.1.0",
+  "description": "These indicators show the changes in the number of boats in ports",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./fishing_boats_port/collection.json",
+      "type": "application/json",
+      "title": "Fishing boats in ports",
+      "endpointtype": "GeoDB",
+      "subtitle": "Changes in the number of boats in ports",
+      "code": "E13f",
+      "id": "fishing_boats_port",
+      "themes": [
+        "economy"
+      ],
+      "cities": [
+        "Gioia Tauro",
+        "Genoa"
+      ],
+      "countries": [
+        "IT"
+      ],
+      "yAxis": "Number of ships in the port",
+      "tags": [
+        "Ports",
+        "Maritime",
+        "Traffic"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "E13f",
+      "insituSources": [
+        "AIS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./tug_boats_port/collection.json",
+      "type": "application/json",
+      "title": "Tug boats in ports",
+      "endpointtype": "GeoDB",
+      "subtitle": "Changes in the number of boats in ports",
+      "code": "E13h",
+      "id": "tug_boats_port",
+      "themes": [
+        "economy"
+      ],
+      "cities": [
+        "Gioia Tauro"
+      ],
+      "countries": [
+        "IT"
+      ],
+      "yAxis": "Number of ships in the port",
+      "tags": [
+        "Ports",
+        "Maritime",
+        "Traffic"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "E13h",
+      "insituSources": [
+        "AIS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./cargo_boats_port/collection.json",
+      "type": "application/json",
+      "title": "Cargo boats in ports",
+      "endpointtype": "GeoDB",
+      "subtitle": "Changes in the number of boats in ports",
+      "code": "E13e",
+      "id": "cargo_boats_port",
+      "themes": [
+        "economy"
+      ],
+      "cities": [
+        "Gioia Tauro",
+        "Genoa"
+      ],
+      "countries": [
+        "IT"
+      ],
+      "yAxis": "Number of ships in the port",
+      "tags": [
+        "Ports",
+        "Maritime",
+        "Traffic"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "E13e",
+      "insituSources": [
+        "AIS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./tanker_boats_port/collection.json",
+      "type": "application/json",
+      "title": "Tankers boats in ports",
+      "endpointtype": "GeoDB",
+      "subtitle": "Changes in the number of boats in ports",
+      "code": "E13g",
+      "id": "tanker_boats_port",
+      "themes": [
+        "economy"
+      ],
+      "cities": [
+        "Gioia Tauro",
+        "Genoa"
+      ],
+      "countries": [
+        "IT"
+      ],
+      "yAxis": "Number of ships in the port",
+      "tags": [
+        "Ports",
+        "Maritime",
+        "Traffic"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "E13g",
+      "insituSources": [
+        "AIS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./passenger_boats_port/collection.json",
+      "type": "application/json",
+      "title": "Passenger boats in ports",
+      "endpointtype": "GeoDB",
+      "subtitle": "Changes in the number of boats in ports",
+      "code": "E13m",
+      "id": "passenger_boats_port",
+      "themes": [
+        "economy"
+      ],
+      "cities": [
+        "Genoa"
+      ],
+      "countries": [
+        "IT"
+      ],
+      "yAxis": "Number of ships in the port",
+      "tags": [
+        "Ports",
+        "Maritime",
+        "Traffic",
+        "Ships"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "E13m",
+      "insituSources": [
+        "AIS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./pleasure_craft_port/collection.json",
+      "type": "application/json",
+      "title": "Pleasure craft in ports",
+      "endpointtype": "GeoDB",
+      "subtitle": "Changes in the number of boats in ports",
+      "code": "E13l",
+      "id": "pleasure_craft_port",
+      "themes": [
+        "economy"
+      ],
+      "cities": [
+        "Genoa"
+      ],
+      "countries": [
+        "IT"
+      ],
+      "yAxis": "Number of ships in the port",
+      "tags": [
+        "Ports",
+        "Maritime",
+        "Traffic"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "E13l",
+      "insituSources": [
+        "AIS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./search_rescue_port/collection.json",
+      "type": "application/json",
+      "title": "Search and Rescue boats in ports",
+      "endpointtype": "GeoDB",
+      "subtitle": "Changes in the number of boats in ports",
+      "code": "E13i",
+      "id": "search_rescue_port",
+      "themes": [
+        "economy"
+      ],
+      "cities": [
+        "Gioia Tauro"
+      ],
+      "countries": [
+        "IT"
+      ],
+      "yAxis": "Number of ships in the port",
+      "tags": [
+        "Ports",
+        "Maritime",
+        "Traffic"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "E13i",
+      "insituSources": [
+        "AIS"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    }
+  ],
+  "subcode": "BIPS",
+  "title": "Boats in ports",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          8.92364,
+          38.44339,
+          15.912412999999999,
+          44.415723
+        ],
+        [
+          8.923642000000001,
+          38.443396,
+          15.912403,
+          44.415723
+        ],
+        [
+          15.892413,
+          38.443396,
+          15.912412999999999,
+          38.463395999999996
+        ],
+        [
+          8.92364,
+          38.44339,
+          15.9124,
+          44.41572
+        ],
+        [
+          8.923642000000001,
+          38.443396,
+          15.912403,
+          44.415723
+        ],
+        [
+          8.923642000000001,
+          44.395723000000004,
+          8.943642,
+          44.415723
+        ],
+        [
+          8.923642000000001,
+          44.395723000000004,
+          8.943642,
+          44.415723
+        ],
+        [
+          15.892403,
+          38.443396,
+          15.912403,
+          38.463395999999996
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-02-01T00:00:00Z",
+          "2020-05-15T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "summaries": {
+    "subcode": [
+      "E13g",
+      "E13f",
+      "E13m",
+      "E13h",
+      "E13i",
+      "E13l",
+      "E13e"
+    ],
+    "themes": [
+      "economy"
+    ],
+    "cities": [
+      "Gioia Tauro",
+      "Genoa"
+    ],
+    "countries": [
+      "IT"
+    ]
+  }
+}

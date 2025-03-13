@@ -1,0 +1,319 @@
+{
+  "type": "Collection",
+  "id": "vessel_density",
+  "stac_version": "1.1.0",
+  "description": "These indicators show maps representing the number of ship presence time on a 1 km grid for every month from 2017-2021",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    },
+    {
+      "rel": "child",
+      "href": "./vessel_density_all/collection.json",
+      "type": "application/json",
+      "title": "Vessel density",
+      "endpointtype": "Sentinel Hub_byoc",
+      "subtitle": "Vessel density description",
+      "code": "E13o",
+      "id": "vessel_density_all",
+      "themes": [
+        "water"
+      ],
+      "tags": [
+        "Maritime",
+        "Traffic",
+        "Open data",
+        "Ships",
+        "Vessels",
+        "Vessel Density",
+        "Traffic"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "E13o",
+      "insituSources": [
+        "AIS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./vessel_density_timeseries/collection.json",
+      "type": "application/json",
+      "title": "Vessel density time series",
+      "endpointtype": "GeoDB",
+      "subtitle": "Vessel Density based on Copernicus Sentinel-1",
+      "code": "E1b",
+      "id": "vessel_density_timeseries",
+      "themes": [
+        "economy"
+      ],
+      "cities": [
+        "Antwerpen",
+        "Hamburg",
+        "Bremerhaven, Hamburg, Wilhelmshaven",
+        "Skagen",
+        "Tallin",
+        "Algeciras",
+        "Barcelona",
+        "Bilbao",
+        "Las Palmas",
+        "Valencia",
+        "Le Havre",
+        "Dunkerque",
+        "Marseille",
+        "Peiraias",
+        "Dublin",
+        "Gioia Tauro",
+        "La Spezia",
+        "Taranto",
+        "Trieste",
+        "Genova",
+        "Klaipeda",
+        "Riga",
+        "Rotterdam",
+        "Amsterdam",
+        "Bergen",
+        "G\u00f6teborg",
+        "Gdansk",
+        "Sines",
+        "Constanta",
+        "Kaliningrad",
+        "Instanbul",
+        "Aliaga"
+      ],
+      "countries": [
+        "BE",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FR",
+        "GR",
+        "IE",
+        "IT",
+        "LT",
+        "LV",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "RU",
+        "TR"
+      ],
+      "yAxis": "/",
+      "tags": [
+        "Copernicus",
+        "Maritime",
+        "Traffic",
+        "Open data",
+        "Community"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "E1b",
+      "sensor": [
+        "C-SAR"
+      ],
+      "satellite": [
+        "Sentinel-1"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./vessel_density_tanker/collection.json",
+      "type": "application/json",
+      "title": "Vessel density for tanker",
+      "endpointtype": "Sentinel Hub_byoc",
+      "subtitle": "Vessel density for tanker description",
+      "code": "E13q",
+      "id": "vessel_density_tanker",
+      "themes": [
+        "water"
+      ],
+      "tags": [
+        "Maritime",
+        "Traffic",
+        "Open data",
+        "Ships",
+        "Vessels",
+        "Vessel Density",
+        "Traffic"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "E13q",
+      "insituSources": [
+        "AIS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./vessel_density_others/collection.json",
+      "type": "application/json",
+      "title": "Vessel density for non tanker or cargo",
+      "endpointtype": "Sentinel Hub_byoc",
+      "subtitle": "Vessel density for non tanker or cargo vessels",
+      "code": "E13r",
+      "id": "vessel_density_others",
+      "themes": [
+        "water"
+      ],
+      "tags": [
+        "Maritime",
+        "Traffic",
+        "Open data",
+        "Ships",
+        "Vessels",
+        "Vessel Density",
+        "Traffic"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "E13r",
+      "insituSources": [
+        "AIS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./vessel_density_cargo/collection.json",
+      "type": "application/json",
+      "title": "Vessel density for cargo",
+      "endpointtype": "Sentinel Hub_byoc",
+      "subtitle": "Vessel density for cargo description",
+      "code": "E13p",
+      "id": "vessel_density_cargo",
+      "themes": [
+        "water"
+      ],
+      "tags": [
+        "Maritime",
+        "Traffic",
+        "Open data",
+        "Ships",
+        "Vessels",
+        "Vessel Density",
+        "Traffic"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "E13p",
+      "insituSources": [
+        "AIS"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "RACE"
+    }
+  ],
+  "subcode": "VED",
+  "title": "Vessel density in Europe",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -87.70648392940124,
+          14.964836415804399,
+          97.6345478307898,
+          86.84130057185143
+        ],
+        [
+          -87.7064839294012,
+          14.964836415804399,
+          97.63454783078976,
+          86.8413005718512
+        ],
+        [
+          -15.125872,
+          27.957126,
+          28.849589,
+          60.342799
+        ],
+        [
+          -87.70648392940124,
+          14.964836415804598,
+          97.6345478307898,
+          86.84130057185143
+        ],
+        [
+          -87.70648392940124,
+          14.964836415804598,
+          97.6345478307898,
+          86.84130057185143
+        ],
+        [
+          -87.70648392940124,
+          14.964836415804598,
+          97.6345478307898,
+          86.84130057185143
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2017-01-01T00:00:00Z",
+          "2022-12-31T17:49:17Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "summaries": {
+    "subcode": [
+      "E1b",
+      "E13r",
+      "E13q",
+      "E13o",
+      "E13p"
+    ],
+    "themes": [
+      "economy",
+      "water"
+    ],
+    "satellite": [
+      "Sentinel-1"
+    ],
+    "sensor": [
+      "C-SAR"
+    ],
+    "countries": [
+      "BE",
+      "ES",
+      "IE",
+      "NL",
+      "TR",
+      "IT",
+      "GR",
+      "RO",
+      "PT",
+      "FR",
+      "NO",
+      "RU",
+      "DK",
+      "PL",
+      "LT",
+      "LV",
+      "EE",
+      "DE"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13q_vessel_density_tanker/E13q_vessel_density_tanker.png",
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13p_vessel_density_cargo/E13p_vessel_density_cargo.png",
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13r_vessel_density_others/E13r_vessel_density_others.png",
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13o_vessel_density_all/E13o_vessel_density_all.png"
+    ]
+  }
+}
